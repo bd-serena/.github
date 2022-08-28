@@ -1,0 +1,91 @@
+[
+  {
+    "comptId": 0,
+    "type": "DesicionTree",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "showAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "nodeColor",
+            "cnName": "节点颜色",
+            "value": "#790e93",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "指标拆解树",
+      "setting": {
+        "data": [],
+        "filterColsData": {},
+        "isDim": 1,
+        "dimTitle": "维度",
+        "isDrill": 0,
+        "isMeasure": 1,
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "nodeColor": "#790e93",
+        "commonBackgroundColor": ""
+      },
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "loading": false,
+      "polymerizeType": 2,
+      "colSetting": {},
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

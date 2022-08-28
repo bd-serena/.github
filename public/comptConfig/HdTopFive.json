@@ -1,0 +1,102 @@
+[
+    {
+        "comptId": 10,
+        "type": "HdTopFive",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "vetype": "title",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "pageSize",
+                        "cnName": "数据条数",
+                        "value": "5",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 5,
+                        "max": 100
+                    },
+                    {
+                        "enName": "isShowIndex",
+                        "cnName": "是否展示序号",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "rowNum",
+                        "cnName": "一列条数",
+                        "value": "5",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 1,
+                        "max": 100
+                    },
+                    {
+                        "enName": "barBackColor",
+                        "cnName": "图形颜色",
+                        "value": "",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "fontColor",
+                        "cnName": "字体颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "fontSize",
+                        "cnName": "字体大小",
+                        "value": "16",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 12,
+                        "max": 25
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "列表柱状图",
+            "setting": {
+                "legendLimit": 100,
+                "isDim": 1, 
+                "dimTitle": "维度",
+                "isDrill": 0, 
+                "isMeasure": 1, 
+                "measureTitle": "度量" 
+            },
+            "extendSetting": {
+                "titletext": "",
+                "comptName.text": "",
+                "comptName.show": false,
+                "rowNum": 5,
+                "barBackColor": "",
+                "fontColor": "#fff",
+                "fontSize": 16,
+                "pageSize": 5,
+                "isShowIndex": true
+            },
+            "loading": false,
+            "isBindData": "1",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": []
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

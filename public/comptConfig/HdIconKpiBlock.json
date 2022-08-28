@@ -1,0 +1,262 @@
+[
+  {
+    "comptId": 25,
+    "type": "HdIconKpiBlock",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "metricIcon",
+            "cnName": "图标样式",
+            "value": "icon-A10122_goal",
+            "showOtherAttrs": "HdIconKpiBlock",
+            "valueType": "String"
+          },
+          {
+            "enName": "metricIconSize",
+            "cnName": "图标大小",
+            "value": 26,
+            "min": 20,
+            "max": 60,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "metricIconColor",
+            "cnName": "图标颜色",
+            "value": "#b4f22b",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列名称",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true,
+            "disabled":true
+          },
+          {
+            "enName": "rename",
+            "cnName": "度量别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "metricNameFontSize",
+            "cnName": "字体大小",
+            "value": 12,
+            "min": 12,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "metricNameFontColor",
+            "cnName": "字体颜色",
+            "value": "#00f6ff",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "unitAttrs",
+        "cnName": "单位设置",
+        "children": [
+          {
+            "enName": "metricUnit",
+            "cnName": "单位名称",
+            "value": "",
+            "disabled": false,
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "metricUnitFontSize",
+            "cnName": "字体大小",
+            "value": 12,
+            "min": 12,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "metricUnitFontColor",
+            "cnName": "字体颜色",
+            "value": "#fff",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "numberAttrs",
+        "cnName": "数值设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "numberFormat",
+            "cnName": "数值格式",
+            "value": "0",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "默认",
+                "value": "0"
+              },
+              {
+                "label": "小数",
+                "value": "1"
+              },
+              {
+                "label": "百分比",
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "enName": "decimals",
+            "cnName": "小数点",
+            "value": "",
+            "isShow": false,
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "enName": "metricValueFontSize",
+            "cnName": "字体大小",
+            "value": 16,
+            "min": 12,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "metricValueFontColor",
+            "cnName": "字体颜色",
+            "value": "#fff",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "isCountTo",
+            "cnName": "翻滚特效",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "图标指标块",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "width": "",
+        "height": "",
+        "metricValueFontSize": 16,
+        "metricValueFontColor": "#fff",
+        "metricUnitFontSize": 12,
+        "metricUnitFontColor": "#fff",
+        "metricNameFontSize": 12,
+        "metricNameFontColor": "#00f6ff",
+        "metricIconSize": 26,
+        "metricIconColor": "#b4f22b",
+        "metricUnit": "",
+        "metricIcon": "icon-A10122_goal",
+        "decimals": 0,
+        "isCountTo": false,
+        "urlType":"1",
+        "pageId":"",
+        "comptUrl":""
+      },
+      "loading": false,
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "seriesSelected": [],
+      "pageLinkageData": []
+    },
+    "comptData": {
+      "rows": [],
+      "columns": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "comptId": 9,
+    "type": "ElCarousel",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "pageShow",
+            "cnName": "是否显示指示器",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "autoplay",
+            "cnName": "是否自动切换",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "pageStyle",
+            "cnName": "分页样式",
+            "value": "1",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "条形",
+                "value": "1"
+              },
+              {
+                "label": "圆点",
+                "value": "2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "direction",
+            "cnName": "轮播方向",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "options": [
+              {
+                "label": "vertical",
+                "value": "垂直",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "horizontal",
+                "value": "水平",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "tabAttrs",
+        "cnName": "标签设置",
+        "showOtherAttrs": "ElTabs",
+        "children": [
+          {}
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "轮播",
+      "draggable": true,
+      "isBindData": "0",
+      "setting": {
+        "isDim": 0,
+        "dimTitle": "",
+        "isDrill": 0,
+        "isMeasure": 0,
+        "measureTitle": ""
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "pageShow": true,
+        "autoplay": false,
+        "direction": "horizontal",
+        "pageStyle": "1"
+      },
+      "isLinkage": false,
+      "editableTabsValue": 0,
+      "editableTabs": [
+        {
+          "title": "TAB1",
+          "name": "tab1",
+          "comptList": []
+        },
+        {
+          "title": "TAB2",
+          "name": "tab2",
+          "comptList": []
+        }
+      ]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

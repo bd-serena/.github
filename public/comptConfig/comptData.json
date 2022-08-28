@@ -1,0 +1,1138 @@
+{
+    "VeCombineChart": {
+        "columns": [
+            "归属县市",
+            "访问用户数",
+            "订购流量套餐用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581",
+                "订购流量套餐用户数": "24621"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957",
+                "订购流量套餐用户数": "9553"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801",
+                "订购流量套餐用户数": "3513"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277",
+                "订购流量套餐用户数": "26128"
+            }
+        ]
+    },
+    "VeCombineStack": {
+        "columns": [
+            "归属县市",
+            "访问用户数",
+            "订购流量套餐用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581",
+                "订购流量套餐用户数": "24621"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957",
+                "订购流量套餐用户数": "9553"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801",
+                "订购流量套餐用户数": "3513"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277",
+                "订购流量套餐用户数": "26128"
+            }
+        ]
+    },
+    "VeLine": {
+        "columns": [
+            "地市",
+            "渠道网点编码xx"
+        ],
+        "rows": [
+            {
+                "地市": "福州",
+                "渠道网点编码xx": "24621"
+            },
+            {
+                "地市": "厦门",
+                "渠道网点编码xx": "9553"
+            },
+            {
+                "地市": "宁德",
+                "渠道网点编码xx": "3513"
+            },
+            {
+                "地市": "莆田",
+                "渠道网点编码xx": "26128"
+            }
+        ]
+    },
+    "VeLineArea": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeStackLineArea": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeHistogram": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeStackHistogram": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeBar": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeStackBar": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VePie": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeWordCloud": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeRosePie": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            }
+        ]
+    },
+    "VeRing": {
+        "columns": [
+            "维度",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "维度": "访问用户数",
+                "访问用户数": "6421345"
+            }
+        ]
+    },
+    "VeRadar": {
+        "columns": [
+            "type",
+            "鼓楼",
+            "福清",
+            "长乐",
+            "闽侯"
+        ],
+        "rows": [
+            {
+                "type": "访问用户数",
+                "鼓楼": "32581",
+                "福清": "9957",
+                "长乐": "3801",
+                "闽侯": "28277"
+            },
+            {
+                "type": "XXXXCODE",
+                "鼓楼": "101",
+                "福清": "102",
+                "长乐": "103",
+                "闽侯": "104"
+            }
+        ]
+    },
+    "VeGauge": {
+        "columns": [
+            "type",
+            "value"
+        ],
+        "rows": [
+            {
+                "type": "访问用户数",
+                "value": "6378063"
+            },
+            {
+                "type": "访问用户数",
+                "value": "6378063"
+            }
+        ]
+    },
+    "ElDatagrid": {
+        "comptData": {
+            "columns": [
+                {
+                    "af_id": "FD98D11DDB3F3964B2E16230CD2511E9",
+                    "element_id": "FD98D11DDB3F3964B2E4BD91CD2511E9",
+                    "element_name": "归属县市",
+                    "element_type": 1,
+                    "is_calcul": "0",
+                    "col_fun_exp": null,
+                    "col_fun_exp_desc": null,
+                    "is_trans_dim": "0",
+                    "col_id": "home_county",
+                    "col_name": "home_county",
+                    "col_chs_name": "归属县市",
+                    "dim_id": "D1056_622d2d9e9c134b9296260b87389012de",
+                    "dim_name": "测测测测测-地区可视化勿删",
+                    "dim_level_id": "L25318_335474a6051e4713876dab8428540e85",
+                    "dim_level_name": "测测测-县",
+                    "tab_alias": "t1",
+                    "tab_id": "T215942_4a5edc1270694c4eb01c508f4434a459",
+                    "tab_chs_name": "客户端应用分类日分析-可视化勿删",
+                    "phy_tab_name": "qry_td_flow_gn_client_daily",
+                    "db_name": "oracle_242_bishow",
+                    "user_name": "bishow",
+                    "create_time": "",
+                    "create_user": "",
+                    "create_user_name": "",
+                    "order_id": "",
+                    "col_type": "No.",
+                    "tab_col_id": "home_county",
+                    "show_type": "2",
+                    "is_show": "1",
+                    "show_format": null,
+                    "source_format": null,
+                    "is_copy": "0",
+                    "af_name": "",
+                    "is_import": false,
+                    "import_pageId": null,
+                    "import_symbol": "",
+                    "import_tabName": "",
+                    "import_tabId": "",
+                    "col_condi_exp": [],
+                    "selected": false,
+                    "dlselected": false,
+                    "id": "FD98D11DDB3F3964B2E4BD91CD2511E9null",
+                    "label": "归属县市",
+                    "nick_name": "归属县市",
+                    "conArea": "single",
+                    "type": "ElCascader",
+                    "labelWidth": "90px",
+                    "options": [],
+                    "m_value": [],
+                    "align": "left",
+                    "sort": null,
+                    "prop": "FD98D11DDB3F3964B2E4BD91CD2511E9"
+                },
+                {
+                    "af_id": "FD98D11DDB3F3964B2E16230CD2511E9",
+                    "element_id": "FD98D11DDB3F3964B2E4BD99CD2511E9",
+                    "element_name": "访问用户数",
+                    "element_type": "2",
+                    "is_calcul": "0",
+                    "col_fun_exp": null,
+                    "col_fun_exp_desc": null,
+                    "is_trans_dim": "0",
+                    "col_id": "call_usercnt",
+                    "col_name": "call_usercnt",
+                    "col_chs_name": "访问用户数",
+                    "dim_id": null,
+                    "dim_name": null,
+                    "dim_level_id": null,
+                    "dim_level_name": null,
+                    "tab_alias": "t1",
+                    "tab_id": "T215942_4a5edc1270694c4eb01c508f4434a459",
+                    "tab_chs_name": "客户端应用分类日分析-可视化勿删",
+                    "phy_tab_name": "qry_td_flow_gn_client_daily",
+                    "db_name": "oracle_242_bishow",
+                    "user_name": "bishow",
+                    "create_time": "",
+                    "create_user": "",
+                    "create_user_name": "",
+                    "order_id": "",
+                    "col_type": "No.",
+                    "tab_col_id": "call_usercnt",
+                    "show_type": "2",
+                    "is_show": "1",
+                    "show_format": null,
+                    "source_format": null,
+                    "is_copy": "0",
+                    "af_name": "",
+                    "is_import": false,
+                    "import_pageId": null,
+                    "import_symbol": "",
+                    "import_tabName": "",
+                    "import_tabId": "",
+                    "col_condi_exp": [],
+                    "selected": false,
+                    "dlselected": false,
+                    "id": "FD98D11DDB3F3964B2E4BD99CD2511E9null",
+                    "label": "访问用户数",
+                    "nick_name": "访问用户数",
+                    "numType": 0,
+                    "dot": 0,
+                    "fun_type": 2,
+                    "total_fun_type": 2,
+                    "type": "ElNumber",
+                    "labelWidth": "90px",
+                    "numList": [
+                        {
+                            "id": "0",
+                            "m_value": "",
+                            "label": 2
+                        }
+                    ],
+                    "defaultNumList": [
+                        {
+                            "id": "0",
+                            "m_value": "",
+                            "label": 2
+                        }
+                    ],
+                    "radioCalcu": "0",
+                    "align": "right",
+                    "sort": null,
+                    "prop": "FD98D11DDB3F3964B2E4BD99CD2511E9"
+                },
+                {
+                    "prop": "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9",
+                    "label": "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9"
+                }
+            ],
+            "rows": [
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "18",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "5",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "54",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "803",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "5",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "6",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "11",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                }
+            ]
+        },
+        "colSetting": {
+            "FD98D11DDB3F3964B2E4BD91CD2511E9": {
+                "nick_name": "归属县市",
+                "align": "left",
+                "numType": "",
+                "dot": "",
+                "totalFunType": "",
+                "colCondiExp": [],
+                "setCondi": false,
+                "isNumber": false,
+                "polymerFunType": 2,
+                "oriName": "归属县市"
+            },
+            "FD98D11DDB3F3964B2E4BD99CD2511E9": {
+                "nick_name": "访问用户数",
+                "align": "right",
+                "numType": "",
+                "dot": "",
+                "totalFunType": 2,
+                "colCondiExp": [],
+                "setCondi": false,
+                "isNumber": true,
+                "polymerFunType": 2,
+                "oriName": "访问用户数"
+            }
+        }
+    },
+    "CrossTable": {
+        "comptData": {
+            "columns": [
+                {
+                    "af_id": "FD98D11DDB3F3964B2E16230CD2511E9",
+                    "element_id": "FD98D11DDB3F3964B2E4BD91CD2511E9",
+                    "element_name": "归属县市",
+                    "element_type": 1,
+                    "is_calcul": "0",
+                    "col_fun_exp": null,
+                    "col_fun_exp_desc": null,
+                    "is_trans_dim": "0",
+                    "col_id": "home_county",
+                    "col_name": "home_county",
+                    "col_chs_name": "归属县市",
+                    "dim_id": "D1056_622d2d9e9c134b9296260b87389012de",
+                    "dim_name": "测测测测测-地区可视化勿删",
+                    "dim_level_id": "L25318_335474a6051e4713876dab8428540e85",
+                    "dim_level_name": "测测测-县",
+                    "tab_alias": "t1",
+                    "tab_id": "T215942_4a5edc1270694c4eb01c508f4434a459",
+                    "tab_chs_name": "客户端应用分类日分析-可视化勿删",
+                    "phy_tab_name": "qry_td_flow_gn_client_daily",
+                    "db_name": "oracle_242_bishow",
+                    "user_name": "bishow",
+                    "create_time": "",
+                    "create_user": "",
+                    "create_user_name": "",
+                    "order_id": "",
+                    "col_type": "No.",
+                    "tab_col_id": "home_county",
+                    "show_type": "2",
+                    "is_show": "1",
+                    "show_format": null,
+                    "source_format": null,
+                    "is_copy": "0",
+                    "af_name": "",
+                    "is_import": false,
+                    "import_pageId": null,
+                    "import_symbol": "",
+                    "import_tabName": "",
+                    "import_tabId": "",
+                    "col_condi_exp": [],
+                    "selected": false,
+                    "dlselected": false,
+                    "id": "FD98D11DDB3F3964B2E4BD91CD2511E9null",
+                    "label": "归属县市",
+                    "nick_name": "归属县市",
+                    "conArea": "single",
+                    "type": "ElCascader",
+                    "labelWidth": "90px",
+                    "options": [],
+                    "m_value": [],
+                    "align": "left",
+                    "sort": null,
+                    "prop": "FD98D11DDB3F3964B2E4BD91CD2511E9"
+                },
+                {
+                    "af_id": "FD98D11DDB3F3964B2E16230CD2511E9",
+                    "element_id": "FD98D11DDB3F3964B2E4BD99CD2511E9",
+                    "element_name": "访问用户数",
+                    "element_type": "2",
+                    "is_calcul": "0",
+                    "col_fun_exp": null,
+                    "col_fun_exp_desc": null,
+                    "is_trans_dim": "0",
+                    "col_id": "call_usercnt",
+                    "col_name": "call_usercnt",
+                    "col_chs_name": "访问用户数",
+                    "dim_id": null,
+                    "dim_name": null,
+                    "dim_level_id": null,
+                    "dim_level_name": null,
+                    "tab_alias": "t1",
+                    "tab_id": "T215942_4a5edc1270694c4eb01c508f4434a459",
+                    "tab_chs_name": "客户端应用分类日分析-可视化勿删",
+                    "phy_tab_name": "qry_td_flow_gn_client_daily",
+                    "db_name": "oracle_242_bishow",
+                    "user_name": "bishow",
+                    "create_time": "",
+                    "create_user": "",
+                    "create_user_name": "",
+                    "order_id": "",
+                    "col_type": "No.",
+                    "tab_col_id": "call_usercnt",
+                    "show_type": "2",
+                    "is_show": "1",
+                    "show_format": null,
+                    "source_format": null,
+                    "is_copy": "0",
+                    "af_name": "",
+                    "is_import": false,
+                    "import_pageId": null,
+                    "import_symbol": "",
+                    "import_tabName": "",
+                    "import_tabId": "",
+                    "col_condi_exp": [],
+                    "selected": false,
+                    "dlselected": false,
+                    "id": "FD98D11DDB3F3964B2E4BD99CD2511E9null",
+                    "label": "访问用户数",
+                    "nick_name": "访问用户数",
+                    "numType": 0,
+                    "dot": 0,
+                    "fun_type": 2,
+                    "total_fun_type": 2,
+                    "type": "ElNumber",
+                    "labelWidth": "90px",
+                    "numList": [
+                        {
+                            "id": "0",
+                            "m_value": "",
+                            "label": 2
+                        }
+                    ],
+                    "defaultNumList": [
+                        {
+                            "id": "0",
+                            "m_value": "",
+                            "label": 2
+                        }
+                    ],
+                    "radioCalcu": "0",
+                    "align": "right",
+                    "sort": null,
+                    "prop": "FD98D11DDB3F3964B2E4BD99CD2511E9"
+                },
+                {
+                    "prop": "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9",
+                    "label": "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9"
+                }
+            ],
+            "rows": [
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "18",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "5",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "晋安",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "1",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "112"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "54",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "803",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "5",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "6",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                },
+                {
+                    "FD98D11DDB3F3964B2E4BD91CD2511E9": "仓山",
+                    "FD98D11DDB3F3964B2E4BD99CD2511E9": "11",
+                    "XXXXCODE_FD98D11DDB3F3964B2E4BD91CD2511E9": "113"
+                }
+            ]
+        },
+        "colSetting": {
+            "FD98D11DDB3F3964B2E4BD91CD2511E9": {
+                "nick_name": "归属县市",
+                "align": "left",
+                "numType": "",
+                "dot": "",
+                "totalFunType": "",
+                "colCondiExp": [],
+                "setCondi": false,
+                "isNumber": false,
+                "polymerFunType": 2,
+                "oriName": "归属县市"
+            },
+            "FD98D11DDB3F3964B2E4BD99CD2511E9": {
+                "nick_name": "访问用户数",
+                "align": "right",
+                "numType": "",
+                "dot": "",
+                "totalFunType": 2,
+                "colCondiExp": [],
+                "setCondi": false,
+                "isNumber": true,
+                "polymerFunType": 2,
+                "oriName": "访问用户数"
+            }
+        }
+    },
+    "HdKpiBlock": {
+        "columns": [
+            "受理用户"
+        ],
+        "rows": [
+            {
+                "受理用户": "6378063"
+            }
+        ]
+    },
+    "HdKpiBlock2": {
+        "columns": [
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "访问用户数": "6378063"
+            }
+        ]
+    },
+    "HdKpiBlock3": {
+        "columns": [
+            "访问用户数",
+            "订购流量套餐用户数"
+        ],
+        "rows": [
+            {
+                "访问用户数": "6378063",
+                "订购流量套餐用户数": "142814"
+            }
+        ]
+    },
+    "HdFlopDevice": {
+        "columns": [
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "访问用户数": "6378063"
+            }
+        ]
+    },
+    "HdIconKpiBlock": {
+        "columns": [
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "访问用户数": "6378063"
+            }
+        ]
+    },
+    "MobileQuery": {
+        "fieldList": [
+            {
+                "comptAttrs": {
+                    "af_id": "",
+                    "element_id": "FD98D11DDB3F3964B2E4BD90CD2511E9",
+                    "element_name": "统计日期",
+                    "element_type": 1,
+                    "is_calcul": "0",
+                    "col_fun_exp": null,
+                    "col_fun_exp_desc": null,
+                    "is_trans_dim": "0",
+                    "col_id": "sum_date",
+                    "col_name": "sum_date",
+                    "col_chs_name": "统计日期",
+                    "dim_id": null,
+                    "dim_name": null,
+                    "dim_level_id": null,
+                    "dim_level_name": null,
+                    "tab_alias": "t1",
+                    "tab_id": "T215942_4a5edc1270694c4eb01c508f4434a459",
+                    "tab_chs_name": "客户端应用分类日分析-可视化勿删",
+                    "phy_tab_name": "qry_td_flow_gn_client_daily",
+                    "db_name": "oracle_242_bishow",
+                    "user_name": "bishow",
+                    "create_time": "",
+                    "create_user": "",
+                    "create_user_name": "",
+                    "order_id": "",
+                    "col_type": "dat",
+                    "tab_col_id": "sum_date",
+                    "show_type": "2",
+                    "is_show": "1",
+                    "show_format": "YYYYMMDD",
+                    "source_format": "YYYYMMDD",
+                    "is_copy": "0",
+                    "af_name": "多表测试计算字段3测试时间",
+                    "is_import": false,
+                    "import_pageId": "",
+                    "import_symbol": "",
+                    "import_tabName": "",
+                    "import_tabId": "",
+                    "col_condi_exp": [],
+                    "selected": false,
+                    "dlselected": false,
+                    "id": "FD98D11DDB3F3964B2E4BD90CD2511E9null",
+                    "label": "统计日期",
+                    "nick_name": "统计日期",
+                    "type": "ElDatePicker",
+                    "dateCycle": "date",
+                    "cycleType": "date",
+                    "m_value": [
+                        "",
+                        ""
+                    ],
+                    "labelWidth": "90px",
+                    "timeOpr": 2,
+                    "timeOprCount": 0,
+                    "align": "left",
+                    "mainLinkageData": [],
+                    "isNeedResetLink": 0
+                },
+                "type": "ElDatePicker",
+                "comptSort": "acca556244114f55a8af067c269419ae",
+                "blockInfo": {
+                    "x": 0,
+                    "y": 0,
+                    "w": 300,
+                    "h": 50,
+                    "i": "acca556244114f55a8af067c269419ae"
+                }
+            }
+        ]
+    },
+    "VeMap": {
+        "columns": [
+            "地市",
+            "受理用户"
+        ],
+        "rows": [
+            {
+                "地市": "福州市",
+                "受理用户": "17886699854923772124"
+            },
+            {
+                "地市": "厦门市",
+                "受理用户": "4180630958941993218"
+            },
+            {
+                "地市": "宁德市",
+                "受理用户": "9048424813785084276"
+            },
+            {
+                "地市": "莆田市",
+                "受理用户": "5050792219151251620"
+            },
+            {
+                "地市": "泉州市",
+                "受理用户": "10418718995152370982"
+            }
+        ]
+    },
+    "VeAreaMap": {
+        "columns": [
+            "地市",
+            "受理用户"
+        ],
+        "rows": [
+            {
+                "地市": "福州市",
+                "受理用户": "17886699854923772124"
+            },
+            {
+                "地市": "厦门市",
+                "受理用户": "4180630958941993218"
+            },
+            {
+                "地市": "宁德市",
+                "受理用户": "9048424813785084276"
+            },
+            {
+                "地市": "莆田市",
+                "受理用户": "5050792219151251620"
+            }
+        ]
+    },
+    "HdTopFive": {
+        "columns": [
+            "归属县市",
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "归属县市": "鼓楼",
+                "访问用户数": "32581"
+            },
+            {
+                "归属县市": "福清",
+                "访问用户数": "9957"
+            },
+            {
+                "归属县市": "长乐",
+                "访问用户数": "3801"
+            },
+            {
+                "归属县市": "闽侯",
+                "访问用户数": "28277"
+            },
+            {
+                "归属县市": "罗源",
+                "访问用户数": "1133"
+            }
+        ]
+    },
+    "ElSwiper": {
+        "rows":[{
+        "dimVal1": "鼓楼",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "3万"
+    }, {
+        "dimVal1": "福清",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "9,957"
+    }, {
+        "dimVal1": "长乐",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "3,801"
+    }, {
+        "dimVal1": "闽侯",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "3万"
+    }, {
+        "dimVal1": "罗源",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "1,133"
+    }, {
+        "dimVal1": "闽清",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "1,203"
+    }, {
+        "dimVal1": "连江",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "2,371"
+    }, {
+        "dimVal1": "平潭",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "2,249"
+    }, {
+        "dimVal1": "永泰",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "1,712"
+    }, {
+        "dimVal1": "马尾",
+        "dimVal2": "",
+        "measureTitle": "访问用户数",
+        "measureVal": "7,277"
+    }]
+    },
+    "HdWater": {
+        "columns": [
+            "访问用户数"
+        ],
+        "rows": [
+            {
+                "访问用户数": "6421345"
+            }
+        ]
+    },
+    "VeScatter": {
+			"columns": ["日期", "访问用户", "下单用户", "年龄"],
+			"rows": {
+				"上海": [
+					{ "日期": "1/1", "访问用户": 123, "年龄": 3, "下单用户": 1244 },
+					{ "日期": "1/2", "访问用户": 1223, "年龄": 6, "下单用户": 2344 },
+					{ "日期": "1/3", "访问用户": 7123, "年龄": 9, "下单用户": 3245 },
+					{ "日期": "1/4", "访问用户": 4123, "年龄": 12, "下单用户": 4355 },
+					{ "日期": "1/5", "访问用户": 3123, "年龄": 15, "下单用户": 4564 },
+					{ "日期": "1/6", "访问用户": 2323, "年龄": 20, "下单用户": 6537 }
+				],
+				"北京":  [
+					{ "日期": "1/1", "访问用户": 123, "年龄": 3, "下单用户": 1244 },
+					{ "日期": "1/2", "访问用户": 1223, "年龄": 6, "下单用户": 2344 },
+					{ "日期": "1/3", "访问用户": 7123, "年龄": 9, "下单用户": 3245 },
+					{ "日期": "1/4", "访问用户": 4123, "年龄": 12, "下单用户": 4355 },
+					{ "日期": "1/5", "访问用户": 3123, "年龄": 15, "下单用户": 4564 },
+					{ "日期": "1/6", "访问用户": 2323, "年龄": 20, "下单用户": 6537 }
+				]
+			}
+		},
+    "Scatter": {
+        "columns": ["日期", "访问用户", "下单用户", "年龄"],
+        "rows": {
+            "上海": [
+                { "日期": "1/1", "访问用户": 123, "年龄": 3, "下单用户": 1244 },
+                { "日期": "1/2", "访问用户": 1223, "年龄": 6, "下单用户": 2344 },
+                { "日期": "1/3", "访问用户": 7123, "年龄": 9, "下单用户": 3245 },
+                { "日期": "1/4", "访问用户": 4123, "年龄": 12, "下单用户": 4355 },
+                { "日期": "1/5", "访问用户": 3123, "年龄": 15, "下单用户": 4564 },
+                { "日期": "1/6", "访问用户": 2323, "年龄": 20, "下单用户": 6537 }
+            ],
+            "北京":  [
+                { "日期": "1/1", "访问用户": 123, "年龄": 3, "下单用户": 1244 },
+                { "日期": "1/2", "访问用户": 1223, "年龄": 6, "下单用户": 2344 },
+                { "日期": "1/3", "访问用户": 7123, "年龄": 9, "下单用户": 3245 },
+                { "日期": "1/4", "访问用户": 4123, "年龄": 12, "下单用户": 4355 },
+                { "日期": "1/5", "访问用户": 3123, "年龄": 15, "下单用户": 4564 },
+                { "日期": "1/6", "访问用户": 2323, "年龄": 20, "下单用户": 6537 }
+            ]
+        }
+    },
+    "VeLines": {
+        "columns": ["地市2", "地市", "PEOPLE_COUNT", "XXXXCODE"],
+        "rows": [{
+                "地市2": "福州市",
+                "地市": "宁德市",
+                "PEOPLE_COUNT": "700",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "福州市",
+                "地市": "莆田市",
+                "PEOPLE_COUNT": "600",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "福州市",
+                "地市": "泉州市",
+                "PEOPLE_COUNT": "200",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "福州市",
+                "地市": "漳州市",
+                "PEOPLE_COUNT": "700",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "福州市",
+                "地市": "龙岩市",
+                "PEOPLE_COUNT": "300",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "福州市",
+                "地市": "三明市",
+                "PEOPLE_COUNT": "700",
+                "XXXXCODE": "591"
+            }, {
+                "地市2": "南平市",
+                "地市": "厦门市",
+                "PEOPLE_COUNT": "500",
+                "XXXXCODE": "599"
+            }, {
+                "地市2": "南平市",
+                "地市": "龙岩市",
+                "PEOPLE_COUNT": "700",
+                "XXXXCODE": "599"
+            }, {
+                "地市2": "南平市",
+                "地市": "三明市",
+                "PEOPLE_COUNT": "400",
+                "XXXXCODE": "599"
+            }
+        ]
+    }
+}

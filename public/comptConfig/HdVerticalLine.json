@@ -1,0 +1,123 @@
+[
+  {
+    "comptId": 24,
+    "type": "HdVerticalLine",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "lineWidth",
+            "cnName": "线条粗细",
+            "value": 1,
+            "min": 1,
+            "max": 20,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "lineStyle",
+            "cnName": "线条样式",
+            "value": "solid",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "实线",
+                "value": "solid"
+              },
+              {
+                "label": "虚线",
+                "value": "dashed"
+              },
+              {
+                "label": "点线",
+                "value": "largeDots"
+              }
+            ]
+          },
+          {
+            "enName": "lineColor",
+            "cnName": "线条颜色",
+            "value": "rgb(13, 162, 231)",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "spaceBetween",
+            "cnName": "圆点间距",
+            "showOtherAttrs": "HdLine",
+            "value": 20
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "竖线",
+      "isBindData": "0",
+      "isLinkage": false,
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "direction": "vertical",
+        "lineWidth": 1,
+        "lineStyle": "solid",
+        "lineColor": "#000000",
+        "spaceBetween": 20
+      }
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

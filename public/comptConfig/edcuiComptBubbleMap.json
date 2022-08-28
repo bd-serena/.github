@@ -1,0 +1,341 @@
+[
+  {
+    "comptId": 10,
+    "type": "VeBubbleMap",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "series.index.name.normal.show",
+            "cnName": "显示地名",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "气泡地图",
+      "setting": {
+        "position": "province/fujian",
+        "itemStyle": {
+          "normal": {
+            "borderColor": "rgb(61,257,930)",
+            "areaColor": "#F5F7FA"
+          }
+        },
+        "isDim": 1,
+        "dimTitle": "地理区域/维度",
+        "isDrill": 1,
+        "isMeasure": 0,
+        "measureTitle": "度量",
+        "sizeMeasureColTitle": {
+          "name": "大小/度量",
+          "elementType": 2,
+          "count": 1,
+          "index": 3
+        },
+        "colorMeasureColTitle": {
+          "name": "颜色/度量",
+          "elementType": 2,
+          "count": 1,
+          "index": 2
+        }
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend.type": "",
+        "legend": {
+          "left": "center",
+          "top": 10,
+          "data": [
+            {
+              "textStyle": {
+                "color": "#fff"
+              },
+              "name": ""
+            }
+          ],
+          "inactiveColor": "#cccccc",
+          "show": false,
+          "textStyle": {
+            "color": "#000"
+          }
+        },
+        "title.textStyle.color": "#333",
+        "title": {
+          "subtext": ""
+        },
+        "backgroundColor": "",
+        "series.0.label.normal.show": false,
+        "series.0.label.normal.map.show": true,
+        "visualMap": [
+          {
+              "type": "piecewise",
+              "min": 0,
+              "max": 0,
+              "itemWidth": 0,
+              "itemHeight": 0,
+              "inRange": {
+                  "color": [
+                      "transparent"
+                  ]
+              },
+              "pieces": [
+                  {
+                      "label": ""
+                  }
+              ],
+              "top": 50,
+              "left": -10,
+              "textStyle": {
+                  "color": "#ccc"
+              }
+          },
+          {
+              "type": "piecewise",
+              "itemWidth": 8,
+              "itemHeight": 8,
+              "min": 100,
+              "max": 1000000,
+              "inverse": true,
+              "inRange": {
+                "color": [
+                  "#19D4AE",
+                  "#5AB1EF",
+                  "#fa6e86",
+                  "#ffb980",
+                  "#0067a6",
+                  "#c4b4e4",
+                  "#d87a80",
+                  "#9cbbff",
+                  "#d9d0c7",
+                  "#87a997",
+                  "#d49ea2",
+                  "#5b4947",
+                  "#7ba3a8"
+                ]
+              },
+              "top": 70,
+              "left": 0,
+              "z": 5,
+              "zlevel": 5,
+              "seriesIndex": 0
+          },
+          {
+              "type": "piecewise",
+              "min": 0,
+              "max": 0,
+              "itemWidth": 0,
+              "itemHeight": 0,
+              "inRange": {
+                  "color": [
+                      "transparent"
+                  ]
+              },
+              "pieces": [
+                  {
+                      "label": ""
+                  }
+              ],
+              "top": 195,
+              "left": -10,
+              "textStyle": {
+                  "color": "#ccc"
+              }
+          },
+          {
+              "min": 0,
+              "max": 3000,
+              "type": "piecewise",
+              "itemWidth": 8,
+              "itemHeight": 8,
+              "splitNumber": 1,
+              "inRange": {},
+              "top": 220,
+              "left": 0,
+              "z": 4,
+              "zlevel": 6,
+              "symbolSize": [
+                  5,
+                  20
+              ]
+          }
+      ],
+        "geo": {
+          "show": true,
+          "map": "",
+          "label": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "roam": false,
+          "itemStyle": {
+            "normal": {
+              "areaColor": "#F5F7FA",
+              "borderColor": "#1180c7"
+            },
+            "emphasis": {
+              "areaColor": "#4499d0"
+            }
+          },
+          "aspectScale": 1
+        },
+        "series": [
+          {
+            "name": "气泡颜色",
+            "type": "effectScatter",
+            "showEffectOn": "render",
+            "rippleEffect": {
+              "brushType": "stroke"
+            },
+            "hoverAnimation": true,
+            "coordinateSystem": "geo",
+            "data": [],
+            "symbolSize": 5,
+            "label": {
+              "normal": {
+                "formatter": "{b}",
+                "position": "right",
+                "show": true,
+                "color": "#fff"
+              }
+            },
+            "itemStyle": {
+              "color": "#ccc"
+            },
+            "tooltip": {}
+          },
+          {
+            "name": "最大值",
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "data": [],
+            "symbolSize": 20,
+            "showEffectOn": "render",
+            "rippleEffect": {
+              "brushType": "stroke"
+            },
+            "hoverAnimation": true,
+            "label": {
+              "normal": {
+                "formatter": "{b}",
+                "position": "right",
+                "show": false
+              }
+            },
+            "itemStyle": {
+              "normal": {
+                "color": "yellow",
+                "shadowBlur": 10,
+                "shadowColor": "yellow"
+              }
+            },
+            "zlevel": 1
+          },
+          {
+            "type": "map",
+            "geoIndex": 0
+          }
+        ]
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "series.0.itemStyle.normal.color": "",
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "ratio": 0.8,
+      "decimalDigit": 0,
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +data.percent+'%';}}",
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "isResetSeriesData": 0,
+      "colSetting": {},
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

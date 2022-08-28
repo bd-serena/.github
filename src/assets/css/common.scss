@@ -1,0 +1,274 @@
+.animate-warning {
+    color: #ff6000;
+    animation: text-warning 1s ease-in infinite;
+}
+
+@keyframes text-warning {
+    0% {
+        color: #fff000;
+    }
+
+    50% {
+        color: #ff0000;
+    }
+
+    100% {
+        color: #fff000;
+    }
+}
+
+/* 大屏滚动条 */
+/*滚动条整体部分，其中的属性有width,height,background,border（就和一个块级元素一样）等。*/
+.bigscreen-body-wrap div::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+/*滚动条两端的按钮。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。*/
+/*::-webkit-scrollbar-button {} */
+/*外层轨道。可以用display:none让其不显示，也可以添加背景图片，颜色改变显示效果。*/
+.bigscreen-body-wrap div::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: #15182a;
+}
+
+/*内层轨道，滚动条中间部分（除去）。*/
+/*::-webkit-scrollbar-track-piece {}*/
+/*滚动条里面可以拖动的那部分*/
+.bigscreen-body-wrap div::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(45, 50, 90, 0.75);
+}
+
+/*滚动条里面可以拖动的那部分(悬浮)*/
+.bigscreen-body-wrap div::-webkit-scrollbar-thumb:hover {
+    border-radius: 5px;
+    background-color: rgba(45, 50, 90, 1);
+}
+/* 大屏 联动文字 */
+.bigscreen-body-wrap .drill-label{
+    color:#fff;
+}
+/* 大屏 钻取文字 */
+.bigscreen-body-wrap .drill-label1{
+    color:#fff;
+}
+
+.corner-div{
+    position: absolute;
+    width:30px;
+    height:30px;
+    border:3px solid #00f6ff;
+}
+
+.corner-div.corner1{
+    top:0;
+    border-right:none;
+    border-bottom:none;
+}
+.corner-div.corner2{
+    top:0;
+    right:0;
+    border-left:none;
+    border-bottom:none;
+}
+.corner-div.corner3{
+    bottom:0;
+    border-top:none;
+    border-right:none;
+}
+.corner-div.corner4{
+    bottom:0;
+    right:0;
+    border-top:none;
+    border-left:none;
+}
+
+/* 表格 操作栏字体图标按钮 */
+.table-icon {
+    color: #409eff;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+    vertical-align: -4px;
+  }
+  .table-icon:hover {
+    color: #66b1ff;
+  }
+  .table-icon:last-child {
+    margin-right: 0;
+  }
+
+.no-title,.has-title {
+    position: relative;
+}
+
+.compt-nodata-tip {
+    z-index: 100;
+}
+/**
+ * 加载动画要比nodata高
+ */
+.el-loading-parent--relative {
+    z-index: 999!important;
+}
+
+.center-tabs .el-tabs__nav-scroll{
+    margin-left: calc(50% - 76px);
+}
+
+#capture-cont .dv-border-box-7 {
+    box-shadow: none!important;
+    border: 5px solid rgba(128, 128, 128, 0.3)!important;
+}
+#capture-cont .dv-border-box-10 {
+    box-shadow: none!important;
+    border: 5px solid rgba(29, 72, 196, 0.3)!important;
+}
+/**
+查询条件通用样式
+ */
+.common-form-condi {
+    .el-form-item {
+        width: 100%;
+        height: 28px;
+        .el-form-item__content {
+            width: calc(100% - 80px);
+        }
+        &.submit-condi {
+            .el-form-item__content {
+                width: 100%;
+                text-align: right;
+            }
+        }
+    }
+}
+// 折叠面板里的表格
+.collapse-table {
+    .el-collapse-item__wrap {
+        border-width: 0;
+
+        .el-collapse-item__content {
+            padding-bottom: 0;
+        }
+    }
+}
+
+// 气泡地图左侧图例样式
+.visual-list-item {
+    font-size: 12px;
+    line-height: 20px;
+    &:first-child {
+      margin-bottom: 12px;
+    }
+    .visual-item-tit {
+      font-size: 14px;
+      color: #606266;
+      line-height: 26px;
+    }
+    .range-icon {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+  }
+
+// 手写组件 副标题样式
+.sub-text-wrap {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 5;
+    font-size: 12px;
+    color: #aaa; // 与图形副标题颜色一致
+}
+// 有显示副标题的div父容器样式
+.has-sub-text {
+    padding-top: 25px;
+}
+
+
+// 图标加文字 按钮样式
+.icon-block {
+    color: #409eff;
+    cursor: pointer;
+    margin-left: 18px;
+    display: inline-block;
+    i {
+        cursor: pointer;
+    }
+  
+    &:hover {
+      color: #66b1ff;
+  
+      span {
+        color: #66b1ff;
+      }
+    }
+  
+    span {
+      color: #666;
+      padding-left: 5px;
+      display: inline-block;
+      cursor: pointer;
+    }
+    // 禁用状态
+    &.disabled {
+      color: #c0c4cc;
+      cursor: not-allowed;
+      i, span {
+          cursor: not-allowed;
+      }
+      &:hover {
+        color: #c0c4cc;
+    
+        span {
+          color: #c0c4cc;
+        }
+      }
+    }
+  }
+// 首页列表页 每条记录前的图标 及这个单元格的文本
+.el-table td div {
+    .device-icon {
+        float: left;
+        color: #409eff;
+        font-size: 14px;
+        margin-top: 20px;
+        cursor: pointer;
+    
+        &:hover {
+          color: #66b1ff;
+        }
+        // 当文本只有单行时
+        &.single-line {
+            margin-top: 10px;
+        }
+      }
+    .cn-name {
+        margin-left: 30px;
+        padding: 5px 0 0;
+    
+        .name-text {
+          display: inline-block;
+          width: 100%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+    
+          &.name-txt1 {
+            font-size: 15px;
+            text-align: left;
+          }
+    
+          &.name-txt2 {
+            font-size: 11px;
+            color: #cccccc;
+            text-align: left;
+          }
+        }
+      }
+}

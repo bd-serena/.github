@@ -1,0 +1,137 @@
+[
+  {
+    "comptId": 25,
+    "type": "HdCorner",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "lineLength",
+            "cnName": "线条长度",
+            "value": 20,
+            "min": 1,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "lineWidth",
+            "cnName": "线条粗细",
+            "value": 3,
+            "min": 1,
+            "max": 20,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "lineStyle",
+            "cnName": "线条样式",
+            "value": "solid",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "实线",
+                "value": "solid"
+              },
+              {
+                "label": "虚线",
+                "value": "dashed"
+              },
+              {
+                "label": "点线",
+                "value": "dotted"
+              }
+            ]
+          },
+          {
+            "enName": "lineColor",
+            "cnName": "线条颜色",
+            "value": "#0da2e7",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "lineCombo",
+            "cnName": "线条组合",
+            "multiple": true,
+            "value": [],
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "上",
+                "value": "topLine"
+              },
+              {
+                "label": "下",
+                "value": "bottomLine"
+              },
+              {
+                "label": "左",
+                "value": "leftLine"
+              },
+              {
+                "label": "右",
+                "value": "rigthLine"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "角分割线",
+      "isBindData": "0",
+      "isLinkage": false,
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "lineLength": 20,
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "lineColor": "#0da2e7",
+        "lineCombo": [
+          "topLine",
+          "bottomLine",
+          "leftLine",
+          "rigthLine"
+        ]
+      }
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

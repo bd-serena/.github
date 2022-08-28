@@ -1,0 +1,91 @@
+[
+  {
+    "comptId": 301,
+    "type": "HdHeader",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "titleFontSize",
+            "cnName": "字体大小",
+            "value": 28,
+            "min":12,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "titleFontColor",
+            "cnName": "字体颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "title",
+            "cnName": "标题名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "大屏头部",
+      "isBindData": "0",
+      "isLinkage": false,
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "titleFontSize": 28,
+        "titleFontColor": "#fff",
+        "title": "福建移动大数据业务运营平台"
+      }
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

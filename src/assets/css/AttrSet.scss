@@ -1,0 +1,272 @@
+$main-bg:#2f5377;//设计区域背景色
+$input-bg-clr1:#0e3b67; // 输入框背景色
+$border-clr1:#0e3b67; // 输入框边框色
+$border-clr2:#0a2b4c; // 输入框边框色
+$border-clr3:#498bce;
+$font-main:#ffffff;//文字主色
+$font-main2:#afc0d0;
+$font-main3:#333;
+$font-clr1:#45fffd;//维度颜色
+$font-clr2:#aaff45;//度量颜色
+$icon-clr:#409eff;//操作图标颜色
+$hover-clr:#409eff;//鼠标经过颜色
+$bg-clr1:#e4e7ee;
+.attrSet{
+    background: $main-bg;
+    /deep/.tabcard.el-tabs--border-card > .el-tabs__header {
+        background: $input-bg-clr1;
+    }
+    /deep/.el-tabs__nav-wrap::after{
+        background-color: $input-bg-clr1;
+    }
+    /deep/.tabcard .el-tabs__item.is-active {
+        color: $font-main;
+        background: $main-bg;
+    }
+    /deep/.tabcard .el-tabs__item:not(.is-disabled):hover{
+        color: $font-main;
+    }
+    /deep/.el-tabs__active-bar{
+        background-color: $font-clr1;
+    }
+    /deep/.el-tabs__item{
+        color: $font-main;
+    }
+    .nav-title{
+        color: $font-main;
+    }
+    /deep/.el-row-24{
+        color: $font-main;
+    }
+    /deep/.el-row-24 .el-col:nth-child(2n){
+        border-left: 1px solid $border-clr1;
+    }
+    .r-title{
+        color: $font-main;
+    }
+    /deep/.grid-content .is-focus .el-input__inner,
+    /deep/.grid-content .is-focus .el-textarea__inner,
+    /deep/.senior .is-focus .el-input__inner
+    {
+        border-color: $icon-clr;
+        background-color: #ffffff;
+        color: $font-main3;
+    }
+    /deep/.grid-content .el-input__inner,
+    /deep/.grid-content .el-textarea__inner,
+    /deep/.senior .el-input__inner
+    {
+        color: $font-main;
+        background-color: $input-bg-clr1;
+        border: 1px solid $border-clr2;
+    }
+    /deep/.grid-content .input-search.el-input .el-input__inner:focus{
+        background-color: #ffffff;
+        color: #666666;
+        border: 1px solid $hover-clr;
+    }
+    /deep/.grid-content .el-select:hover .el-input__inner,
+    /deep/.grid-content .el-textarea:hover .el-textarea__inner,
+    /deep/.grid-content .el-input:hover .el-input__inner{
+        border-color: $border-clr3;
+    }
+    .col-title{
+        color: $font-clr1;
+    }
+    /deep/.dl-cols .col-title{
+        color: $font-clr2;
+    }
+    /deep/.bg-purple .el-tag.default-tag{
+        color: $font-main2;
+        background-color: #496988;
+        border: 1px dashed #ffffff;
+        cursor: default;
+    }
+    /deep/.col-subtitle{
+        border-bottom: 1px solid #557fa7;
+    }
+    /deep/.cbox.el-checkbox{
+        color: $font-main;
+    }
+    /deep/.cbox .el-checkbox__inner{
+        background-color: $input-bg-clr1;
+        border-color: $border-clr2;
+    }
+    /deep/.cbox .el-checkbox__input.is-checked .el-checkbox__inner{
+        border-color: $border-clr3;
+    }
+    /deep/.cbox .el-checkbox__input.is-checked + .el-checkbox__label{
+        color: $font-main;
+    }
+    /deep/.dl-cols .el-checkbox__input.is-checked .el-checkbox__inner{
+        border-color: $border-clr3;
+    }
+    .col-item{
+        color: $font-main2;
+    }
+    .col-item.selected{
+        color: $font-clr1;
+    }
+    /deep/.dl-cols .col-item.selected{
+        color: $font-clr2;
+    }
+    /deep/.col-setting{
+        color: $font-main2;
+    }
+    /deep/.query-condi .el-tag,
+    /deep/.query-table .el-tag,
+    /deep/.query-filter .el-tag{
+        color: $font-main2;
+        background: $main-bg;
+        border-color: $font-clr1;
+    }
+    /deep/.el-tag.dl_col{
+        border-color: $font-clr2;
+    }
+    /deep/.el-icon-delete:hover,
+    .filter-icon:hover{
+        color: $hover-clr;
+    }
+    /deep/.filter-setting{
+        color: $font-main2;
+    }
+    /deep/.col-setting:hover,
+    /deep/.filter-setting:hover{
+        color: $hover-clr;
+    }
+    /deep/.sort-icon i.selected {
+        color: $hover-clr;
+    }
+    #pane-style{
+        /deep/.el-form-item__label{
+            color: $font-main2;
+        }
+        /deep/.cbox.el-checkbox{
+            color:  $font-main2;
+        }
+        /deep/.cbox .el-checkbox__input.is-checked + .el-checkbox__label{
+            color:  $font-main2;
+        }
+        .item_label{
+            color: $font-main2;
+        }
+        .batch-item:hover{
+            color: $font-clr1;
+        }
+        .align-item:hover,.align-item.selected{
+            border-color: $border-clr3;
+            background: $input-bg-clr1;
+        }
+        .align-item span{
+            border-top: 2px solid $font-main2;
+        }
+    }
+}
+
+/* 大屏attrset样式 */
+#big-screen{
+    background: #0e3b67;
+    /deep/.el-row-24 .el-col:nth-child(2n){
+        border-left: 1px solid #0a2b4c;
+    }
+    /deep/.grid-content .is-focus .el-input__inner,
+    /deep/.senior .is-focus .el-input__inner
+    {
+        border-color: $icon-clr;
+        background-color: #ffffff;
+        color: $font-main3;
+    }
+    /deep/.grid-content .el-input__inner,
+    /deep/.senior .el-input__inner
+    {
+        background-color: #0a2b4c;
+        border: 1px solid #001830;
+    }
+    /deep/.grid-content .input-search.el-input .el-input__inner:focus{
+        background-color: #ffffff;
+        color: #666666;
+        border: 1px solid $hover-clr;
+    }
+    /deep/.grid-content .el-select:hover .el-input__inner,
+    /deep/.grid-content .el-input:hover .el-input__inner{
+        border-color: $border-clr3;
+    }
+    /deep/.tabcard .el-tabs__item{
+        padding: 0 5px;
+        line-height: 34px;
+    }
+    /deep/.tabcard .el-tabs__item.is-active{
+        background:transparent;
+        border-bottom: 2px solid #fff;
+    }
+    /deep/#tab-style{
+        margin:0 15px;
+    }
+    /deep/.el-tabs__nav{
+        margin-top:-2px;
+    }
+    /deep/.el-collapse-item__header{
+        background-color: #0e3b67;
+    }
+    /deep/.el-collapse-item__wrap{
+        background-color: #154473;
+    }
+    /deep/.el-tabs__nav-wrap::after{
+        background-color: #0a2b4c;
+    }
+    /deep/.datafilter-dialog .el-checkbox__inner{
+        border: 1px solid #DCDFE6;
+        background-color: #FFFFFF;
+    }
+    /deep/.condi-set-box .el-checkbox__inner{
+        border: 1px solid #DCDFE6;
+        background-color: #FFFFFF;
+    }
+    /deep/.condi-set-box .el-radio__inner{
+        border: 1px solid #DCDFE6;
+        background-color: #FFFFFF;
+    }
+    /deep/.el-radio__inner{
+        background-color: #08325c;
+        border-color: #002243;
+    }
+    /deep/.el-radio__input.is-checked .el-radio__inner{
+        border-color: #409eff;
+        background: #409eff;
+    }
+    /deep/.el-checkbox__inner{
+        background-color: #0a2b4c;
+        border-color: #00182f;
+    }
+    /deep/.el-checkbox__input.is-checked .el-checkbox__inner{
+        border-color: #409eff;
+        background: #409eff;
+    }
+    /deep/.default-tag{
+        background-color:rgba(73, 105, 136, 0.4);
+    }
+    /deep/.query-condi .el-tag,
+    /deep/.query-table .el-tag,
+    /deep/.query-filter .el-tag{
+        background: transparent;
+    }
+}
+  
+
+.datas-opt{
+    position:absolute; bottom:0px; width:100%; z-index:999;padding-right: 18px;
+    margin: 0;
+    height: 34px;
+    line-height: 35px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: $bg-clr1;
+    
+  }
+
+.main-content-tool .tool-btn:hover .tool-btn-text {
+    color: $hover-clr;
+}
+.item-block .sub-nav-title{
+    color:$font-clr1;
+}

@@ -1,0 +1,265 @@
+[
+  {
+    "comptId": 9,
+    "type": "HdTextarea",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "bgColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "borderColor",
+            "cnName": "边框颜色",
+            "value": "rgb(255, 255, 255)",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "borderStyle",
+            "cnName": "边框类型",
+            "value": "none",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "无",
+                "value": "none"
+              },
+              {
+                "label": "实线",
+                "value": "solid"
+              },
+              {
+                "label": "虚线",
+                "value": "dashed"
+              }
+            ]
+          },
+          {
+            "enName": "borderWidth",
+            "cnName": "边框粗细",
+            "value": "",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "0",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1px"
+              },
+              {
+                "label": "2",
+                "value": "2px"
+              },
+              {
+                "label": "3",
+                "value": "3px"
+              },
+              {
+                "label": "4",
+                "value": "4px"
+              },
+              {
+                "label": "5",
+                "value": "5px"
+              }
+            ]
+          },
+          {
+            "enName": "borderRadius",
+            "cnName": "边角样式",
+            "value": "",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "value": "直角",
+                "label": "0"
+              },
+              {
+                "value": "圆角",
+                "label": "15px"
+              }
+            ]
+          },
+          {
+            "enName": "fontFamily",
+            "cnName": "文本字体",
+            "value": "",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "微软雅黑",
+                "value": "Microsoft yahei"
+              },
+              {
+                "label": "宋体",
+                "value": "宋体"
+              },
+              {
+                "label": "Arial",
+                "value": "Arial"
+              },
+              {
+                "label": "Calibri",
+                "value": "Calibri"
+              },
+              {
+                "label": "Monaco",
+                "value": "Monaco"
+              },
+              {
+                "label": "Tahoma",
+                "value": "Tahoma"
+              },
+              {
+                "label": "Helvetica",
+                "value": "Helvetica"
+              }
+            ]
+          },
+          {
+            "enName": "fontWeight",
+            "cnName": "是否加粗",
+            "value": "normal",
+            "showType": "button",
+            "valueType": "String"
+          },
+          {
+            "enName": "textDecoration",
+            "cnName": "下划线",
+            "value": "",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "是",
+                "value": "underline"
+              },
+              {
+                "label": "否",
+                "value": "none"
+              }
+            ]
+          },
+          {
+            "enName": "fontSize",
+            "cnName": "字体大小",
+            "value": "",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "12",
+                "value": "12px"
+              },
+              {
+                "label": "14",
+                "value": "14px"
+              },
+              {
+                "label": "16",
+                "value": "16px"
+              },
+              {
+                "label": "18",
+                "value": "18px"
+              },
+              {
+                "label": "20",
+                "value": "20px"
+              },
+              {
+                "label": "40",
+                "value": "40px"
+              },
+              {
+                "label": "60",
+                "value": "60px"
+              }
+            ]
+          },
+          {
+            "enName": "color",
+            "cnName": "字体颜色",
+            "value": "rgb(255, 255, 255)",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "textAlign",
+            "cnName": "对齐方式",
+            "value": "",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "左对齐",
+                "value": "left"
+              },
+              {
+                "label": "居中",
+                "value": "center"
+              },
+              {
+                "label": "右对齐",
+                "value": "right"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "标题",
+      "setting": {
+        "legendLimit": 100,
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "bgColor": "transparent",
+        "borderWidth": "0",
+        "borderStyle": "none",
+        "borderColor": "#ccc",
+        "textAlign": "left",
+        "textDecoration": "none",
+        "color": "#ffffff",
+        "fontSize": "14",
+        "fontWeight": "normal",
+        "fontFamily": "微软雅黑",
+        "borderRadius": "0",
+        "editable": true,
+        "comptName.text": ""
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "text": ""
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

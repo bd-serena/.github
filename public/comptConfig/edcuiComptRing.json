@@ -1,0 +1,236 @@
+[
+  {
+    "comptId": 24,
+    "type": "VeRing",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "seriesAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false,
+            "disabled":true
+          },
+          {
+            "enName": "anotherName.text",
+            "cnName": "度量别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "anotherName.show",
+            "cnName": "显示图例",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "anotherName.fontSize",
+            "cnName": "字体大小",
+            "value": "24",
+            "showType": "inputNumber",
+            "valueType": "int",
+            "min": 1
+          },
+          {
+            "enName": "anotherName.color",
+            "cnName": "字体颜色",
+            "value": "#00f6ff",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "ringColor",
+            "cnName": "环形颜色",
+            "value": "#dadc38",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "series.0.radius",
+            "cnName": "环形半径",
+            "value": "1",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "1",
+                "value": "['80', '100']"
+              },
+              {
+                "label": "2",
+                "value": "['60', '100']"
+              },
+              {
+                "label": "3",
+                "value": "['40', '100']"
+              },
+              {
+                "label": "4",
+                "value": "['20', '100']"
+              },
+              {
+                "label": "5",
+                "value": "['0', '100']"
+              }
+            ]
+          },
+          {
+            "enName": "ratio",
+            "cnName": "图形大小",
+            "value": "0.6",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "100%",
+                "value": "1"
+              },
+              {
+                "label": "90%",
+                "value": "0.9"
+              },
+              {
+                "label": "80%",
+                "value": "0.8"
+              },
+              {
+                "label": "70%",
+                "value": "0.7"
+              },
+              {
+                "label": "60%",
+                "value": "0.6"
+              },
+              {
+                "label": "50%",
+                "value": "0.5"
+              },
+              {
+                "label": "40%",
+                "value": "0.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "numberAttrs",
+        "cnName": "数值设置",
+        "children": [
+          {
+            "enName": "series.0.data.0.label.normal.textStyle.fontSize",
+            "cnName": "字体大小",
+            "value": "24",
+            "showType": "inputNumber",
+            "valueType": "int",
+            "min": 1
+          },
+          {
+            "enName": "series.0.data.0.label.normal.color",
+            "cnName": "字体颜色",
+            "value": "#fff",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "单值百分比",
+      "setting": {
+        "legendLimit": 100,
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "anotherName.fontSize": 24,
+        "anotherName.color": "#00f6ff",
+        "anotherName.text": "",
+        "anotherName.show": true,
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend.show": false,
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "grid.top": "30%",
+        "grid.bottom": "30%",
+        "series.0.radius": [
+          "48%",
+          "60%"
+        ],
+        "series.0.center": [
+          "50%",
+          "50%"
+        ],
+        "tooltip.show": false,
+        "color": [
+          "#dadc38",
+          "#133a75"
+        ],
+        "series.0.data.0.label.normal.textStyle.fontSize": 24,
+        "series.0.data.0.label.normal.position": "center",
+        "series.0.data.0.label.normal.color": "#fff",
+        "series.0.data.0.label.normal.show": true,
+        "series.0.data.0.label.normal.formatter": "{c}%"
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "radius": "['80','100']",
+      "ratio": 0.6,
+      "decimalDigit": 0,
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +parseFloat(data.percent).toFixed(decimal)+'%';}}",
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "curDrillIdx": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "drillWBeanList": [],
+      "pageLinkageData": [],
+      "otherPageCondi": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

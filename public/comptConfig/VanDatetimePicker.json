@@ -1,0 +1,106 @@
+[
+  {
+    "comptId": 13,
+    "type": "VanDatetimePicker",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "isShowfontIcon",
+            "cnName": "图标展示",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "titleIconCls",
+            "cnName": "标题层级",
+            "value": "icon-A10060_3square",
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "一级标题",
+                "value": "icon-A10060_3square"
+              },
+              {
+                "label": "二级标题",
+                "value": "icon-A10382_square"
+              },
+              {
+                "label": "三级标题",
+                "value": "icon-A10369_tab"
+              }
+            ]
+          },
+          {
+            "enName": "titletext",
+            "cnName": "标题名称",
+            "value": "默认标题",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "fontColor",
+            "cnName": "标题颜色",
+            "value": "#333",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "fontSize",
+            "cnName": "字体大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "fontWeight",
+            "cnName": "是否加粗",
+            "value": "normal",
+            "showType": "button",
+            "valueType": "String"
+          },
+          {
+            "enName": "titleURL",
+            "cnName": "关联链接",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "日期选择",
+      "setting": {
+        "legendLimit": 100
+      },
+      "extendSetting": {
+        "titletext":"默认标题",
+        "isShowfontIcon": true,
+        "titleIconCls": "icon-A10060_3square",
+        "fontSize": 16,
+        "fontWeight": "normal",
+        "titleURL": "",
+        "fontColor": "#333"
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

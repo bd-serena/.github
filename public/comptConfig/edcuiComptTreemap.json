@@ -1,0 +1,151 @@
+[
+  {
+    "comptId": 18,
+    "type": "VeTreemap",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "series.0.label",
+            "cnName": "标签样式",
+            "value": "{formatter: function(data){return data.name +':'+ data.data.percent;}}",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "百分比",
+                "value": "{formatter: function(data){return data.name +':'+ data.data.percent;}}"
+              },
+              {
+                "label": "度量",
+                "value": "{formatter: function(data){return data.name +':'+ data.value;}}"
+              },
+              {
+                "label": "无",
+                "value": "{formatter: function(data){return data.name;}}"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "矩形树图",
+      "setting": {
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "visualMap": [],
+        "grid.bottom": 30,
+        "grid.left": 25,
+        "grid.right": 25,
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend": {
+          "left": "center",
+          "top": -100,
+          "orient": "horizontal"
+        },
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "series": "",
+        "series.type": "treemap",
+        "series.0.label.show": true,
+        "series.0.type": "treemap",
+        "series.0.label": {
+          "formatter": ""
+        },
+        "series.0.itemStyle.normal.color": "",
+        "series.0.label.position": "inside",
+        "series.0.breadcrumb.show": false
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "labelFunc": "{formatter: function(data){return data.name +':'+ data.data.percent;}}",
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "colSetting": {},
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

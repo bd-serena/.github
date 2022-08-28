@@ -1,0 +1,317 @@
+@charset "UTF-8";
+.attrSet {
+  background: #2f5377;
+}
+
+.attrSet /deep/.tabcard.el-tabs--border-card > .el-tabs__header {
+  background: #0e3b67;
+}
+
+.attrSet /deep/.el-tabs__nav-wrap::after {
+  background-color: #0e3b67;
+}
+
+.attrSet /deep/.tabcard .el-tabs__item.is-active {
+  color: #ffffff;
+  background: #2f5377;
+}
+
+.attrSet /deep/.tabcard .el-tabs__item:not(.is-disabled):hover {
+  color: #ffffff;
+}
+
+.attrSet /deep/.el-tabs__active-bar {
+  background-color: #45fffd;
+}
+
+.attrSet /deep/.el-tabs__item {
+  color: #ffffff;
+}
+
+.attrSet .nav-title {
+  color: #ffffff;
+}
+
+.attrSet /deep/.el-row-24 {
+  color: #ffffff;
+}
+
+.attrSet /deep/.el-row-24 .el-col:nth-child(2n) {
+  border-left: 1px solid #0e3b67;
+}
+
+.attrSet .r-title {
+  color: #ffffff;
+}
+
+.attrSet /deep/.grid-content .is-focus .el-input__inner,
+.attrSet /deep/.grid-content .is-focus .el-textarea__inner,
+.attrSet /deep/.senior .is-focus .el-input__inner {
+  border-color: #409eff;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.attrSet /deep/.grid-content .el-input__inner,
+.attrSet /deep/.grid-content .el-textarea__inner,
+.attrSet /deep/.senior .el-input__inner {
+  color: #ffffff;
+  background-color: #0e3b67;
+  border: 1px solid #0a2b4c;
+}
+
+.attrSet /deep/.grid-content .input-search.el-input .el-input__inner:focus {
+  background-color: #ffffff;
+  color: #666666;
+  border: 1px solid #409eff;
+}
+
+.attrSet /deep/.grid-content .el-select:hover .el-input__inner,
+.attrSet /deep/.grid-content .el-input:hover .el-input__inner {
+  border-color: #498bce;
+}
+
+.attrSet .col-title {
+  color: #45fffd;
+}
+
+.attrSet /deep/.dl-cols .col-title {
+  color: #aaff45;
+}
+
+.attrSet /deep/.bg-purple .el-tag.default-tag {
+  color: #afc0d0;
+  background-color: #496988;
+  border: 1px dashed #ffffff;
+  cursor: default;
+}
+
+.attrSet /deep/.col-subtitle {
+  border-bottom: 1px solid #557fa7;
+}
+
+.attrSet /deep/.cbox.el-checkbox {
+  color: #ffffff;
+}
+
+.attrSet /deep/.cbox .el-checkbox__inner {
+  background-color: #0e3b67;
+  border-color: #0a2b4c;
+}
+
+.attrSet /deep/.cbox .el-checkbox__input.is-checked .el-checkbox__inner {
+  border-color: #498bce;
+}
+
+.attrSet /deep/.cbox .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #ffffff;
+}
+
+.attrSet /deep/.dl-cols .el-checkbox__input.is-checked .el-checkbox__inner {
+  border-color: #498bce;
+}
+
+.attrSet .col-item {
+  color: #afc0d0;
+}
+
+.attrSet .col-item.selected {
+  color: #45fffd;
+}
+
+.attrSet /deep/.dl-cols .col-item.selected {
+  color: #aaff45;
+}
+
+.attrSet /deep/.col-setting {
+  color: #afc0d0;
+}
+
+.attrSet /deep/.query-condi .el-tag,
+.attrSet /deep/.query-table .el-tag,
+.attrSet /deep/.query-filter .el-tag {
+  color: #afc0d0;
+  background: #2f5377;
+  border-color: #45fffd;
+}
+
+.attrSet /deep/.el-tag.dl_col {
+  border-color: #aaff45;
+}
+
+.attrSet /deep/.el-icon-delete:hover,
+.attrSet .filter-icon:hover {
+  color: #409eff;
+}
+
+.attrSet /deep/.filter-setting {
+  color: #afc0d0;
+}
+
+.attrSet /deep/.col-setting:hover,
+.attrSet /deep/.filter-setting:hover {
+  color: #409eff;
+}
+
+.attrSet /deep/.sort-icon i.selected {
+  color: #409eff;
+}
+
+.attrSet #pane-style /deep/.el-form-item__label {
+  color: #afc0d0;
+}
+
+.attrSet #pane-style /deep/.cbox.el-checkbox {
+  color: #afc0d0;
+}
+
+.attrSet #pane-style /deep/.cbox .el-checkbox__input.is-checked + .el-checkbox__label {
+  color: #afc0d0;
+}
+
+.attrSet #pane-style .item_label {
+  color: #afc0d0;
+}
+
+.attrSet #pane-style .batch-item:hover {
+  color: #45fffd;
+}
+
+.attrSet #pane-style .align-item:hover, .attrSet #pane-style .align-item.selected {
+  border-color: #498bce;
+  background: #0e3b67;
+}
+
+.attrSet #pane-style .align-item span {
+  border-top: 2px solid #afc0d0;
+}
+
+/* 大屏attrset样式 */
+#big-screen {
+  background: #0e3b67;
+}
+
+#big-screen /deep/.el-row-24 .el-col:nth-child(2n) {
+  border-left: 1px solid #0a2b4c;
+}
+
+#big-screen /deep/.grid-content .is-focus .el-input__inner,
+#big-screen /deep/.senior .is-focus .el-input__inner {
+  border-color: #409eff;
+  background-color: #ffffff;
+  color: #333;
+}
+
+#big-screen /deep/.grid-content .el-input__inner,
+#big-screen /deep/.senior .el-input__inner {
+  background-color: #0a2b4c;
+  border: 1px solid #001830;
+}
+
+#big-screen /deep/.grid-content .input-search.el-input .el-input__inner:focus {
+  background-color: #ffffff;
+  color: #666666;
+  border: 1px solid #409eff;
+}
+
+#big-screen /deep/.grid-content .el-select:hover .el-input__inner,
+#big-screen /deep/.grid-content .el-input:hover .el-input__inner {
+  border-color: #498bce;
+}
+
+#big-screen /deep/.tabcard .el-tabs__item {
+  padding: 0 5px;
+  line-height: 34px;
+}
+
+#big-screen /deep/.tabcard .el-tabs__item.is-active {
+  background: transparent;
+  border-bottom: 2px solid #fff;
+}
+
+#big-screen /deep/#tab-style {
+  margin: 0 15px;
+}
+
+#big-screen /deep/.el-tabs__nav {
+  margin-top: -2px;
+}
+
+#big-screen /deep/.el-collapse-item__header {
+  background-color: #0e3b67;
+}
+
+#big-screen /deep/.el-collapse-item__wrap {
+  background-color: #154473;
+}
+
+#big-screen /deep/.el-tabs__nav-wrap::after {
+  background-color: #0a2b4c;
+}
+
+#big-screen /deep/.datafilter-dialog .el-checkbox__inner {
+  border: 1px solid #DCDFE6;
+  background-color: #FFFFFF;
+}
+
+#big-screen /deep/.condi-set-box .el-checkbox__inner {
+  border: 1px solid #DCDFE6;
+  background-color: #FFFFFF;
+}
+
+#big-screen /deep/.condi-set-box .el-radio__inner {
+  border: 1px solid #DCDFE6;
+  background-color: #FFFFFF;
+}
+
+#big-screen /deep/.el-radio__inner {
+  background-color: #08325c;
+  border-color: #002243;
+}
+
+#big-screen /deep/.el-radio__input.is-checked .el-radio__inner {
+  border-color: #409eff;
+  background: #409eff;
+}
+
+#big-screen /deep/.el-checkbox__inner {
+  background-color: #0a2b4c;
+  border-color: #00182f;
+}
+
+#big-screen /deep/.el-checkbox__input.is-checked .el-checkbox__inner {
+  border-color: #409eff;
+  background: #409eff;
+}
+
+#big-screen /deep/.default-tag {
+  background-color: rgba(73, 105, 136, 0.4);
+}
+
+#big-screen /deep/.query-condi .el-tag,
+#big-screen /deep/.query-table .el-tag,
+#big-screen /deep/.query-filter .el-tag {
+  background: transparent;
+}
+
+.datas-opt {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  z-index: 999;
+  padding-right: 18px;
+  margin: 0;
+  height: 34px;
+  line-height: 35px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #e4e7ee;
+}
+
+.main-content-tool .tool-btn:hover .tool-btn-text {
+  color: #409eff;
+}
+
+.item-block .sub-nav-title {
+  color: #45fffd;
+}

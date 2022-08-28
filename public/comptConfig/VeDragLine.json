@@ -1,0 +1,93 @@
+[
+  {
+    "comptId": 16,
+    "type": "VeDragLine",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "lineWidth",
+            "cnName": "线条粗细",
+            "value": 1,
+            "min":1,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "max":10
+          },
+          {
+            "enName": "lineType",
+            "cnName": "线条样式",
+            "value": "solid",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "实线",
+                "value": "solid"
+              },
+              {
+                "label": "虚线",
+                "value": "dashed"
+              }
+            ]
+          },
+          {
+            "enName": "lineColor",
+            "cnName": "线条颜色",
+            "value": "#0da2e7",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "拖拽线条",
+      "setting":{
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "lineType":"solid",
+        "lineWidth":1,
+        "lineColor":"#0da2e7"
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "points":{"x1":10,"y1":30,"x2":100,"y2":30}
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

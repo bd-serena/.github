@@ -1,0 +1,1988 @@
+[
+  {
+    "label": "DMAX",
+    "title": "DMAX(database, field, criteria)",
+    "value": "返回列表或数据库中满足指定条件的记录字段（列）中的最大数字。"
+  },
+  {
+    "label": "DMIN",
+    "title": "DMIN(database, field, criteria)",
+    "value": "返回列表或数据库中满足指定条件的记录字段（列）中的最小数字。"
+  },
+  {
+    "label": "DSTDEV",
+    "title": "DSTDEV(database, field, criteria)",
+    "value": "返回利用列表或数据库中满足指定条件的记录字段（列）中的数字作为一个样本估算出的总体标准偏差。"
+  },
+  {
+    "label": "DSTDEVP",
+    "title": "DSTDEVP(database, field, criteria)",
+    "value": "返回利用列表或数据库中满足指定条件的记录字段（列）中的数字作为样本总体计算出的总体标准偏差。"
+  },
+  {
+    "label": "DAVERAGE",
+    "title": "DAVERAGE(database, field, criteria)",
+    "value": "对列表或数据库中满足指定条件的记录字段（列）中的数值求平均值。"
+  },
+  {
+    "label": "DCOUNT",
+    "title": "DCOUNT(database, field, criteria)",
+    "value": "返回列表或数据库中满足指定条件的记录字段（列）中包含数字的单元格的个数。"
+  },
+  {
+    "label": "DCOUNTA",
+    "title": "DCOUNTA(database, field, criteria)",
+    "value": "返回列表或数据库中满足指定条件的记录字段（列）中的非空单元格的个数。"
+  },
+  {
+    "label": "DGET",
+    "title": "DGET(database, field, criteria)",
+    "value": "从列表或数据库的列中提取符合指定条件的单个值。"
+  },
+  {
+    "label": "DPRODUCT",
+    "title": "DPRODUCT(database, field, criteria)",
+    "value": "返回列表或数据库中满足指定条件的记录字段（列）中的数值的乘积。"
+  },
+  {
+    "label": "DSUM",
+    "title": "DSUM(database, field, criteria)",
+    "value": "对列表或数据库中符合条件的记录的字段列中的数字求和"
+  },
+  {
+    "label": "DVARP",
+    "title": "DVARP(database, field, criteria)",
+    "value": "通过使用列表或数据库中满足指定条件的记录字段（列）中的数字计算样本总体的样本总体方差。"
+  },
+  {
+    "label": "DVAR",
+    "title": "DVAR(database, field, criteria)",
+    "value": "利用列表或数据库中满足指定条件的记录字段（列）中的数字作为一个样本估算出的总体方差。"
+  },
+  {
+    "label": "SUM",
+    "title": "SUM(数值1,...)",
+    "value": "返回某一单元格区域中所有的数值之和。"
+  },
+  {
+    "label": "CHAR",
+    "title": "CHAR(数值)",
+    "value": "返回数字代码(1-255之间)所对应的字符。(指定的代码对应于当前计算机使用的字符集)"
+  },
+  {
+    "label": "DATE",
+    "title": "DATE(年,月,日)",
+    "value": "返回代表特定日期的序列号。"
+  },
+  {
+    "label": "MIN",
+    "title": "MIN(数值1,...)",
+    "value": "返回参数列表中的最小值，忽略文本值和逻辑值。"
+  },
+  {
+    "label": "ABS",
+    "title": "ABS(数值)",
+    "value": "返回给定数字的绝对值（即不带符号的数值）。"
+  },
+  {
+    "label": "MINVERSE",
+    "title": "MINVERSE(array)",
+    "value": "返回数组中存储的矩阵的逆矩阵。"
+  },
+  {
+    "label": "EXP",
+    "title": "EXP(数值)",
+    "value": "返回 e 的 n 次幂。常数 e 等于 2.71828182845904，是自然对数的底数。"
+  },
+  {
+    "label": "INT",
+    "title": "INT(数值)",
+    "value": "将数字向下舍入到最接近的整数。"
+  },
+  {
+    "label": "RAND",
+    "title": "RAND()",
+    "value": "返回大于等于 0 及小于 1 的均匀分布随机数，每次计算工作表时都将返回一个新的数值。"
+  },
+  {
+    "label": "ROUND",
+    "title": "ROUND(数值,小数位数)",
+    "value": "返回某个数字按指定位数取整后的数字。"
+  },
+  {
+    "label": "LOG",
+    "title": "LOG(数值,[底数])",
+    "value": "按所指定的底数，返回一个数的对数。"
+  },
+  {
+    "label": "SUMSQ",
+    "title": "SUMSQ(数值1,...)",
+    "value": "返回所有参数的平方和。 参数可以是数值、数组、名称，或者是对数值单元格的引用。 "
+  },
+  {
+    "label": "SUMPRODUCT",
+    "title": "SUMPRODUCT(数组1,...)",
+    "value": "在给定的几组数组中，将数组将对应的元素相乘，并返回乘积之和。"
+  },
+  {
+    "label": "FIND",
+    "title": "FIND(要查找的字符串,被查找字符串,[开始位置])",
+    "value": "返回一个字符串在另一个字符串中出现的起始位置。(区分大小写，且不允许使用通配符)"
+  },
+  {
+    "label": "MID",
+    "title": "MID(字符串,开始位置,字符个数)",
+    "value": "从文本字符串中指定的位置开始看，返回指定长度的字符串。"
+  },
+  {
+    "label": "REPLACE",
+    "title": "REPLACE(原字符串,开始位置,字符个数,新字符串)",
+    "value": "将一个字符串中的部分字符用另一个字符串替换。"
+  },
+  {
+    "label": "UPPER",
+    "title": "UPPER(字符串)",
+    "value": "将文本转换成字母全部大写形式。"
+  },
+  {
+    "label": "LOWER",
+    "title": "LOWER(字符串)",
+    "value": "将文本转换成字母全部小写形式。"
+  },
+  {
+    "label": "HOUR",
+    "title": "日期序号",
+    "value": "返回以序列号表示的某时间的小时数值，介于0到23之间的整数。"
+  },
+  {
+    "label": "NOW",
+    "title": "NOW()",
+    "value": "返回日期时间格式的当前日期和时间。"
+  },
+  {
+    "label": "DATEVALUE",
+    "title": "DATEVALUE(日期序号)",
+    "value": "DATEVALUE 函数将存储为文本的日期转换为 Excel 识别为日期的序列号。"
+  },
+  {
+    "label": "DAYS",
+    "title": "DAYS(日期序号)",
+    "value": "返回以序列数表示的某日期的天数。 天数是介于 1 到 31 之间的整数。"
+  },
+  {
+    "label": "MINUTE",
+    "title": "MINUTE(serial_number)",
+    "value": "返回时间值中的分钟。 分钟是一个介于 0 到 59 之间的整数。"
+  },
+  {
+    "label": "ISOWEEKNUM",
+    "title": "ISOWEEKNUM(date)",
+    "value": "返回给定日期在全年中的 ISO 周数。"
+  },
+  {
+    "label": "MONTH",
+    "title": "MONTH(serial_number)",
+    "value": "返回日期（以序列数表示）中的月份。 月份是介于 1（一月）到 12（十二月）之间的整数。"
+  },
+  {
+    "label": "SECOND",
+    "title": "SECOND(serial_number)",
+    "value": "返回时间值的秒数。 秒数是 0（零）到 59 范围内的整数。"
+  },
+  {
+    "label": "TIMEVALUE",
+    "title": "TIMEVALUE(time_text)",
+    "value": "返回由文本字符串表示的时间的十进制数字。 十进制数字是一个范围在 0（零）到 0.99988426 之间的值，表示 0:00:00 (12:00:00 AM) 到 23:59:59 (11:59:59 P.M.) 之间的时间。"
+  },
+  {
+    "label": "TODAY",
+    "title": "NETWORKDAYS()",
+    "value": "返回当前日期的序列号。 序列号是 Excel 用于日期和时间计算的日期-时间代码。 "
+  },
+  {
+    "label": "WEEKDAY",
+    "title": "NETWORKDAYS.INTL(start_date, end_date, [weekend], [holidays])",
+    "value": "返回两个日期之间的所有工作日数，使用参数指示哪些天是周末，以及有多少天是周末。 周末和任何指定为假期的日期不被视为工作日。 在计算发票到期日、预期交货时间或工作天数时，可以使用函数 WORKDAY 来扣除周末或假日。"
+  },
+  {
+    "label": "WEEKNUM",
+    "title": "WEEKDAY(serial_number,[return_type])",
+    "value": "返回对应于某个日期的一周中的第几天。 默认情况下，天数是 1（星期日）到 7（星期六）范围内的整数。"
+  },
+  {
+    "label": "YEARFRAC",
+    "title": "YEARFRAC(start_date, end_date, [basis])",
+    "value": "YEARFRAC计算代表整个 （ start_date和end_date） 的两个日期之间的天数的年分数。例如，您可以使用YEARFRAC识别整个年的好处或义务要分配给特定术语的比例。"
+  },
+  {
+    "label": "DAY",
+    "title": "DAY(日期序号)",
+    "value": "返回以序列号表示的某日期的天数，介于1到31之间的整数"
+  },
+  {
+    "label": "NETWORKDAYS",
+    "title": "NETWORKDAYS(start_date, end_date, [holidays])",
+    "value": "返回参数 start_date 和 end_date 之间完整的工作日数值。 工作日不包括周末和专门指定的假期。"
+  },
+  {
+    "label": "YEAR",
+    "title": "YEAR(日期序号)",
+    "value": "返回以序列号表示的某日期的年份，介于1900到9999之间的整数。"
+  },
+  {
+    "label": "IF",
+    "title": "IF(测试条件,真值,[假值])",
+    "value": "判断一个条件是否满足：如果满足返回一个值，如果不满足则返回另外一个值。"
+  },
+  {
+    "label": "OR",
+    "title": "OR(逻辑值1,...)",
+    "value": "在其参数组中，任何一个参数逻辑值为 TRUE，即返回 TRUE；所有参数的逻辑值为 FALSE，才返回 FALSE。"
+  },
+  {
+    "label": "AND",
+    "title": "AND(逻辑值1,...)",
+    "value": "是一个逻辑函数，用于确定测试中的所有条件是否均为 TRUE。"
+  },
+  {
+    "label": "FALSE",
+    "title": "FALSE(逻辑值1,...)",
+    "value": "返回逻辑值 FALSE。"
+  },
+  {
+    "label": "NOT",
+    "title": "NOT(逻辑值1,...)",
+    "value": "对其参数的逻辑求反"
+  },
+  {
+    "label": "TRUE",
+    "title": "TRUE(逻辑值1,...)",
+    "value": "返回逻辑值 TRUE。希望基于条件返回值 TRUE 时，可使用此函数。"
+  },
+  {
+    "label": "XOR",
+    "title": "XOR(logical1, [logical2],…)",
+    "value": "返回所有参数的逻辑异或。"
+  },
+  {
+    "label": "CLEAN",
+    "title": "CLEAN(text)",
+    "value": "删除文本中所有不能打印的字符。 对从其他应用程序导入的文本使用 CLEAN，将删除其中含有的当前操作系统无法打印的字符。"
+  },
+  {
+    "label": "CODE",
+    "title": "CODE(text)",
+    "value": "返回文本字符串中第一个字符的数字代码"
+  },
+  {
+    "label": "EXACT",
+    "title": "EXACT(text1, text2)",
+    "value": "检查两个文本值是否相同"
+  },
+  {
+    "label": "LEFT",
+    "title": "LEFT(text, [num_chars])",
+    "value": "从文本字符串的第一个字符开始返回指定个数的字符。"
+  },
+  {
+    "label": "LEN",
+    "title": "LEN(text)",
+    "value": "返回文本字符串中的字符个数。"
+  },
+  {
+    "label": "PROPER",
+    "title": "PROPER(text)",
+    "value": "将文本字符串的首字母以及文字中任何非字母字符之后的任何其他字母转换成大写。 将其余字母转换为小写。"
+  },
+  {
+    "label": "REPT",
+    "title": "REPT(text, number_times)",
+    "value": "按给定次数重复文本。"
+  },
+  {
+    "label": "RIGHT",
+    "title": "RIGHT(text,[num_chars])",
+    "value": "根据所指定的字符数返回文本字符串中最后一个或多个字符。"
+  },
+  {
+    "label": "SEARCH",
+    "title": "SEARCH(find_text,within_text,[start_num])",
+    "value": "在一个文本值中查找另一个文本值（不区分大小写）。"
+  },
+  {
+    "label": "SUBSTITUTE",
+    "title": "SUBSTITUTE(text, old_text, new_text, [instance_num])",
+    "value": "在文本字符串中用新文本替换旧文本。"
+  },
+  {
+    "label": "T",
+    "title": "T(value)",
+    "value": "返回值引用的文字。"
+  },
+  {
+    "label": "TRIM",
+    "title": "TRIM(text)",
+    "value": "除了单词之间的单个空格之外，移除文本中的所有空格。 对于从另一个可能含有不规则间距的应用程序收到的文本，可以使用 TRIM。"
+  },
+  {
+    "label": "UNICHAR",
+    "title": "UNICHAR(number)",
+    "value": "返回给定数值引用的 Unicode 字符。"
+  },
+  {
+    "label": "UNICODE",
+    "title": "Unicode(text)",
+    "value": "返回对应于文本的第一个字符的数字（代码点）。"
+  },
+  {
+    "label": "ASC",
+    "title": "ASC(text)",
+    "value": "将字符串中的全角（双字节）英文字母或片假名更改为半角（单字节）字符"
+  },
+  {
+    "label": "FINDB",
+    "title": "FINDB(find_text, within_text, [start_num])",
+    "value": "在一个文本值中查找另一个文本值（区分大小写）"
+  },
+  {
+    "label": "LEFTB",
+    "title": "LEFTB(text, [num_bytes])",
+    "value": "基于所指定的字节数返回文本字符串中的第一个或前几个字符。"
+  },
+  {
+    "label": "RIGHTB",
+    "title": "RIGHTB(text,[num_bytes])",
+    "value": "根据所指定的字节数返回文本字符串中最后一个或多个字符。"
+  },
+  {
+    "label": "LENB",
+    "title": "LENB(text)",
+    "value": "返回文本字符串中用于代表字符的字节数。"
+  },
+  {
+    "label": "PHONETIC",
+    "title": "PHONETIC(reference)",
+    "value": "提取文本字符串中的拼音（汉字注音）字符。该函数只适用于日文版。"
+  },
+  {
+    "label": "FIXED",
+    "title": "FIXED(number, [decimals], [no_commas])",
+    "value": "将数字格式设置为具有固定小数位数的文本"
+  },
+  {
+    "label": "VALUE",
+    "title": "VALUE(text)",
+    "value": "将文本参数转换为数字"
+  },
+  {
+    "label": "REPLACEB",
+    "title": "REPLACEB(old_text, start_num, num_bytes, new_text)",
+    "value": "替换文本中的字节"
+  },
+  {
+    "label": "MIDB",
+    "title": "MIDB(text, start_num, num_bytes)",
+    "value": "从文本字符串中的指定位置起返回特定个数的字节"
+  },
+  {
+    "label": "DOLLAR",
+    "title": "DOLLAR(number, [decimals])",
+    "value": "使用 ￥（人民币）货币格式将数字转换为文本"
+  },
+  {
+    "label": "ACOS",
+    "title": "ACOS(number)",
+    "value": "返回数字的反余弦值。 反余弦值是指余弦值为 number 的角度。 返回的角度以弧度表示，弧度值在 0（零）到 pi 之间。"
+  },
+  {
+    "label": "ACOSH",
+    "title": "ACOSH(number)",
+    "value": "返回数字的反双曲余弦值。 该数字必须大于或等于 1。 反双曲余弦值是指双曲余弦值为 number 的值，因此 ACOSH(COSH(number)) 等于 number。"
+  },
+  {
+    "label": "ACOT",
+    "title": "ACOT(number)",
+    "value": "返回数字的反余切值的主值。"
+  },
+  {
+    "label": "ACOTH",
+    "title": "ACOTH(number)",
+    "value": "返回数字的反双曲余切值。"
+  },
+  {
+    "label": "ARABIC",
+    "title": "ARABIC(text)",
+    "value": "将罗马数字转换为阿拉伯数字。"
+  },
+  {
+    "label": "ASIN",
+    "title": "ASIN(number)",
+    "value": "返回数字的反正弦值。 反正弦值是指正弦值为 number 的角度。 返回的角度以弧度表示，弧度值在 -pi/2 到 pi/2 之间。"
+  },
+  {
+    "label": "ASINH",
+    "title": "ASINH(number)",
+    "value": "返回数字的反双曲正弦值。 反双曲正弦值是指双曲正弦值为 number 的值，因此 ASINH(SINH(number)) 等于 number。"
+  },
+  {
+    "label": "ATAN",
+    "title": "ATAN(number)",
+    "value": "返回数字的反正切值。 反正切值是指正切值为 number 的角度。 返回的角度以弧度表示，弧度值在 -pi/2 到 pi/2 之间。"
+  },
+  {
+    "label": "ATAN2",
+    "title": "ATAN2(x_num, y_num)",
+    "value": "返回给定的 X 轴及 Y 轴坐标值的反正切值。 反正切值是指从 X 轴到通过原点 (0, 0) 和坐标点 (x_num, y_num) 的直线之间的夹角。 该角度以弧度表示，弧度值在 -pi 到 pi 之间（不包括 -pi）。"
+  },
+  {
+    "label": "ATANH",
+    "title": "ATANH(number)",
+    "value": "返回数字的反双曲正切值。 Number 必须介于 -1 到 1 之间（不包括 -1 和 1）。 反双曲正切值是指双曲正切值为 number 的值，因此 ATANH(TANH(number)) 等于 number。"
+  },
+  {
+    "label": "BASE",
+    "title": "BASE(number, radix, [min_length])",
+    "value": "将数字转换为具备给定基数的文本表示。"
+  },
+  {
+    "label": "CEILING",
+    "title": "CEILING(number, significance)",
+    "value": "返回将参数 number 向上舍入（沿绝对值增大的方向）为最接近的指定基数的倍数。"
+  },
+  {
+    "label": "CEILING.MATH",
+    "title": "CEILING.MATH(number, [significance], [mode])",
+    "value": "将数字向上舍入为最接近的整数或最接近的指定基数的倍数。"
+  },
+  {
+    "label": "CEILING.PRECISE",
+    "title": "CEILING.PRECISE(number, [significance])",
+    "value": "返回一个数字，该数字向上舍入为最接近的整数或最接近的有效位的倍数。 无论该数字的符号如何，该数字都向上舍入。 但是，如果该数字或有效位为 0，则返回 0。"
+  },
+  {
+    "label": "COMBIN",
+    "title": "COMBIN(number, number_chosen)",
+    "value": "返回给定数目项目的组合数 使用函数 COMBIN 确定给定数目项目可能的总组数。"
+  },
+  {
+    "label": "COMBINA",
+    "title": "COMBINA(number, number_chosen)",
+    "value": "返回给定数目的项的组合数（包含重复）。"
+  },
+  {
+    "label": "COS",
+    "title": "COS(number)",
+    "value": "返回已知角度的余弦值。"
+  },
+  {
+    "label": "COSH",
+    "title": "COSH(number)",
+    "value": "返回数字的双曲余弦值。"
+  },
+  {
+    "label": "COT",
+    "title": "COT(number)",
+    "value": "返回以弧度表示的角度的余切值。"
+  },
+  {
+    "label": "COTH",
+    "title": "COTH(number)",
+    "value": "返回一个双曲角度的双曲余切值。"
+  },
+  {
+    "label": "CSC",
+    "title": "CSC(number)",
+    "value": "返回角度的余割值，以弧度表示。"
+  },
+  {
+    "label": "CSCH",
+    "title": "CSCH(number)",
+    "value": "返回角度的双曲余割值，以弧度表示。"
+  },
+  {
+    "label": "DECIMAL",
+    "title": "DECIMAL(text, radix)",
+    "value": "按给定基数将数字的文本表示形式转换成十进制数。"
+  },
+  {
+    "label": "EVEN",
+    "title": "EVEN(number)",
+    "value": "返回数字向上舍入到的最接近的偶数。 您可以使用此函数来处理成对出现的项目。"
+  },
+  {
+    "label": "FACT",
+    "title": "FACT(number)",
+    "value": "返回数的阶乘。 一个数的阶乘等于 1*2*3*...* 该数。"
+  },
+  {
+    "label": "FACTDOUBLE",
+    "title": "FACTDOUBLE(number)",
+    "value": "返回数字的双倍阶乘。"
+  },
+  {
+    "label": "GCD",
+    "title": "GCD(number1, [number2], ...)",
+    "value": "返回两个或多个整数的最大公约数。 最大公约数是能够同时整除 number1 和 number2 而没有余数的最大整数。"
+  },
+  {
+    "label": "LCM",
+    "title": "LCM(number1, [number2], ...)",
+    "value": "返回整数的最小公倍数。"
+  },
+  {
+    "label": "LN",
+    "title": "LN(number)",
+    "value": "返回数字的自然对数。 自然对数以常数 e (2.71828182845904) 为底。"
+  },
+  {
+    "label": "LOG10",
+    "title": "LOG10(number)",
+    "value": "返回数字以 10 为底的对数。"
+  },
+  {
+    "label": "MOD",
+    "title": "MOD(number, divisor)",
+    "value": "返回两数相除的余数。 结果的符号与除数相同。"
+  },
+  {
+    "label": "MROUND",
+    "title": "MROUND(number, multiple)",
+    "value": "MROUND 返回舍入到所需倍数的数字。"
+  },
+  {
+    "label": "MULTINOMIAL",
+    "title": "MULTINOMIAL(number1, [number2], ...)",
+    "value": "返回参数和的阶乘与各参数阶乘乘积的比值。"
+  },
+  {
+    "label": "ODD",
+    "title": "ODD(number)",
+    "value": "返回数字向上舍入到的最接近的奇数。"
+  },
+  {
+    "label": "POWER",
+    "title": "POWER(number, power)",
+    "value": "返回数字乘幂的结果。"
+  },
+  {
+    "label": "PRODUCT",
+    "title": "PRODUCT(number1, [number2], ...)",
+    "value": "PRODUCT 函数使所有以参数形式给出的数字相乘并返回乘积。"
+  },
+  {
+    "label": "QUOTIENT",
+    "title": "QUOTIENT(numerator, denominator)",
+    "value": "返回除法的整数部分。 要放弃除法的余数时，可使用此函数。"
+  },
+  {
+    "label": "RADIANS",
+    "title": "RADIANS(angle)",
+    "value": "将度数转换为弧度。"
+  },
+  {
+    "label": "ROMAN",
+    "title": "ROMAN(number, [form])",
+    "value": "将阿拉伯数字转换为文字形式的罗马数字"
+  },
+  {
+    "label": "ROUNDDOWN",
+    "title": "ROUNDDOWN(number, num_digits)",
+    "value": "朝着零的方向将数字进行向下舍入。"
+  },
+  {
+    "label": "ROUNDUP",
+    "title": "ROUNDUP(number, num_digits)",
+    "value": "朝着远离 0（零）的方向将数字进行向上舍入。"
+  },
+  {
+    "label": "SEC",
+    "title": "SEC(number)",
+    "value": "返回角度的正割值。"
+  },
+  {
+    "label": "SIGN",
+    "title": "SIGN(number)",
+    "value": "确定数字的符号。 如果数字为正数，则返回 1；如果数字为 0，则返回零 (0)；如果数字为负数，则返回 -1。"
+  },
+  {
+    "label": "SIN",
+    "title": "Sin( number )",
+    "value": "返回已知角度的正弦。"
+  },
+  {
+    "label": "SINH",
+    "title": "SINH(number)",
+    "value": "返回数字的双曲正弦。"
+  },
+  {
+    "label": "SQRT",
+    "title": "SQRT(number)",
+    "value": "返回正的平方根。"
+  },
+  {
+    "label": "SQRTPI",
+    "title": "SQRTPI(number)",
+    "value": "返回某数与 pi 的乘积的平方根。"
+  },
+  {
+    "label": "SUMIF",
+    "title": "SUMIF(range, criteria, [sum_range])",
+    "value": "对 范围 中符合指定条件的值求和。"
+  },
+  {
+    "label": "SUMX2MY2",
+    "title": "SUMX2MY2(array_x, array_y)",
+    "value": "返回两数组中对应数值的平方差之和。"
+  },
+  {
+    "label": "SUMX2PY2",
+    "title": "SUMX2PY2(array_x, array_y)",
+    "value": "返回两数组中对应值的平方和之和。"
+  },
+  {
+    "label": "SUMXMY2",
+    "title": "SUMXMY2(array_x, array_y)",
+    "value": "返回两数组中对应数值之差的平方和。"
+  },
+  {
+    "label": "TAN",
+    "title": "TAN(number)",
+    "value": "返回已知角度的正切。"
+  },
+  {
+    "label": "TANH",
+    "title": "TANH(number)",
+    "value": "返回数字的双曲正切。"
+  },
+  {
+    "label": "TRUNC",
+    "title": "TRUNC(number, [num_digits])",
+    "value": "将数字的小数部分截去，返回整数。"
+  },
+  {
+    "label": "DEGREES",
+    "title": "DEGREES(angle)",
+    "value": "将弧度转换为度。"
+  },
+  {
+    "label": "MDETERM",
+    "title": "MDETERM(array)",
+    "value": "返回一个数组的矩阵行列式的值。"
+  },
+  {
+    "label": "PI",
+    "title": "PI()",
+    "value": "返回数字 3.14159265358979（数学常量 pi）。"
+  },
+  {
+    "label": "SERIESSUM",
+    "title": "SERIESSUM(x, n, m, coefficients)",
+    "value": "返回幂级数的和。"
+  },
+  {
+    "label": "ACCRINT",
+    "title": "ACCRINT(issue, first_interest, settlement, rate, par, frequency, [basis], [calc_method])",
+    "value": "返回定期付息证券的应计利息。"
+  },
+  {
+    "label": "CUMIPMT",
+    "title": "CUMIPMT(rate, nper, pv, start_period, end_period, type)",
+    "value": "返回一笔贷款在给定的 start_period 到 end_period 期间累计偿还的利息数额。"
+  },
+  {
+    "label": "CUMPRINC",
+    "title": "CUMPRINC(rate, nper, pv, start_period, end_period, type)",
+    "value": "返回一笔贷款在给定的 start_period 到 end_period 期间累计偿还的本金数额。"
+  },
+  {
+    "label": "DB",
+    "title": "DB(cost, salvage, life, period, [month])",
+    "value": "使用固定余额递减法，计算一笔资产在给定期间内的折旧值。"
+  },
+  {
+    "label": "DDB",
+    "title": "DDB(cost, salvage, life, period, [factor])",
+    "value": "用双倍余额递减法或其他指定方法，返回指定期间内某项固定资产的折旧值。"
+  },
+  {
+    "label": "DOLLARDE",
+    "title": "DOLLARDE(fractional_dollar, fraction)",
+    "value": "该值的分数部分除以一个指定的整数。 "
+  },
+  {
+    "label": "DOLLARFR",
+    "title": "DOLLARFR(decimal_dollar, fraction)",
+    "value": "使用 DOLLARFR 将小数转换为分数表示的金额数字，如证券价格。"
+  },
+  {
+    "label": "EFFECT",
+    "title": "EFFECT(nominal_rate, npery)",
+    "value": "利用给定的名义年利率和每年的复利期数，计算有效的年利率。"
+  },
+  {
+    "label": "FV",
+    "title": "FV(rate,nper,pmt,[pv],[type])",
+    "value": "FV 是一个财务函数，用于根据固定利率计算投资的未来值。 可以将 FV 与定期付款、固定付款或一次付清总额付款结合使用。"
+  },
+  {
+    "label": "FVSCHEDULE",
+    "title": "FVSCHEDULE(principal, schedule)",
+    "value": "返回应用一系列复利率计算的初始本金的未来值。 使用 FVSCHEDULE 通过变量或可调节利率计算某项投资未来的价值。"
+  },
+  {
+    "label": "IPMT",
+    "title": "IPMT(rate, per, nper, pv, [fv], [type])",
+    "value": "基于固定利率及等额分期付款方式，返回给定期数内对投资的利息偿还额。"
+  },
+  {
+    "label": "ISPMT",
+    "title": "ISPMT(rate, per, nper, pv)",
+    "value": "计算利率支付 （或接收） 给定期间内的贷款 （或投资） 甚至本金付款。"
+  },
+  {
+    "label": "NOMINAL",
+    "title": "NOMINAL(effect_rate, npery)",
+    "value": "基于给定的实际利率和年复利期数，返回名义年利率。"
+  },
+  {
+    "label": "NPER",
+    "title": "NPER(rate,pmt,pv,[fv],[type])",
+    "value": "基于固定利率及等额分期付款方式，返回某项投资的总期数。"
+  },
+  {
+    "label": "NPV",
+    "title": "NPV(rate,value1,[value2],...)",
+    "value": "使用贴现率和一系列未来支出（负值）和收益（正值）来计算一项投资的净现值。"
+  },
+  {
+    "label": "PDURATION",
+    "title": "PDURATION(rate, pv, fv)",
+    "value": "返回投资到达指定值所需的期数。"
+  },
+  {
+    "label": "PMT",
+    "title": "PMT(rate, nper, pv, [fv], [type])",
+    "value": "PMT 是一个财务函数，用于根据固定付款额和固定利率计算贷款的付款额。"
+  },
+  {
+    "label": "PPMT",
+    "title": "PPMT(rate, per, nper, pv, [fv], [type])",
+    "value": "返回根据定期固定付款和固定利率而定的投资在已知期间内的本金偿付额。"
+  },
+  {
+    "label": "PV",
+    "title": "PV(rate, nper, pmt, [fv], [type])",
+    "value": "PV 是一个财务函数，用于根据固定利率计算贷款或投资的现值。 可以将 PV 与定期付款、固定付款（如按揭或其他贷款）或投资目标的未来值结合使用。"
+  },
+  {
+    "label": "RATE",
+    "title": "RATE(nper, pmt, pv, [fv], [type], [guess])",
+    "value": "返回年金每期的利率。 RATE 是通过迭代计算的，可以有零或多个解法。 如果在 20 次迭代之后，RATE 的连续结果不能收敛于 0.0000001 之内，则 RATE 返回 错误值 #NUM!。"
+  },
+  {
+    "label": "XNPV",
+    "title": "XNPV(rate, values, dates)",
+    "value": "返回一组现金流的净现值，这些现金流不一定定期发生。 若要计算一组定期现金流的净现值，请使用函数 NPV。"
+  },
+  {
+    "label": "YIELDDISC",
+    "title": "YIELDDISC(settlement, maturity, pr, redemption, [basis])",
+    "value": "返回折价发行的有价证券的年收益率。"
+  },
+  {
+    "label": "YIELDMAT",
+    "title": "YIELDMAT(settlement, maturity, issue, rate, pr, [basis])",
+    "value": "返回到期付息的有价证券的年收益率。"
+  },
+  {
+    "label": "BESSELI",
+    "title": "BESSELI(x,n)",
+    "value": "返回修正Bessel函数值，它与用纯虚数参数运算时的Bessel函数值相等"
+  },
+  {
+    "label": "BESSELJ",
+    "title": "BESSELJ(x,n)",
+    "value": "返回Bessel函数值。"
+  },
+  {
+    "label": "BESSELK",
+    "title": "BESSELK(x,n)",
+    "value": "返回修正Bessel函数值，它与用纯虚数参数运算时的Bessel函数值相等。"
+  },
+  {
+    "label": "BESSELY",
+    "title": "BESSELY(x,n)",
+    "value": "返回Bessel函数值，也称为Weber函数或Neumann函数。"
+  },
+  {
+    "label": "BIN2DEC",
+    "title": "BIN2DEC(number)",
+    "value": "将二进制数转换为十进制数。"
+  },
+  {
+    "label": "BIN2HEX",
+    "title": "BIN2HEX(number, [places])",
+    "value": "将二进制数转换为十六进制数。"
+  },
+  {
+    "label": "BIN2OCT",
+    "title": "BIN2OCT(number, [places])",
+    "value": "将二进制数转换为八进制数。"
+  },
+  {
+    "label": "BITAND",
+    "title": "BITAND( number1, number2)",
+    "value": "返回两个数的按位“与”。"
+  },
+  {
+    "label": "BITLSHIFT",
+    "title": "BITLSHIFT(number, shift_amount)",
+    "value": "返回向左移动指定位数后的数值。"
+  },
+  {
+    "label": "BITOR",
+    "title": "BITOR(number1, number2)",
+    "value": "返回两个数的按位“或”。"
+  },
+  {
+    "label": "BITRSHIFT",
+    "title": "BITRSHIFT(number, shift_amount)",
+    "value": "返回向右移动指定位数后的数值。"
+  },
+  {
+    "label": "BITXOR",
+    "title": "BITXOR(number1, number2)",
+    "value": "返回两个数值的按位“异或”结果。"
+  },
+  {
+    "label": "COMPLEX",
+    "title": "COMPLEX(real_num, i_num, [suffix])",
+    "value": "将实系数及虚系数转换为 x+yi 或 x+yj 形式的复数。"
+  },
+  {
+    "label": "CONVERT",
+    "title": "CONVERT(number,from_unit,to_unit)",
+    "value": "将数字从一种度量系统转换为另一种度量系统。"
+  },
+  {
+    "label": "DEC2BIN",
+    "title": "DEC2BIN(number, [places])",
+    "value": "将十进制数转换为二进制数。"
+  },
+  {
+    "label": "DEC2HEX",
+    "title": "DEC2HEX(number, [places])",
+    "value": "将十进制数转换为十六进制数。"
+  },
+  {
+    "label": "DEC2OCT",
+    "title": "DEC2OCT(number, [places])",
+    "value": "将十进制数转换为八进制数。"
+  },
+  {
+    "label": "DELTA",
+    "title": "DELTA(number1, [number2])",
+    "value": "检验两个值是否相等。 如果 number1=number2，则返回 1；否则返回 0。 可以使用此函数来筛选一组值。"
+  },
+  {
+    "label": "ERF",
+    "title": "ERF(lower_limit,[upper_limit])",
+    "value": "返回误差函数在上下限之间的积分。"
+  },
+  {
+    "label": "ERFC",
+    "title": "ERFC(x)",
+    "value": "返回从 x 到无穷大积分的互补 ERF 函数。"
+  },
+  {
+    "label": "ERF.PRECISE",
+    "title": "ERF.PRECISE(x)",
+    "value": "返回误差函数。"
+  },
+  {
+    "label": "ERFC.PRECISE",
+    "title": "ERFC.PRECISE(x)",
+    "value": "返回从 x 到无穷大积分的互补 ERF 函数"
+  },
+  {
+    "label": "GESTEP",
+    "title": "GESTEP(number, [step])",
+    "value": "如果 number>=step，则返回 1；否则返回 0（零）。 可以使用此函数来筛选一组值。"
+  },
+  {
+    "label": "HEX2BIN",
+    "title": "HEX2BIN(number, [places])",
+    "value": "将十六进制数转换为二进制数。"
+  },
+  {
+    "label": "HEX2DEC",
+    "title": "HEX2DEC(number)",
+    "value": "将十六进制数转换为十进制数。"
+  },
+  {
+    "label": "HEX2OCT",
+    "title": "HEX2OCT(number, [places])",
+    "value": "将十六进制数转换为八进制数。"
+  },
+  {
+    "label": "IMABS",
+    "title": "IMABS(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的绝对值（模）。"
+  },
+  {
+    "label": "IMAGINARY",
+    "title": "IMAGINARY(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的虚系数。"
+  },
+  {
+    "label": "IMARGUMENT",
+    "title": "IMARGUMENT(inumber)",
+    "value": "返回参数  Theta (theta)，即以弧度表示的角。"
+  },
+  {
+    "label": "IMCONJUGATE",
+    "title": "IMCONJUGATE(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的共轭复数。"
+  },
+  {
+    "label": "IMCOS",
+    "title": "IMCOS(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的余弦。"
+  },
+  {
+    "label": "IMCOSH",
+    "title": "IMCOSH(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的双曲余弦值。"
+  },
+  {
+    "label": "IMCOT",
+    "title": "IMCOT(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的余切值。"
+  },
+  {
+    "label": "IMCSC",
+    "title": "IMCSC(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的余割值。"
+  },
+  {
+    "label": "IMCSCH",
+    "title": "IMCSCH(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的双曲余割值。"
+  },
+  {
+    "label": "IMDIV",
+    "title": "IMDIV(inumber1, inumber2)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的两个复数的商。"
+  },
+  {
+    "label": "IMEXP",
+    "title": "IMEXP(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的指数。"
+  },
+  {
+    "label": "IMLN",
+    "title": "IMLN(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的自然对数。"
+  },
+  {
+    "label": "IMLOG10",
+    "title": "IMLOG10(inumber)",
+    "value": "返回以 x + yi 或 x + yj 文本格式表示的复数的常用对数（以 10 为底数）。"
+  },
+  {
+    "label": "IMLOG2",
+    "title": "IMLOG2(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的以 2 为底数的对数。"
+  },
+  {
+    "label": "IMPOWER",
+    "title": "IMPOWER(inumber, number)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的 n 次幂。"
+  },
+  {
+    "label": "IMPRODUCT",
+    "title": "IMPRODUCT(inumber1, [inumber2], ...)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的 1 至 255 个复数的乘积。"
+  },
+  {
+    "label": "IMREAL",
+    "title": "IMREAL(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的实系数。"
+  },
+  {
+    "label": "IMSEC",
+    "title": "IMSEC(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的正割值。"
+  },
+  {
+    "label": "IMSECH",
+    "title": "IMSECH(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的双曲正割值。"
+  },
+  {
+    "label": "IMSIN",
+    "title": "IMSIN(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的正弦值。"
+  },
+  {
+    "label": "IMSINH",
+    "title": "IMSINH(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的双曲正弦值。"
+  },
+  {
+    "label": "IMSQRT",
+    "title": "IMSQRT(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的平方根。"
+  },
+  {
+    "label": "IMSUB",
+    "title": "IMSUB(inumber1, inumber2)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的两个复数的差。"
+  },
+  {
+    "label": "IMSUM",
+    "title": "IMSUM(inumber1, [inumber2], ...)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的两个或多个复数的和。"
+  },
+  {
+    "label": "IMTAN",
+    "title": "IMTAN(inumber)",
+    "value": "返回以 x+yi 或 x+yj 文本格式表示的复数的正切值。"
+  },
+  {
+    "label": "OCT2BIN",
+    "title": "OCT2BIN(number, [places])",
+    "value": "将八进制数转换为二进制数。"
+  },
+  {
+    "label": "OCT2DEC",
+    "title": "OCT2DEC(number)",
+    "value": "将八进制数转换为十进制数。"
+  },
+  {
+    "label": "OCT2HEX",
+    "title": "OCT2HEX(number, [places])",
+    "value": "将八进制数转换为十六进制数。"
+  },
+  {
+    "label": "BETADIST",
+    "title": "BETADIST(x,alpha,beta,[A],[B])",
+    "value": "返回累积 beta 概率密度函数。 Beta 分布通常用于研究样本中一定部分的变化情况，例如，人们一天中看电视的时间比率。"
+  },
+  {
+    "label": "BETAINV",
+    "title": "BETAINV(probability,alpha,beta,[A],[B])",
+    "value": "返回指定 beta 分布的累积 beta 概率密度函数的反函数。"
+  },
+  {
+    "label": "EXPONDIST",
+    "title": "EXPONDIST(x,lambda,cumulative)",
+    "value": "返回指数分布。 使用 EXPONDIST 可以建立事件之间的时间间隔模型，如银行自动提款机支付一次现金所花费的时间。"
+  },
+  {
+    "label": "FDIST",
+    "title": "FDIST(x,deg_freedom1,deg_freedom2)",
+    "value": "返回两个数据集的（右尾）F 概率分布（变化程度）。 使用此函数可以确定两组数据是否存在变化程度上的不同。"
+  },
+  {
+    "label": "FINV",
+    "title": "FINV(probability,deg_freedom1,deg_freedom2)",
+    "value": "返回（右尾）F 概率分布函数的反函数值。 如果 p = FDIST(x,...)，则 FINV(p,...) = x。"
+  },
+  {
+    "label": "HYPGEOMDIST",
+    "title": "HYPGEOMDIST(sample_s,number_sample,population_s,number_pop)",
+    "value": "返回超几何分布。 如果已知样本量、总体成功次数和总体大小，则 HYPGEOMDIST 返回样本取得已知成功次数的概率。"
+  },
+  {
+    "label": "LOGNORMDIST",
+    "title": "LOGNORMDIST(x,mean,standard_dev)",
+    "value": "返回 x 的对数累积分布函数的函数值，此处的 ln(x) 是服从参数 mean 和 standard_dev 的正态分布。 使用此函数可以分析经过对数变换的数据。"
+  },
+  {
+    "label": "NORMDIST",
+    "title": "NORMDIST(x,mean,standard_dev,cumulative)",
+    "value": "返回指定平均值和标准偏差的正态分布函数。 此函数在统计方面应用范围广泛（包括假设检验）。"
+  },
+  {
+    "label": "NORMINV",
+    "title": "NORMINV(probability,mean,standard_dev)",
+    "value": "返回指定平均值和标准偏差的正态累积分布函数的反函数值。"
+  },
+  {
+    "label": "NORMSDIST",
+    "title": "NORMSDIST(z)",
+    "value": "返回标准正态累积分布函数的函数值。 该分布的平均值为 0（零），标准偏差为 1。 可以使用此函数代替标准正态曲线面积表。"
+  },
+  {
+    "label": "NORMSINV",
+    "title": "NORMSINV(probability)",
+    "value": "返回标准正态累积分布函数的反函数值。 该分布的平均值为 0，标准偏差为 1。"
+  },
+  {
+    "label": "TDIST",
+    "title": "TDIST(x,deg_freedom,tails)",
+    "value": "返回学生 t 分布的百分点（概率），其中，数字值 (x) 是用来计算百分点的 t 的计算值。 t 分布用于小型样本数据集的假设检验。 可以使用该函数代替 t 分布的临界值表。"
+  },
+  {
+    "label": "TINV",
+    "title": "TINV(probability,deg_freedom)",
+    "value": "返回学生 t 分布的双尾反函数。"
+  },
+  {
+    "label": "CONCATENATE",
+    "title": "CONCATENATE(text1, [text2], ...)",
+    "value": "将几个文本项合并为一个文本项"
+  },
+  {
+    "label": "STDEVP",
+    "title": "STDEVP(number1,[number2],...)",
+    "value": "根据作为参数给定的整个总体计算标准偏差。标准偏差可以测量值在平均值（中值）附近分布的范围大小。"
+  },
+  {
+    "label": "VARP",
+    "title": "VARP(number1,[number2],...)",
+    "value": "根据整个总体计算方差。"
+  },
+  {
+    "label": "FLOOR",
+    "title": "FLOOR(数值,舍入基数)",
+    "value": "按给定基数进行向下舍入计算。（沿绝对值减小的方向向下舍入）"
+  },
+  {
+    "label": "FORECAST",
+    "title": "FORECAST(x, known_y's, known_x's)",
+    "value": "根据现有值计算或预测未来值。 预测值为给定 x 值后求得的 y 值。 已知值为现有的 x 值和 y 值，并通过线性回归来预测新值。 可以使用该函数来预测未来销售、库存需求或消费趋势等。"
+  },
+  {
+    "label": "CHIDIST",
+    "title": "CHIDIST(x, deg_freedom)",
+    "value": "返回χ2分布的右尾概率。χ2分布与χ2测试相关联。使用χ2测试可比较观察值和预期值。"
+  },
+  {
+    "label": "CHIINV",
+    "title": "CHIINV(probability, deg_freedom)",
+    "value": "返回具有给定概率的右尾χ2分布的区间点。"
+  },
+  {
+    "label": "CHITEST",
+    "title": "CHITEST(actual_range, expected_range)",
+    "value": "返回独立性检验值。 CHITEST 返回卡方 (χ2) 分布的统计值和相应的自由度数。"
+  },
+  {
+    "label": "CONFIDENCE",
+    "title": "CONFIDENCE(alpha, standard_dev, size)",
+    "value": "使用正态分布返回总体平均值的置信区间。"
+  },
+  {
+    "label": "COVAR",
+    "title": "COVAR(array1, array2)",
+    "value": "返回协方差，即两个数据集中每对数据点的偏差乘积的平均数。"
+  },
+  {
+    "label": "CRITBINOM",
+    "title": "CRITBINOM(trials, probability_s, alpha)",
+    "value": "返回一个数值，它是使得累积二项式分布的函数值大于等于临界值的最小整数"
+  },
+  {
+    "label": "GAMMADIST",
+    "title": "GAMMADIST(x, alpha, beta, cumulative)",
+    "value": "返回伽玛分布函数的函数值。"
+  },
+  {
+    "label": "GAMMAINV",
+    "title": "GAMMAINV(probability, alpha, beta)",
+    "value": "返回伽玛累积分布函数的反函数值。"
+  },
+  {
+    "label": "LOGINV",
+    "title": "LOGINV(probability, mean, standard_dev)",
+    "value": "返回 x 的对数累积分布函数的反函数值，此处的 ln(x) 是服从参数 mean 和 standard_dev 的正态分布。"
+  },
+  {
+    "label": "MODE",
+    "title": "MODE(number1, [number2], ...)",
+    "value": "返回的数组或数据区域中出现频率最高或重复出现的值。"
+  },
+  {
+    "label": "NEGBINOMDIST",
+    "title": "NEGBINOMDIST(number_f, number_s, probability_s)",
+    "value": "返回负二项式分布。"
+  },
+  {
+    "label": "PERCENTILE",
+    "title": "PERCENTILE(array, k)",
+    "value": "返回区域中数值的第 k 个百分点的值。 "
+  },
+  {
+    "label": "PERCENTRANK",
+    "title": "PERCENTRANK(array, x, [significance])",
+    "value": "将某个数值在数据集中的排位作为数据集的百分比值返回，此处的百分比值的范围为0到1。此函数可用于计算值在数据集内的相对位置。"
+  },
+  {
+    "label": "POISSON",
+    "title": "POISSON(x, mean, cumulative)",
+    "value": "返回泊松分布。"
+  },
+  {
+    "label": "QUARTILE",
+    "title": "QUARTILE(array, quart)",
+    "value": "返回一组数据的四分位点。"
+  },
+  {
+    "label": "RANK",
+    "title": "RANK(number, ref, [order])",
+    "value": "返回一列数字的数字排位。 数字的排位是其相对于列表中其他值的大小。（如果要对列表进行排序，则数字排位可作为其位置。）"
+  },
+  {
+    "label": "STDEV",
+    "title": "STDEV(number1, [number2], ...)",
+    "value": "根据样本估计标准偏差。标准偏差可以测量值在平均值（中值）附近分布的范围大小。"
+  },
+  {
+    "label": "VAR",
+    "title": "VAR(number1, [number2], ...)",
+    "value": "计算基于给定样本的方差。"
+  },
+  {
+    "label": "WEIBULL",
+    "title": "WEIBULL(x, alpha, beta, cumulative)",
+    "value": "返回 Weibull 分布。"
+  },
+  {
+    "label": "ZTEST",
+    "title": "ZTEST(array, x, [sigma])",
+    "value": "返回z测试的单尾P值。"
+  },
+  {
+    "label": "ISEVEN",
+    "title": "ISEVEN(number)",
+    "value": "如果参数 number 为偶数，返回 TRUE，否则返回 FALSE。"
+  },
+  {
+    "label": "ISODD",
+    "title": "ISODD(number)",
+    "value": "ISODD函数用于判断数字是否为奇数，如果是，则返回TRUE；否则返回FALSE。"
+  },
+  {
+    "label": "INFO",
+    "title": "INFO(type_text)",
+    "value": "返回有关当前操作环境的信息"
+  },
+  {
+    "label": "ISBLANK",
+    "title": "ISBLANK(value)",
+    "value": "检查是否引用了空单元格，返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISLOGICAL",
+    "title": "ISLOGICAL(value)",
+    "value": "检测一个值是否是逻辑值（TRUE或FALSE），返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISNONTEXT",
+    "title": "ISNONTEXT(value)",
+    "value": "检测一个值是不是文本（空单元格不是文本），返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISNUMBER",
+    "title": "ISNUMBER(value)",
+    "value": "检测一个值是否是数值，返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISREF",
+    "title": "ISREF(value)",
+    "value": "检测一个值是否为引用，返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISFORMULA",
+    "title": "ISFORMULA(reference)",
+    "value": "检查引用是否指向包含公式的单元格，并返回TRUE或FALSE。"
+  },
+  {
+    "label": "ISTEXT",
+    "title": "ISTEXT(value)",
+    "value": "检测一个值是否为文本，返回TRUE或FALSE。"
+  },
+  {
+    "label": "CELL",
+    "title": "CELL(info_type, [reference])",
+    "value": "CELL 函数返回有关单元格的格式、位置或内容的信息。"
+  },
+  {
+    "label": "N",
+    "title": "N(value)",
+    "value": "将不是数值形式的值转换为数值形式。日期转换成序列值，TRUE转换成1，其他值转换成0。"
+  },
+  {
+    "label": "NA",
+    "title": "NA()",
+    "value": "返回错误值 #N/A（无法计算出数值）。"
+  },
+  {
+    "label": "SHEET",
+    "title": "SHEET(value)",
+    "value": "返回引用的工作表的工作表编号。"
+  },
+  {
+    "label": "SHEETS",
+    "title": "SHEETS(reference)",
+    "value": "返回引用中的工作表数目。"
+  },
+  {
+    "label": "TYPE",
+    "title": "TYPE(value)",
+    "value": "以整数形式返回值的数据类型：数值 = 1；文字 = 2；逻辑值 = 4；错误值 = 16；数组 = 64。"
+  },
+  {
+    "label": "AVEDEV",
+    "title": "AVEDEV(number1, [number2], ...)",
+    "value": "返回一组数据点到其算术平均值的绝对偏差的平均值。 AVEDEV 是对一组数据中变化性的度量。"
+  },
+  {
+    "label": "AVERAGEA",
+    "title": "AVERAGEA(value1, [value2], ...)",
+    "value": "计算参数列表中数值的平均值（算术平均值）。"
+  },
+  {
+    "label": "AVERAGEIF",
+    "title": "AVERAGEIF(range, criteria, [average_range])",
+    "value": "返回某个区域内满足给定条件的所有单元格的平均值（算术平均值）。"
+  },
+  {
+    "label": "AVERAGEIFS",
+    "title": "AVERAGEIFS(average_range, criteria_range1, criteria1, [criteria_range2, criteria2], ...)",
+    "value": "返回满足多个条件的所有单元格的平均值（算术平均值）。"
+  },
+  {
+    "label": "BETA.DIST",
+    "title": "BETA.DIST(x,alpha,beta,cumulative,[A],[B])",
+    "value": "返回 Beta 分布。Beta 分布通常用于研究样本中一定部分的变化情况，例如，人们一天中看电视的时间比率。"
+  },
+  {
+    "label": "BETA.INV",
+    "title": "BETA.INV(probability,alpha,beta,[A],[B])",
+    "value": "返回 Beta 累积概率密度函数 (BETA.DIST) 的反函数。"
+  },
+  {
+    "label": "BINOMDIST",
+    "title": "BINOMDIST(number_s,trials,probability_s,cumulative)",
+    "value": "返回一元二项式分布的概率。"
+  },
+  {
+    "label": "CORREL",
+    "title": "CORREL(array1,array2)",
+    "value": "返回返回 Array1 和 Array2 单元格区域的相关系数。使用相关系数确定两个属性之间的关系。"
+  },
+  {
+    "label": "COUNTIF",
+    "title": "COUNTIF(range, criteria)",
+    "value": "用于统计满足某个条件的单元格的数量。"
+  },
+  {
+    "label": "COUNTIFS",
+    "title": "COUNTIFS(criteria_range1, criteria1, [criteria_range2, criteria2],…)",
+    "value": "计算区域内符合多个条件的单元格的数量。"
+  },
+  {
+    "label": "COVARIANCE.P",
+    "title": "COVARIANCE.P(array1,array2)",
+    "value": "返回总体协方差，即两个数据集中每对数据点的偏差乘积的平均数。利用协方差确定两个数据集之间的关系。"
+  },
+  {
+    "label": "COVARIANCE.S",
+    "title": "COVARIANCE.S(array1,array2)",
+    "value": "返回样本协方差，即两个数据集中每对数据点的偏差乘积的平均值。"
+  },
+  {
+    "label": "DEVSQ",
+    "title": "DEVSQ(number1, [number2], ...)",
+    "value": "返回各数据点与数据均值点之差（数据偏差）的平方和。"
+  },
+  {
+    "label": "EXPON.DIST",
+    "title": "EXPON.DIST(x,lambda,cumulative)",
+    "value": "返回指数分布。"
+  },
+  {
+    "label": "F.DIST",
+    "title": "F.DIST(x,deg_freedom1,deg_freedom2,cumulative)",
+    "value": "返回 F 概率分布。"
+  },
+  {
+    "label": "F.INV",
+    "title": "F.INV(probability,deg_freedom1,deg_freedom2)",
+    "value": "返回 F 概率分布函数的反函数值。"
+  },
+  {
+    "label": "FISHER",
+    "title": "FISHER(x)",
+    "value": "返回 x 的 Fisher 变换值。 该变换生成一个正态分布而非偏斜的函数。 使用此函数可以完成相关系数的假设检验。"
+  },
+  {
+    "label": "FISHERINV",
+    "title": "FISHERINV(y)",
+    "value": "返回 Fisher 逆变换值。 使用该变换可以分析数据区域或数组之间的相关性。 如果 y = FISHER(x)，则 FISHERINV(y) = x。"
+  },
+  {
+    "label": "GAMMA",
+    "title": "GAMMA(number)",
+    "value": "返回 γ 函数值"
+  },
+  {
+    "label": "GAMMALN",
+    "title": "GAMMALN(x)",
+    "value": "返回 γ 函数的自然对数，Γ(x)"
+  },
+  {
+    "label": "GAUSS",
+    "title": "GAUSS(z)",
+    "value": "返回小于标准正态累积分布 0.5 的值"
+  },
+  {
+    "label": "GEOMEAN",
+    "title": "GEOMEAN(number1, [number2], ...)",
+    "value": "返回几何平均值"
+  },
+  {
+    "label": "GROWTH",
+    "title": "GROWTH(known_y's, [known_x's], [new_x's], [const])",
+    "value": "返回指数趋势值"
+  },
+  {
+    "label": "HARMEAN",
+    "title": "HARMEAN(number1, [number2], ...)",
+    "value": "返回调和平均值"
+  },
+  {
+    "label": "INTERCEPT",
+    "title": "INTERCEPT(known_y's, known_x's)",
+    "value": "返回线性回归线的截距"
+  },
+  {
+    "label": "KURT",
+    "title": "KURT(number1, [number2], ...)",
+    "value": "返回数据集的峰值"
+  },
+  {
+    "label": "LARGE",
+    "title": "LARGE(array,k)",
+    "value": "返回数据集中第 k 个最大值"
+  },
+  {
+    "label": "LOGNORM.DIST",
+    "title": "LOGNORM.DIST(x,mean,standard_dev,cumulative)",
+    "value": "返回对数累积分布函数"
+  },
+  {
+    "label": "LOGNORM.INV",
+    "title": "LOGNORM.INV(probability, mean, standard_dev)",
+    "value": "返回对数累积分布的反函数"
+  },
+  {
+    "label": "MAXA",
+    "title": "MAXA(value1,[value2],...)",
+    "value": "返回参数列表中的最大值，包括数字、文本和逻辑值"
+  },
+  {
+    "label": "MEDIAN",
+    "title": "MEDIAN(number1, [number2], ...)",
+    "value": "返回给定数值集合的中值"
+  },
+  {
+    "label": "MINA",
+    "title": "MINA(value1, [value2], ...)",
+    "value": "返回参数列表中的最小值，包括数字、文本和逻辑值"
+  },
+  {
+    "label": "MODE.SNGL",
+    "title": "MODE.SNGL(number1,[number2],...)",
+    "value": "返回在数据集内出现次数最多的值"
+  },
+  {
+    "label": "NORM.DIST",
+    "title": "NORM.DIST(x,mean,standard_dev,cumulative)",
+    "value": "返回正态累积分布"
+  },
+  {
+    "label": "NORM.INV",
+    "title": "NORM.INV(probability,mean,standard_dev)",
+    "value": "返回正态累积分布的反函数"
+  },
+  {
+    "label": "NORM.S.DIST",
+    "title": "NORM.S.DIST(z,cumulative)",
+    "value": "返回标准正态累积分布"
+  },
+  {
+    "label": "NORM.S.INV",
+    "title": "NORM.S.INV(probability)",
+    "value": "返回标准正态累积分布函数的反函数"
+  },
+  {
+    "label": "PEARSON",
+    "title": "PEARSON(array1, array2)",
+    "value": "返回 Pearson 乘积矩相关系数"
+  },
+  {
+    "label": "PERCENTILE.EXC",
+    "title": "PERCENTILE.EXC(array,k)",
+    "value": "返回某个区域中的数值的第 k 个百分点值，此处的 k 的范围为 0 到 1（不含 0 和 1）"
+  },
+  {
+    "label": "PERCENTILE.INC",
+    "title": "PERCENTILE.INC(array,k)",
+    "value": "返回区域中数值的第 k 个百分点的值"
+  },
+  {
+    "label": "PERCENTRANK.EXC",
+    "title": "PERCENTRANK.EXC(array,x,[significance])",
+    "value": "将某个数值在数据集中的排位作为数据集的百分点值返回，此处的百分点值的范围为 0 到 1（不含 0 和 1）"
+  },
+  {
+    "label": "PERCENTRANK.INC",
+    "title": "PERCENTRANK.INC(array,x,[significance])",
+    "value": "返回数据集中值的百分比排位"
+  },
+  {
+    "label": "PERMUT",
+    "title": "PERMUT(number, number_chosen)",
+    "value": "返回给定数目对象的排列数"
+  },
+  {
+    "label": "PERMUTATIONA",
+    "title": "PERMUTATIONA(number, number-chosen)",
+    "value": "返回可从总计对象中选择的给定数目对象（含重复）的排列数"
+  },
+  {
+    "label": "PHI",
+    "title": "PHI(x)",
+    "value": "返回标准正态分布的密度函数值"
+  },
+  {
+    "label": "POISSON.DIST",
+    "title": "POISSON.DIST(x,mean,cumulative)",
+    "value": "返回泊松分布"
+  },
+  {
+    "label": "QUARTILE.EXC",
+    "title": "QUARTILE.EXC(array,quart)",
+    "value": "基于百分点值返回数据集的四分位，此处的百分点值的范围为 0 到 1（不含 0 和 1）"
+  },
+  {
+    "label": "QUARTILE.INC",
+    "title": "QUARTILE.INC(array,quart)",
+    "value": "返回一组数据的四分位点"
+  },
+  {
+    "label": "RSQ",
+    "title": "RSQ(known_y's,known_x's)",
+    "value": "返回 Pearson 乘积矩相关系数的平方"
+  },
+  {
+    "label": "SKEW",
+    "title": "SKEW(number1, [number2], ...)",
+    "value": "返回分布的不对称度"
+  },
+  {
+    "label": "SKEW.P",
+    "title": "SKEW.P(number1, [number2],…)",
+    "value": "返回一个分布的不对称度：用来体现某一分布相对其平均值的不对称程度"
+  },
+  {
+    "label": "SLOPE",
+    "title": "SLOPE(known_y's, known_x's)",
+    "value": "返回线性回归线的斜率"
+  },
+  {
+    "label": "SMALL",
+    "title": "SMALL(array,k)",
+    "value": "返回数据集中的第 k 个最小值"
+  },
+  {
+    "label": "STANDARDIZE",
+    "title": "STANDARDIZE(x, mean, standard_dev)",
+    "value": "返回正态化数值"
+  },
+  {
+    "label": "STDEV.P",
+    "title": "STDEV.P(number1,[number2],...)",
+    "value": "基于整个样本总体计算标准偏差"
+  },
+  {
+    "label": "STDEV.S",
+    "title": "STDEV.S(number1,[number2],...)",
+    "value": "基于样本估算标准偏差"
+  },
+  {
+    "label": "STDEVA",
+    "title": "STDEVA(value1, [value2], ...)",
+    "value": "基于样本（包括数字、文本和逻辑值）估算标准偏差"
+  },
+  {
+    "label": "STDEVPA",
+    "title": "STDEVPA(value1, [value2], ...)",
+    "value": "基于样本总体（包括数字、文本和逻辑值）计算标准偏差。"
+  },
+  {
+    "label": "STEYX",
+    "title": "STEYX(known_y's, known_x's)",
+    "value": "返回通过线性回归法预测每个 x 的 y 值时所产生的标准误差"
+  },
+  {
+    "label": "T.DIST",
+    "title": "T.DIST(x,deg_freedom, cumulative)",
+    "value": "返回学生 t-分布的百分点（概率）"
+  },
+  {
+    "label": "T.INV",
+    "title": "T.INV(probability,deg_freedom)",
+    "value": "返回作为概率和自由度函数的学生 t 分布的 t 值"
+  },
+  {
+    "label": "TRIMMEAN",
+    "title": "TRIMMEAN(array, percent)",
+    "value": "返回数据集的内部平均值"
+  },
+  {
+    "label": "VAR.P",
+    "title": "VAR.P(number1,[number2],...)",
+    "value": "计算基于样本总体的方差"
+  },
+  {
+    "label": "VAR.S",
+    "title": "VAR.S(number1,[number2],...)",
+    "value": "基于样本估算方差"
+  },
+  {
+    "label": "VARPA",
+    "title": "VARPA(value1, [value2], ...)",
+    "value": "基于样本总体（包括数字、文本和逻辑值）计算标准偏差"
+  },
+  {
+    "label": "WEIBULL.DIST",
+    "title": "WEIBULL.DIST(x,alpha,beta,cumulative)",
+    "value": "返回 Weibull 分布"
+  },
+  {
+    "label": "BINOM.DIST.RANGE",
+    "title": "BINOM.DIST.RANGE(trials,probability_s,number_s,[number_s2])",
+    "value": "使用二项式分布返回试验结果的概率。"
+  },
+  {
+    "label": "BINOM.DIST",
+    "title": "BINOM.DIST(number_s,trials,probability_s,cumulative)",
+    "value": "返回一元二项式分布的概率"
+  },
+  {
+    "label": "BINOM.INV",
+    "title": "BINOM.INV(trials,probability_s,alpha)",
+    "value": "返回一个数值,它是使得累积二项式分布的函数值大于等于临界值的最小整数。"
+  },
+  {
+    "label": "CHISQ.DIST",
+    "title": "CHISQ.DIST(x,deg_freedom,cumulative)",
+    "value": "返回 χ2 分布。"
+  },
+  {
+    "label": "CHISQ.DIST.RT",
+    "title": "CHISQ.DIST.RT(x,deg_freedom)",
+    "value": "返回 χ2 分布的右尾概率。"
+  },
+  {
+    "label": "CHISQ.INV",
+    "title": "CHISQ.INV(probability,deg_freedom)",
+    "value": "返回 χ2 分布的左尾概率的反函数。"
+  },
+  {
+    "label": "CHISQ.INV.RT",
+    "title": "CHISQ.INV.RT(probability,deg_freedom)",
+    "value": "返回 χ2 分布的右尾概率的反函数。"
+  },
+  {
+    "label": "CONFIDENCE.NORM",
+    "title": "CONFIDENCE.NORM(alpha,standard_dev,size)",
+    "value": "使用正态分布返回总体平均值的置信区间"
+  },
+  {
+    "label": "F.DIST.RT",
+    "title": "F.DIST.RT(x,deg_freedom1,deg_freedom2)",
+    "value": "返回两个数据集的（右尾）F 概率分布（变化程度）。 "
+  },
+  {
+    "label": "F.INV.RT",
+    "title": "F.INV.RT(probability,deg_freedom1,deg_freedom2)",
+    "value": "返回（右尾）F 概率分布函数的反函数值。 "
+  },
+  {
+    "label": "GAMMA.DIST",
+    "title": "GAMMA.DIST(x,alpha,beta,cumulative)",
+    "value": "返回 γ 分布。"
+  },
+  {
+    "label": "GAMMA.INV",
+    "title": "GAMMA.INV(probability,alpha,beta)",
+    "value": "返回 γ 累积分布函数的反函数。"
+  },
+  {
+    "label": "GAMMALN.PRECISE",
+    "title": "GAMMALN.PRECISE(x)",
+    "value": "返回 γ 函数的自然对数，Γ(x)。"
+  },
+  {
+    "label": "ADDRESS",
+    "title": "ADDRESS(row_num, column_num, [abs_num], [a1], [sheet_text])",
+    "value": "你可以使用 ADDRESS 函数，根据指定行号和列号获得工作表中的某个单元格的地址。"
+  },
+  {
+    "label": "AREAS",
+    "title": "AREAS(reference)",
+    "value": "返回引用中的区域个数。 区域是指连续的单元格区域或单个单元格。"
+  },
+  {
+    "label": "CHOOSE",
+    "title": "CHOOSE(index_num, value1, [value2], ...)",
+    "value": "使用 index_num 返回数值参数列表中的数值。 使用 CHOOSE 可以根据索引号从最多 254 个数值中选择一个。"
+  },
+  {
+    "label": "COLUMN",
+    "title": "COLUMN([reference])",
+    "value": "返回指定单元格引用的列号。"
+  },
+  {
+    "label": "COLUMNS",
+    "title": "COLUMNS(array)",
+    "value": "返回数组或引用的列数。"
+  },
+  {
+    "label": "ROW",
+    "title": "ROW([reference])",
+    "value": "返回引用的行号。"
+  },
+  {
+    "label": "ROWS",
+    "title": "ROWS(array)",
+    "value": "返回引用或数组的行数。"
+  },
+  {
+    "label": "INDEX",
+    "title": "INDEX(array, row_num, [column_num])",
+    "value": "INDEX 函数返回表格或区域中的值或值的引用。"
+  },
+  {
+    "label": "MATCH",
+    "title": "MATCH(lookup_value, lookup_array, [match_type])",
+    "value": "使用 MATCH 函数在 范围 单元格中搜索特定的项，然后返回该项在此区域中的相对位置。"
+  },
+  {
+    "label": "OFFSET",
+    "title": "OFFSET(reference, rows, cols, [height], [width])",
+    "value": "返回对单元格或单元格区域中指定行数和列数的区域的引用。 返回的引用可以是单个单元格或单元格区域。 可以指定要返回的行数和列数。"
+  },
+  {
+    "label": "INDIRECT",
+    "title": "INDIRECT(ref_text, [a1])",
+    "value": "返回由文本字符串指定的引用。此函数立即对引用进行计算，并显示其内容。"
+  },
+  {
+    "label": "LOOKUP",
+    "title": "LOOKUP(lookup_value, lookup_vector, [result_vector])",
+    "value": "当您需要查询一行或一列并查找另一行或列中的相同位置的值时，会使用其中一个查找和引用函数 LOOKUP。"
+  },
+  {
+    "label": "HLOOKUP",
+    "title": "HLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])",
+    "value": "在表格的首行或数值数组中搜索值，然后返回表格或数组中指定行的所在列中的值。"
+  },
+  {
+    "label": "VLOOKUP",
+    "title": "VLOOKUP(lookup_value, table_array, row_index_num, [range_lookup])",
+    "value": "在表格的首列或数值数组中搜索值，然后返回表格或数组中指定列的所在行中的值。"
+  },
+  {
+    "label": "FORMULATEXT",
+    "title": "FORMULATEXT(reference)",
+    "value": "以字符串的形式返回公式。"
+  },
+  {
+    "label": "HYPERLINK",
+    "title": "HYPERLINK(link_location，[friendly_name])",
+    "value": "HYPERLINK函数创建跳转到当前工作簿中的其他位置或以打开存储在网络服务器、 intranet或 Internet 上的文档的快捷方式。"
+  },
+  {
+    "label": "NEGBINOM.DIST",
+    "title": "NEGBINOM.DIST(number_f,number_s,probability_s,cumulative)",
+    "value": "返回负二项式分布"
+  },
+  {
+    "label": "T.DIST.2T",
+    "title": "T.DIST.2T(x,deg_freedom)",
+    "value": "返回学生 t-分布的百分点（概率）。"
+  },
+  {
+    "label": "T.DIST.RT",
+    "title": "T.DIST.RT(x,deg_freedom)",
+    "value": "返回学生 t-分布。"
+  },
+  {
+    "label": "T.INV.2T",
+    "title": "T.INV.2T(probability,deg_freedom)",
+    "value": "返回学生 t-分布的反函数。"
+  },
+  {
+    "label": "Z.TEST",
+    "title": "Z.TEST(array,x,[sigma])",
+    "value": "返回 z 检验的单尾概率值。"
+  },
+  {
+    "label": "ACCRINTM",
+    "title": "ACCRINTM(issue, settlement, rate, par, [basis])",
+    "value": "返回在到期日支付利息的有价证券的应计利息。"
+  },
+  {
+    "label": "AMORLINC",
+    "title": "AMORLINC(cost, date_purchased, first_period, salvage, period, rate, [basis])",
+    "value": "返回每个结算期间的折旧值"
+  },
+  {
+    "label": "COUPDAYS",
+    "title": "COUPDAYS(settlement, maturity, frequency, [basis])",
+    "value": "返回结算日所在的付息期的天数。"
+  },
+  {
+    "label": "COUPDAYSNC",
+    "title": "COUPDAYSNC(settlement, maturity, frequency, [basis])",
+    "value": "返回从结算日到下一票息支付日之间的天数。"
+  },
+  {
+    "label": "COUPNCD",
+    "title": "COUPNCD(settlement, maturity, frequency, [basis])",
+    "value": "返回一个表示在结算日之后下一个付息日的数字。"
+  },
+  {
+    "label": "COUPNUM",
+    "title": "COUPNUM(settlement, maturity, frequency, [basis])",
+    "value": "返回在结算日和到期日之间的付息次数，向上舍入到最近的整数。"
+  },
+  {
+    "label": "COUPPCD",
+    "title": "COUPPCD(settlement, maturity, frequency, [basis])",
+    "value": "返回表示结算日之前的上一个付息日的数字。"
+  },
+  {
+    "label": "DISC",
+    "title": "DISC(settlement, maturity, pr, redemption, [basis])",
+    "value": "返回有价证券的贴现率。"
+  },
+  {
+    "label": "DURATION",
+    "title": "DURATION(settlement, maturity, coupon, yld, frequency, [basis])",
+    "value": "用于计量债券价格对于收益率变化的敏感程度。"
+  },
+  {
+    "label": "INTRATE",
+    "title": "INTRATE(settlement, maturity, investment, redemption, [basis])",
+    "value": "返回完全投资型证券的利率。"
+  },
+  {
+    "label": "MDURATION",
+    "title": "MDURATION(settlement, maturity, coupon, yld, frequency, [basis])",
+    "value": "返回假设面值 ￥100 的有价证券的 Macauley 修正期限。"
+  },
+  {
+    "label": "PRICE",
+    "title": "PRICE(settlement, maturity, rate, yld, redemption, frequency, [basis])",
+    "value": "返回定期付息的面值 ￥100 的有价证券的价格。"
+  },
+  {
+    "label": "ENCODEURL",
+    "title": "ENCODEURL(text)",
+    "value": "返回URL编码的字符串。"
+  },
+  {
+    "label": "FILTERXML",
+    "title": "FILTERXML(xml,xpath)",
+    "value": "使用指定的XPath从XML内容返回特定数据。"
+  },
+  {
+    "label": "DATEDIF",
+    "title": "DATEDIF(start_date,end_date,unit)",
+    "value": "计算两个日期之间的天数、月数或年数。"
+  },
+  {
+    "label": "PRICEDISC",
+    "title": "PRICEDISC(settlement, maturity, discount, redemption, [basis])",
+    "value": "返回折价发行的面值 ￥100 的有价证券的价格。"
+  },
+  {
+    "label": "PRICEMAT",
+    "title": "PRICEMAT(settlement, maturity, issue, rate, yld, [basis])",
+    "value": "返回到期付息的面值 ￥100 的有价证券的价格。"
+  },
+  {
+    "label": "RECEIVED",
+    "title": "RECEIVED(settlement, maturity, investment, discount, [basis])",
+    "value": "返回一次性付息的有价证券到期收回的金额。"
+  },
+  {
+    "label": "RRI",
+    "title": "RRI(nper, pv, fv)",
+    "value": "返回投资增长的等效利率。"
+  },
+  {
+    "label": "SLN",
+    "title": "SLN(cost, salvage, life)",
+    "value": "返回一个期间内的资产的直线折旧。"
+  },
+  {
+    "label": "SYD",
+    "title": "SYD(cost, salvage, life, per)",
+    "value": "返回在指定期间内资产按年限总和折旧法计算的折旧。"
+  },
+  {
+    "label": "TBILLEQ",
+    "title": "TBILLEQ(settlement, maturity, discount)",
+    "value": "返回国库券的等效收益率。"
+  },
+  {
+    "label": "TBILLPRICE",
+    "title": "TBILLPRICE(settlement, maturity, discount)",
+    "value": "返回面值 ￥100 的国库券的价格。"
+  },
+  {
+    "label": "TBILLYIELD",
+    "title": "TBILLYIELD(settlement, maturity, pr)",
+    "value": "返回国库券的收益率。"
+  },
+  {
+    "label": "XIRR",
+    "title": "XIRR(values, dates, [guess])",
+    "value": "返回一组不一定定期发生的现金流的内部收益率。 若要计算一组定期现金流的内部收益率，请使用函数 IRR。"
+  },
+  {
+    "label": "AMORDEGRC",
+    "title": "AMORDEGRC(cost, date_purchased, first_period, salvage, period, rate, [basis])",
+    "value": "返回每个结算期间的折旧值。"
+  },
+  {
+    "label": "COUPDAYBS",
+    "title": "COUPDAYBS(settlement, maturity, frequency, [basis])",
+    "value": "COUPDAYBS 函数返回从付息期开始到结算日的天数。"
+  },
+  {
+    "label": "CHISQ.TEST",
+    "title": "CHISQ.TEST(actual_range,expected_range)",
+    "value": "返回独立性检验值。CHISQ.TEST 返回卡方 (χ2) 分布的统计值和相应的自由度数。"
+  },
+  {
+    "label": "ODDLPRICE",
+    "title": "ODDLPRICE(settlement, maturity, last_interest, rate, yld, redemption, frequency, [basis])",
+    "value": "返回末期付息日不固定的面值 ￥100 的有价证券（长期或短期）的价格。"
+  },
+  {
+    "label": "ODDLYIELD",
+    "title": "ODDLYIELD(settlement, maturity, last_interest, rate, pr, redemption, frequency, [basis])",
+    "value": "返回末期付息日不固定的有价证券（长期或短期）的收益率。"
+  }
+  
+]

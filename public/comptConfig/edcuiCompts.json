@@ -1,0 +1,418 @@
+[
+  {
+    "comptId": 0,
+    "type": "ElDatagrid",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "showAttrs",
+        "cnName": "展示设置",
+        "children": [
+          {
+            "enName": "tableTheme",
+            "cnName": "表格主题",
+            "value": "default",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "default",
+                "value": "默认"
+              },
+              {
+                "label": "noborder",
+                "value": "无边框"
+              },
+              {
+                "label": "innerborder",
+                "value": "内边框"
+              }
+            ]
+          },
+          {
+            "enName": "showIndex",
+            "cnName": "显示序号",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "mergeSimilarCells",
+            "cnName": "合并同类单元格",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "terminalShow":["1001001","1001002"]
+          },
+          {
+            "enName": "frozen",
+            "cnName": "冻结",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "terminalShow":["1001001","1001002"]
+          },
+          {
+            "enName": "pageSize",
+            "cnName": "条/页",
+            "value": "10",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "Number",
+            "showPaging": true,
+            "terminalShow":["1001001","1001002"],
+            "options": [
+              {
+                "label": "10",
+                "value": "10"
+              },
+              {
+                "label": "20",
+                "value": "20"
+              },
+              {
+                "label": "30",
+                "value": "30"
+              },
+              {
+                "label": "40",
+                "value": "40"
+              },
+              {
+                "label": "50",
+                "value": "50"
+              },
+              {
+                "label": "100",
+                "value": "100"
+              }
+            ]
+          },
+          {
+            "enName": "pageSize",
+            "cnName": "记录条数",
+            "value": 10,
+            "min": 10,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "terminalShow":[1005]
+          },
+          {
+            "enName": "duration",
+            "cnName": "播放间隔",
+            "value": 1,
+            "min": 1,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "terminalShow":[1005],
+            "showUnit": true,
+            "unitValue": "s",
+            "unitOptions": [
+              {
+                "label": "秒",
+                "value": "s"
+              }
+            ],
+            "notAddUnit":true         
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "列设置",
+        "tabType": "table",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "选择列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "nick_name",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "align",
+            "cnName": "对齐方式",
+            "value": "",
+            "showType": "icon",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "left",
+                "value": "0",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "1",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "right",
+                "value": "2",
+                "icon": "",
+                "isSelected": false
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "numType",
+            "cnName": "数据格式",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "value": "0",
+                "label": "默认"
+              },
+              {
+                "value": "1",
+                "label": "小数"
+              },
+              {
+                "value": "2",
+                "label": "百分比"
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "dot",
+            "cnName": "小数位",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "setCondi",
+            "cnName": "启用条件格式",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": false
+          },
+          {
+            "enName": "num1",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "options": [
+              {
+                "label": ">=",
+                "value": 2
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "iconColor1",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 1,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": false
+          },
+          {
+            "enName": "num2",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 4,
+            "iconType": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "<",
+                "value": 4
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "iconColor2",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 2,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": false
+          },
+          {
+            "enName": "fixed",
+            "cnName": "冻结",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": false,
+            "terminalShow":["1001001","1001002"]
+          }
+        ]
+      },
+      {
+        "enName": "otherAttrs",
+        "cnName": "其他设置",
+        "tabType": "table",
+        "terminalShow":["1001001","1001002"],
+        "children": [
+          {
+            "enName": "totalRow",
+            "cnName": "显示总计",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "batchSetting",
+            "cnName": "批量设置",
+            "value": false,
+            "showType": "batchSetting",
+            "valueType": "String",
+            "isinit": true
+          },
+          {
+            "enName": "needSms",
+            "cnName": "导出进行短信验证",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "表格",
+      "setting":{
+        "isDim": 1, 
+        "dimTitle": "列",
+        "isDrill": 1, 
+        "isMeasure": 0, 
+        "measureTitle": "列" 
+      },
+      "extendSetting": {
+        "showIndex": false,
+        "comptName.show": false,
+        "comptName.text": "",
+        "pagination.show": true,
+        "pagination.currentPage": 1,
+        "pageSize": 10,
+        "pagination.total": 0,
+        "pagination.methods": {
+          "handleSizeChange": "",
+          "handleCurrentChange": ""
+        },
+        "tableTheme": "default",
+        "export": true,
+        "frozen": true,
+        "mergeSimilarCells": false,
+        "totalRow": false,
+        "batchSetting": 0,
+        "needSms": "",
+        "duration": 1
+      },
+      "style": "width:100%",
+      "stripe": true,
+      "border": true,
+      "highlight-current-row": true,
+      "show-header": true,
+      "is_import": false,
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "loading": false,
+      "polymerizeType": 2,
+      "colSetting": {},
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "dillExpand":true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

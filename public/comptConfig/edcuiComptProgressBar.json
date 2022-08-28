@@ -1,0 +1,284 @@
+[
+    {
+        "comptId": 10,
+        "type": "ProgressBar",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "comptName.show",
+                        "cnName": "是否展示标题",
+                        "value": "",
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "comptName.text",
+                        "cnName": "图形名称",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "title.subtext",
+                        "cnName": "备注",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "backgroundColor",
+                        "cnName": "背景",
+                        "value": "",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            },
+            {
+                "enName": "compStyleAttrs",
+                "vetype": "title",
+                "cnName": "样式设置",
+                "children": [
+                    {
+                        "enName": "rowDisplayCount",
+                        "cnName": "每行展示个数",
+                        "value": 1,
+                        "showType": "select",
+                        "valueType": "Number",
+                        "isShow": true,
+                        "options": [
+                            {
+                                "label": "1",
+                                "value": 1
+                            },
+                            {
+                                "label": "2",
+                                "value": 2
+                            },
+                            {
+                                "label": "3",
+                                "value": 3
+                            },
+                            {
+                                "label": "4",
+                                "value": 4
+                            },
+                            {
+                                "label": "5",
+                                "value": 5
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "labelValShow",
+                        "cnName": "显示标签值",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    }
+                ]
+            },
+            {
+                "enName": "seriesAttrs",
+                "cnName": "系列设置",
+                "tabType": "verticalTab",
+                "children": [
+                    {
+                        "enName": "comptData",
+                        "cnName": "系列",
+                        "value": "",
+                        "selectType": 0,
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [],
+                        "isinit": false
+                    },
+                    {
+                        "enName": "nickName",
+                        "cnName": "别名",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "barColor",
+                        "cnName": "图形颜色",
+                        "value": "",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "targetSetMode",
+                        "cnName": "目标设置",
+                        "value": "static",
+                        "showType": "radio",
+                        "valueType": "String",
+                        "options": [
+                            {
+                                "label": "dynamic",
+                                "value": "动态"
+                            },
+                            {
+                                "label": "static",
+                                "value": "静态"
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "dynamicElementId",
+                        "cnName": "",
+                        "value": "",
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [],
+                        "isinit": false,
+                        "isShow": false
+                    },
+                    {
+                        "enName": "dynamicPolymerizeType",
+                        "cnName": "",
+                        "value": "",
+                        "showType": "select",
+                        "valueType": "Number",
+                        "options": [
+                            {
+                                "label": "SUM",
+                                "value": 2
+                            },
+                            {
+                                "label": "COUNT",
+                                "value": 1
+                            },
+                            {
+                                "label": "AVG",
+                                "value": 3
+                            },
+                            {
+                                "label": "MAX",
+                                "value": 4
+                            },
+                            {
+                                "label": "MIN",
+                                "value": 5
+                            },
+                            {
+                                "label": "COUNT DISTINCT",
+                                "value": 6
+                            }
+                        ],
+                        "isinit": true,
+                        "isShow": false
+                    },
+                    {
+                        "enName": "staticTargetVal",
+                        "cnName": "",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "Number",
+                        "maxLength": "15",
+                        "isShow": true
+                    },
+                    {
+                        "enName": "decimalDigit",
+                        "cnName": "占比小数",
+                        "value": "0",
+                        "selectType": 1,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "无",
+                                "value": "0"
+                            },
+                            {
+                                "label": "1",
+                                "value": "1"
+                            },
+                            {
+                                "label": "2",
+                                "value": "2"
+                            },
+                            {
+                                "label": "3",
+                                "value": "3"
+                            },
+                            {
+                                "label": "4",
+                                "value": "4"
+                            },
+                            {
+                                "label": "5",
+                                "value": "5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "进度条",
+            "setting": {
+                "isDim": 0,
+                "dimTitle": "维度",
+                "isDrill": 0,
+                "isMeasure": 0,
+                "measureTitle": "度量",
+                "yMeasureColTitle": {
+                    "name": "度量",
+                    "elementType": 2,
+                    "count": 5,
+                    "index": 1,
+                    "icon": {
+                        "drill": 0,
+                        "order": 0
+                    }
+                }
+            },
+            "extendSetting": {
+                "comptName.show": false,
+                "comptName.text": "",
+                "rowDisplayCount": 1,
+                "labelValShow": true
+            },
+            "colSetting": {},
+            "filterData": [],
+            "xAxisData": [],
+            "yAxis1Data": [],
+            "yAxis2Data": [],
+            "drillData": [],
+            "loading": false,
+            "isBindData": "1",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": [],
+            "isNeedRestDrill": 0,
+            "isNeedResetLink": 0,
+            "curDrillIdx": 0,
+            "whereBean": {
+                "exp": "",
+                "rule_list": []
+            },
+            "drillWBeanList": [],
+            "pageLinkageData": [],
+            "otherPageCondi": [],
+            "dillExpand": true
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

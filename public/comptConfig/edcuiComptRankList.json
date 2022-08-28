@@ -1,0 +1,178 @@
+[
+    {
+        "comptId": 10,
+        "type": "RankList",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "comptName.show",
+                        "cnName": "是否展示标题",
+                        "value": "",
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "comptName.text",
+                        "cnName": "图形名称",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "title.subtext",
+                        "cnName": "备注",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "backgroundColor",
+                        "cnName": "背景",
+                        "value": "",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            },
+            {
+                "enName": "compStyleAttrs",
+                "vetype": "title",
+                "cnName": "样式设置",
+                "children": [
+                    {
+                        "enName": "colNameShow",
+                        "cnName": "显示列名称",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "topThreeShowType",
+                        "cnName": "TOP3显示",
+                        "value": "1",
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [{
+                            "label": "纯数字",
+                            "value": "1"
+                          },
+                          {
+                            "label": "带方块背景的数字",
+                            "value": "2"
+                          }]
+                      },
+                    {
+                        "enName": "dataLabelShow",
+                        "cnName": "显示数据标签",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "labelShowPosition",
+                        "cnName": "标签显示位置",
+                        "value": "right",
+                        "showType": "select",
+                        "valueType": "String",
+                        "isShow": true,
+                        "options": [
+                          {
+                            "label": "数据条右侧",
+                            "value": "right"
+                          },
+                          {
+                            "label": "数据条左侧",
+                            "value": "left"
+                          }
+                        ]
+                      },
+                    {
+                        "enName": "dataBarColor",
+                        "cnName": "图形颜色",
+                        "value": "#F56C6C",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "排行榜",
+            "setting": {
+                "isDim": 0,
+                "dimTitle": "维度",
+                "isDrill": 0,
+                "isMeasure": 0,
+                "measureTitle": "度量",
+                "xMeasureColTitle": {
+                    "name": "维度",
+                    "elementType": 1,
+                    "count": 1,
+                    "index": 1,
+                    "icon": {
+                        "drill": 0,
+                        "order": 0
+                    }
+                },
+                "yMeasureColTitle": {
+                    "name": "度量",
+                    "elementType": 2,
+                    "count": 1,
+                    "index": 2,
+                    "icon": {
+                        "drill": 0,
+                        "order": 0
+                    }
+                }
+            },
+            "extendSetting": {
+                "comptName.show": false,
+                "comptName.text": "",
+                "colNameShow": true,
+                "dataLabelShow": true,
+                "topThreeShowType": "1",
+                "labelShowPosition": "right",
+                "dataBarColor": "#F56C6C",
+                "pageSize": 10
+            },
+            "filterData": [],
+            "xAxisData": [],
+            "yAxis1Data": [],
+            "yAxis2Data": [],
+            "drillData": [],
+            "loading": false,
+            "isBindData": "1",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": [],
+            "isNeedRestDrill": 0,
+            "isNeedResetLink": 0,
+            "curDrillIdx": 0,
+            "whereBean": {
+              "exp": "",
+              "rule_list": []
+            },
+            "drillWBeanList": [],
+            "pageLinkageData": [],
+            "otherPageCondi": [],
+            "dillExpand": true
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

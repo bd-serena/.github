@@ -1,0 +1,349 @@
+[
+  {
+    "comptId": 7,
+    "type": "PcIndicatorTrend",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "slidesPerView",
+            "cnName": "展示个数",
+            "value": 4,
+            "min": 1,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "spaceBetween",
+            "cnName": "指标间距",
+            "value": 10,
+            "min": 10,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "indicatorFontSize",
+            "cnName": "字体大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "indicatorFontColor",
+            "cnName": "字体颜色",
+            "value": "#333",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "indicatorAlignItems",
+            "cnName": "内容布局",
+            "value": "center",
+            "showType": "icon",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "flex-end",
+                "value": "靠右",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "居中",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "flex-start",
+                "value": "靠左",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "indicatorTextAlign",
+            "cnName": "对齐方式",
+            "value": "left",
+            "showType": "icon",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "right",
+                "value": "右对齐",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "居中",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "left",
+                "value": "左对齐",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "nickName",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "小数点",
+            "value": 3,
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "enName": "suffix",
+            "cnName": "指标后缀",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "setCondi",
+            "cnName": "启用条件格式",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "riseNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled": true,
+            "options": [
+              {
+                "label": ">=",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "enName": "riseIconColor",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 1,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": true
+          },
+          {
+            "enName": "dropNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 4,
+            "iconType": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled": true,
+            "options": [
+              {
+                "label": "<=",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "enName": "dropIconColor",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 2,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": true
+          }
+        ]
+      },
+      {
+        "enName": "trendChartSetting",
+        "cnName": "趋势图设置",
+        "children": [
+          {
+            "enName": "chartRowsNum",
+            "cnName": "区间设置",
+            "value": 10,
+            "min": 1,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "yAxis2",
+            "cnName": "是否显示双Y轴",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "yAxisSite",
+            "cnName": "右Y轴",
+            "value": "",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "指标卡趋势图",
+      "setting": {
+        "isDim": 0,
+        "dimTitle": "维度",
+        "isDrill": 0,
+        "isMeasure": 0,
+        "measureTitle": "度量",
+        "dimColTitle": {
+          "name": "维度",
+          "colType": ["dat"],
+          "elementType": 1,
+          "count": 1,
+          "index": 1,
+          "icon": {
+            "drill": 0,
+            "order": 0
+          }
+        },
+        "measureColTitle": {
+          "name": "度量",
+          "elementType": 2,
+          "count": 100,
+          "min": 1,
+          "index": 2,
+          "icon": {
+            "drill": 0,
+            "order": 0
+          }
+        }
+      },
+      "extendSetting": {
+        "commonBackgroundColor": "",
+        "comptName.show": false,
+        "comptName.text": "",
+        "activeIndicator": [],
+        "filterColumns": [],
+        "slidesPerView": 4,
+        "spaceBetween": 10,
+        "chartRowsNum": 10,
+        "indicatorAlignItems": "center",
+        "indicatorFontColor": "#333",
+        "indicatorFontSize": 16,
+        "indicatorTextAlign": "left",
+        "yAxis2": false,
+        "yAxisSite": ""
+      },
+      "loading": false,
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "selectIndex": 0,
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "colSetting": {}
+    },
+    "comptData": {
+      "rows": [],
+      "columns": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

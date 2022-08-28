@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <style>
+  .webpack-dev-server-client-overlay,
+  #webpack-dev-server-client-overlay {
+    display: none;
+  }
+  </style>
+  <title>DataEleph</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but edc-visualtool-vue doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script>
+    let env = '<%= process.env.NODE_ENV %>';
+    document.onreadystatechange = function() { 　　//当页面加载状态改变的时候执行function
+      if(document.readyState == "complete") { 　　//当页面加载状态为完全结束时加载第三方组件依赖
+        if(env === 'production') {  //生产环境默认加上第三方组件依赖
+          // 添加css
+          let head = document.getElementsByTagName("head")[0];
+          let thirdCss = document.createElement("link");
+          thirdCss.href = "../dataeleph-compts/dataeleph-comptsdev.css";
+          thirdCss.setAttribute('rel','stylesheet');
+          thirdCss.setAttribute('type','text/css');
+          head.appendChild(thirdCss);
+          // 添加js
+          let thirdJs = document.createElement("script");
+          thirdJs.setAttribute("type", "text/javascript");
+          thirdJs.setAttribute("src","../dataeleph-compts/dataeleph-comptsdev.umd.js");
+          document.body.appendChild(thirdJs);
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

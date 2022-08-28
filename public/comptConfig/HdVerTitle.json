@@ -1,0 +1,78 @@
+[
+  {
+    "comptId": 9,
+    "type": "HdVerTitle",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "titletext",
+            "cnName": "标题名称",
+            "value": "默认标题",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "999999"
+          },
+          {
+            "enName": "fontColor",
+            "cnName": "标题颜色",
+            "value": "rgb(0, 246, 255)",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "fontSize",
+            "cnName": "字体大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "fontWeight",
+            "cnName": "是否加粗",
+            "value": "normal",
+            "showType": "button",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "标题",
+      "setting": {
+        "legendLimit": 100,
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "titletext": "",
+        "comptName.text": "",
+        "comptName.show": false,
+        "isShowfontIcon": true,
+        "titleIconCls": "icon-A10060_3square",
+        "fontSize": 16,
+        "fontWeight": "normal",
+        "titleURL": "",
+        "fontColor": "#00f6ff"
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

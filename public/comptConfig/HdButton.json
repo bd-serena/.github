@@ -1,0 +1,137 @@
+[{
+    "comptId": 10,
+    "type": "HdButton",
+    "afId": "",
+    "styleAttrs": [{
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [{
+                "enName": "buttonText",
+                "cnName": "按钮文字",
+                "value": "按钮组件",
+                "showType": "text",
+                "valueType": "String",
+                "maxLength": "15"
+            },
+            {
+                "enName": "backgroundColor",
+                "cnName": "背景颜色",
+                "value": "#174f95",
+                "showType": "colorPic",
+                "valueType": "String"
+            },
+            {
+                "enName": "borderColor",
+                "cnName": "边框颜色",
+                "value": "#2762ab",
+                "showType": "colorPic",
+                "valueType": "String"
+            },
+            {
+                "enName": "fontColor",
+                "cnName": "字体颜色",
+                "value": "#fff",
+                "showType": "colorPic",
+                "valueType": "String"
+            },
+            {
+                "enName": "lineType",
+                "cnName": "线条样式",
+                "value": "none",
+                "selectType": 1,
+                "showType": "select",
+                "valueType": "String",
+                "options": [{
+                        "label": "无",
+                        "value": "none"
+                    },
+                    {
+                        "label": "实线",
+                        "value": "solid"
+                    },
+                    {
+                        "label": "虚线",
+                        "value": "dashed"
+                    }
+                ]
+            },
+            {
+                "enName": "borderWidth",
+                "cnName": "边框粗细",
+                "value": 0,
+                "min": 0,
+                "showType": "inputNumber",
+                "valueType": "int",
+                "max": 5
+            },
+            {
+                "enName": "fontSize",
+                "cnName": "字体大小",
+                "value": 16,
+                "min": 12,
+                "showType": "inputNumber",
+                "valueType": "int",
+                "max": 30
+            },
+            {
+                "enName": "isRadius",
+                "cnName": "边角样式",
+                "value": false,
+                "showType": "radio",
+                "valueType": "Boolean",
+                "disabled": false,
+                "options": [{
+                        "label": false,
+                        "value": "直角"
+                    },
+                    {
+                        "label": true,
+                        "value": "圆角"
+                    }
+                ]
+            }
+
+
+        ]
+    }],
+    "comptAttrs": {
+        "name": "按钮",
+        "setting":{
+            "isDim": 1, 
+            "dimTitle": "维度",
+            "isDrill": 0, 
+            "isMeasure": 1, 
+            "measureTitle": "度量" 
+        },
+        "extendSetting": {
+            "comptName.text": "",
+            "comptName.show": false,
+            "buttonText": "按钮组件",
+            "backgroundColor": "#174f95",
+            "borderColor": "#2762ab",
+            "fontColor": "#fff",
+            "lineType": "none",
+            "borderWidth": 0,
+            "fontSize": 16,
+            "isRadius": false,
+            "linkTabId":[],
+            "urlType": "1",
+            "pageId": "",
+            "comptUrl": ""
+        },
+        "isBindData": "0",
+        "isLinkage": false,
+        "linkageCondi": [],
+        "mainLinkageData": [],
+        "drillData":[],
+        "pageLinkageData":[]
+    },
+    "blockInfo": {
+        "h": 3,
+        "i": 0,
+        "w": 12,
+        "x": 0,
+        "y": 0
+    }
+}]

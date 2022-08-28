@@ -1,0 +1,351 @@
+[
+  {
+    "comptId": 18,
+    "type": "VeWaterfall",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "legend",
+            "cnName": "图表布局",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "options": [
+              {
+                "label": "right",
+                "value": "右布局",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "left",
+                "value": "左布局",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "bottom",
+                "value": "下布局",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "top",
+                "value": "上布局",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "show",
+                "value": "隐藏",
+                "icon": "icon-A10706_center",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "series.label.normal.show",
+            "cnName": "显示数据标签",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          }
+        ]
+      },
+      {
+        "enName": "axisAttrs",
+        "cnName": "坐标轴设置",
+        "tabType": "horizontalTab",
+        "children": [
+          {
+            "enName": "xAxis",
+            "cnName": "X轴",
+            "value": "",
+            "showType": "",
+            "children": [
+              {
+                "enName": "xAxis.name",
+                "cnName": "轴标题",
+                "value": "",
+                "showType": "text",
+                "valueType": "String",
+                "maxLength": "10"
+              },
+              {
+                "enName": "xAxis.axisLabel.formatter",
+                "cnName": "单位",
+                "value": "",
+                "showType": "text",
+                "valueType": "String",
+                "maxLength": "4"
+              },
+              {
+                "enName": "xAxis.axisLine.show",
+                "cnName": "显示轴线",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "xAxis.axisLabel.show",
+                "cnName": "显示轴值",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "xAxis.splitLine.show",
+                "cnName": "显示网格线",
+                "value": false,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "xAxis.axisTick",
+                "cnName": "显示刻度",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              }
+            ]
+          },
+          {
+            "enName": "yAxis",
+            "cnName": "Y轴",
+            "value": "",
+            "showType": "",
+            "children": [
+              {
+                "enName": "yAxis.name",
+                "cnName": "轴标题",
+                "value": "",
+                "showType": "text",
+                "valueType": "String",
+                "maxLength": "10"
+              },
+              {
+                "enName": "yAxis.axisLabel.formatter",
+                "cnName": "单位",
+                "value": "",
+                "showType": "text",
+                "valueType": "String",
+                "maxLength": "4"
+              },
+              {
+                "enName": "yAxis.axisLine.show",
+                "cnName": "显示轴线",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "yAxis.axisLabel.show",
+                "cnName": "显示轴值",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "yAxis.splitLine.show",
+                "cnName": "显示网格线",
+                "value": false,
+                "showType": "boolean",
+                "valueType": "boolean"
+              },
+              {
+                "enName": "yAxis.axisTick",
+                "cnName": "显示刻度",
+                "value": true,
+                "showType": "boolean",
+                "valueType": "boolean"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "series.index.barWidth",
+            "cnName": "柱形宽度",
+            "value": "0%",
+            "showType": "inputNumber",
+            "valueType": "String",
+            "showUnit": true,
+            "unitValue": "%",
+            "unitOptions": [
+              {
+                "label": "像素",
+                "value": "px"
+              },
+              {
+                "label": "百分比",
+                "value": "%"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "瀑布图",
+      "setting": {
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 1, 
+        "isMeasure": 1, 
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "visualMap": [],
+        "grid.bottom": 30,
+        "grid.left": 25,
+        "grid.right": 25,
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend": {
+          "left": "center",
+          "top": 10,
+          "orient": "horizontal"
+        },
+        "legend.show": true,
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "series": "",
+        "series.type": "bar",
+        "series.0.name": "",
+        "series.1.name": "",
+        "series.0.type": "bar",
+        "series.1.type": "bar",
+        "series.2.type": "bar",
+        "series.0.label.normal.show": false,
+        "series.1.label.normal.show": false,
+        "series.2.label.normal.show": false,
+        "series.0.label.normal.position": "top",
+        "series.1.label.normal.position": "top",
+        "series.2.label.normal.position": "top",
+        "series.1.itemStyle.normal.color": "",
+        "series.1.barWidth": "",
+        "xAxis.name": "",
+        "xAxis.axisLine.show": true,
+        "xAxis.axisLabel.show": true,
+        "xAxis.splitLine.show": false,
+        "xAxis.axisTick": {
+          "show": true
+        },
+        "xAxis.axisLabel.formatter": "{value}",
+        "yAxis.name": "",
+        "yAxis.axisLine.show": true,
+        "yAxis.axisLabel.show": true,
+        "yAxis.splitLine.show": false,
+        "yAxis.axisTick": {
+          "show": true
+        },
+        "yAxis.axisLabel.formatter": "{value}"
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "colSetting": {},
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "comptId": 24,
+    "type": "ElImage",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "imgUrl",
+            "cnName": "图片选择",
+            "value": "",
+            "showType": "upload",
+            "valueType": "file"
+          },
+          {
+            "enName": "border",
+            "cnName": "边框设置",
+            "value": "0",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "0",
+                "value": "无边框"
+              },
+              {
+                "label": "",
+                "value": "内边框"
+              }
+            ]
+          },
+          {
+            "enName": "borderColor",
+            "cnName": "边框颜色",
+            "value": "#0da2e7",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "borderWidth",
+            "cnName": "边框粗细",
+            "value": 1,
+            "min": 1,
+            "max": 5,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "borderRadius",
+            "cnName": "是否圆角",
+            "value": "0",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "0",
+                "value": "否"
+              },
+              {
+                "label": "10%",
+                "value": "是"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "图片",
+      "isBindData": "0",
+      "isLinkage": false,
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.text": "",
+        "border": "0",
+        "borderColor": "#0da2e7",
+        "borderWidth": 1,
+        "borderRadius":0,
+        "borderStyle":"solid",
+        "imgUrl":"",
+        "urlType":"1",
+        "pageId":"",
+        "comptUrl":""
+      }
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

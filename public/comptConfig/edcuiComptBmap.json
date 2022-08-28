@@ -1,0 +1,183 @@
+[
+  {
+    "comptId": 11,
+    "type": "VeBmap",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置"
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {}
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "LBS气泡地图",
+      "mapArea": "china",
+      "mapLevel": "0",
+      "setting": {
+        "position": "china",
+        "key": "oBvDtR6nzWtVchkY4cLHtnah1VVZQKRK",
+        "bmap": {
+          "center": [
+            104.114129,
+            37.550339
+          ],
+          "roam": true,
+          "zoom": 4
+        },
+        "itemStyle": {
+          "normal": {
+            "borderColor": "rgb(61,257,930)",
+            "areaColor": "rgb(22, 55, 94)"
+          }
+        },
+        "isDim": 1,
+        "dimTitle": "维度",
+        "isDrill": 0,
+        "isMeasure": 1,
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "tooltip": {},
+        "legend.type": "",
+        "legend": {
+          "left": "center",
+          "top": 10,
+          "data": [
+            {
+              "textStyle": {
+                "color": "#fff"
+              },
+              "name": ""
+            }
+          ],
+          "inactiveColor": "#cccccc",
+          "show": false,
+          "textStyle": {
+            "color": "#000"
+          }
+        },
+        "title.textStyle.color": "#333",
+        "title": {
+          "text": "",
+          "left": "center"
+        },
+        "backgroundColor": "",
+        "series.0.label.normal.show": false,
+        "geo": {
+          "show": true,
+          "map": "",
+          "label": {
+            "normal": {
+              "show": false
+            },
+            "emphasis": {
+              "show": false
+            }
+          },
+          "roam": false,
+          "itemStyle": {
+            "normal": {
+              "areaColor": "rgb(22, 55, 94)",
+              "borderColor": "#1180c7"
+            },
+            "emphasis": {
+              "areaColor": "#4499d0"
+            }
+          },
+          "aspectScale": 1
+        },
+        "series": [
+          {
+            "name": "",
+            "type": "effectScatter",
+            "coordinateSystem": "bmap",
+            "data": [],
+            "symbolSize": 5,
+            "showEffectOn": "render",
+            "rippleEffect": {
+              "brushType": "stroke"
+            },
+            "itemStyle": {
+              "color": "#19D4AE"
+            }
+          }
+        ]
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "series.0.itemStyle.normal.color": "",
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "ratio": 0.8,
+      "decimalDigit": 0,
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +data.percent+'%';}}",
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "isResetSeriesData": 0,
+      "colSetting": {},
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "comptId": 10,
+        "type": "HdTime",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "vetype": "title",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "isIcon",
+                        "cnName": "是否展示图标",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "isYear",
+                        "cnName": "是否展示年月日",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "yearWay",
+                        "cnName": "格式选择",
+                        "value": 0,
+                        "selectType": 1,
+                        "isShow": true,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "2019-01-01",
+                                "value": 0
+                            },
+                            {
+                                "label": "2019/01/01",
+                                "value": 1
+                            },
+                            {
+                                "label": "2019年01月01日",
+                                "value": 2
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "isWeek",
+                        "cnName": "是否展示星期",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "isTime",
+                        "cnName": "是否展示时间",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "timeWay",
+                        "cnName": "格式选择",
+                        "value": 0,
+                        "isShow": true,
+                        "selectType": 1,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "00:00:00",
+                                "value": 0
+                            },
+                            {
+                                "label": "00:00",
+                                "value": 1
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "fontSize",
+                        "cnName": "大小",
+                        "value": "16",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 12,
+                        "max": 80
+                    },
+                    {
+                        "enName": "color",
+                        "cnName": "颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "时间",
+            "setting": {
+                "legendLimit": 100,
+                "isDim": 1, 
+                "dimTitle": "维度",
+                "isDrill": 0, 
+                "isMeasure": 1, 
+                "measureTitle": "度量" 
+            },
+            "extendSetting": {
+                "titletext": "",
+                "comptName.text": "",
+                "comptName.show": false,
+                "isIcon": true,
+                "isYear": true,
+                "yearWay": 0,
+                "isWeek": true,
+                "isTime": true,
+                "timeWay": 0,
+                "fontSize": 16,
+                "color": "#fff"
+            },
+            "isBindData": "0",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": []
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

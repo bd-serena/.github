@@ -1,0 +1,103 @@
+[
+  {
+    "comptId": 201,
+    "type": "VanCollapse",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "titleFontColor",
+            "cnName": "字体颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "titleBgColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "panelBgColor",
+            "cnName": "面板颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "collapseAttrs",
+        "cnName": "折叠设置",
+        "showOtherAttrs": "VanCollapse",
+        "children": [
+          {}
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "折叠面板",
+      "isBindData": "0",
+      "isLinkage": false,
+      "adjustCollapse": false,
+      "expandAction":false,
+      "setting":{
+        "type": "VanCollapse",
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "titleFontColor": "#333",
+        "titleBgColor": "#fff",
+        "panelBgColor": "#fff"
+      },
+      "editableTabsValue": "tab1",
+      "editableTabs": [
+        {
+          "title": "TAB1",
+          "name": "tab1",
+          "comptList": [],
+          "show": true
+        }
+      ]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

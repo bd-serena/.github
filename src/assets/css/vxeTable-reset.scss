@@ -1,0 +1,17 @@
+$--color-primary: #409eff;
+$border-clr01:#dcdfe6; // 边框色1
+$table-head-bg:#f5f7fa; // 表头背景色
+$bold-clr:#303133; // 加粗字体颜色
+
+.vxe-header--column {
+  border-bottom: 3px solid $--color-primary;
+  background-color: $table-head-bg;
+  .vxe-cell {
+    color: $bold-clr;
+  }
+}
+.vxe-table.border--default .vxe-table--header-wrapper,
+.vxe-table.border--full .vxe-table--header-wrapper,
+.vxe-table.border--outer .vxe-table--header-wrapper {
+  background-color: $table-head-bg;
+}

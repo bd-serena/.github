@@ -1,0 +1,164 @@
+[
+    {
+        "comptId": 9,
+        "type": "HdFlopDevice",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "vetype": "title",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "isSetNickName",
+                        "cnName": "是否展示度量",
+                        "value": "",
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "nickName",
+                        "cnName": "别名",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "kpiFontSize",
+                        "cnName": "指标大小",
+                        "value": "16",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 12,
+                        "max": 40
+                    },
+                    {
+                        "enName": "kpiColor",
+                        "cnName": "指标颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "fontSize",
+                        "cnName": "数字大小",
+                        "value": "40",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 20,
+                        "max": 50
+                    },
+                    {
+                        "enName": "fontColor",
+                        "cnName": "数字颜色",
+                        "value": "#fff000",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "precision",
+                        "cnName": "小数点",
+                        "value": "",
+                        "selectType": 1,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "无",
+                                "value": "0"
+                            },
+                            {
+                                "label": "1",
+                                "value": "1"
+                            },
+                            {
+                                "label": "2",
+                                "value": "2"
+                            },
+                            {
+                                "label": "3",
+                                "value": "3"
+                            },
+                            {
+                                "label": "4",
+                                "value": "4"
+                            },
+                            {
+                                "label": "5",
+                                "value": "5"
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "unitName",
+                        "cnName": "单位",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "unitFontSize",
+                        "cnName": "单位大小",
+                        "value": "12",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "min": 12,
+                        "max": 50
+                    },
+                    {
+                        "enName": "unitColor",
+                        "cnName": "单位颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "翻牌器",
+            "setting": {
+                "legendLimit": 100,
+                "isDim": 0, 
+                "dimTitle": "维度",
+                "isDrill": 0, 
+                "isMeasure": 1, 
+                "measureTitle": "度量" 
+            },
+            "extendSetting": {
+                "titletext": "",
+                "comptName.text": "",
+                "comptName.show": false,
+                "fontSize": 40,
+                "fontColor": "#fff000",
+                "isSetNickName": false,
+                "nickName": "",
+                "kpiFontSize": 16,
+                "kpiColor": "#fff",
+                "unitName": "",
+                "unitFontSize": 12,
+                "unitColor": "#fff",
+                "precision": ""
+            },
+            "isBindData": "1",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": [],
+            "xAxisData": [],
+            "yAxis1Data": []
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

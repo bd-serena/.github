@@ -1,0 +1,112 @@
+[
+  {
+    "comptId": 8,
+    "type": "ElTabs",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "tabAlign",
+            "cnName": "对齐方式",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "options": [
+              {
+                "label": "right",
+                "value": "右对齐",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "居中",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "left",
+                "value": "左对齐",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "tabAttrs",
+        "cnName": "标签设置",
+        "showOtherAttrs": "ElTabs",
+        "children": [
+          {}
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "Tab列表",
+      "draggable": true,
+      "isBindData": "0",
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": ""
+      },
+      "extendSetting": {
+        "isNeedBtn": false,
+        "comptName.show": false,
+        "comptName.text": "",
+        "tabAlign": "",
+        "tabShow": true,
+        "canAlign": true
+      },
+      "isLinkage": false,
+      "editableTabsValue": "tab1",
+      "editableTabs": [
+        {
+          "title": "TAB1",
+          "name": "tab1",
+          "comptList": []
+        },
+        {
+          "title": "TAB2",
+          "name": "tab2",
+          "comptList": []
+        }
+      ]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

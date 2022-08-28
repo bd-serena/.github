@@ -1,0 +1,40 @@
+{
+  "ElNumberSymbols": [
+    { "value": 2, "label": ">" },
+    { "value": 1, "label": "<" },
+    { "value": 3, "label": "=" },
+    { "value": 4, "label": "<=" },
+    { "value": 5, "label": ">=" },
+    { "value": 8, "label": "在…中（逗号隔开）" },
+    { "value": 9, "label": "不在…中（逗号隔开）" },
+    { "value": 20, "label": "为空" },
+    { "value": 21, "label": "不为空" } 
+  ],
+  "ElInputSymbols": [
+    { "value": 10, "label": "包含", "children": null },
+    { "value": 11, "label": "不包含", "children": null },
+    { "value": 8, "label": "在…中（逗号隔开）", "children": null },
+    { "value": 9, "label": "不在…中（逗号隔开）", "children": null },
+    { "value": 20, "label": "为空", "children": null },
+    { "value": 21, "label": "不为空", "children": null }
+  ],
+  "ElNumberSymbols2": [
+    { "value": "2", "label": ">" },
+    { "value": "1", "label": "<" },
+    { "value": "3", "label": "=" },
+    { "value": "4", "label": "<=" },
+    { "value": "5", "label": ">=" },
+    { "value": "8", "label": "在…中（逗号隔开）" },
+    { "value": "9", "label": "不在…中（逗号隔开）" },
+    { "value": "20", "label": "为空" },
+    { "value": "21", "label": "不为空" } 
+  ],
+  "ElInputSymbols2": [
+    { "value": "10", "label": "包含", "children": null },
+    { "value": "11", "label": "不包含", "children": null },
+    { "value": "8", "label": "在…中（逗号隔开）", "children": null },
+    { "value": "9", "label": "不在…中（逗号隔开）", "children": null },
+    { "value": "20", "label": "为空", "children": null },
+    { "value": "21", "label": "不为空", "children": null }
+  ]
+}

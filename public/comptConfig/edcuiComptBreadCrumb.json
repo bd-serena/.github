@@ -1,0 +1,102 @@
+[
+  {
+    "comptId": 8,
+    "type": "ElBreadCrumb",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "fontSize",
+            "cnName": "标题大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "String",
+            "min": 10,
+            "max": 40
+          },
+          {
+            "enName": "fontWeight",
+            "cnName": "是否加粗",
+            "value": "normal",
+            "showType": "button",
+            "valueType": "String"
+          },
+          {
+            "enName": "separator",
+            "cnName": "分隔符",
+            "value": ">",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "sepColor",
+            "cnName": "符号颜色",
+            "value": "#333",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "breadcrumbAttrs",
+            "cnName": "目录设置",
+            "showOtherAttrs": "ElBreadCrumb",
+            "children": [
+              {}
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "目录",
+      "isBindData": "0",
+      "isLinkage": false,
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "isNeedBtn": false,
+        "comptName.show": false,
+        "comptName.text": "",
+        "tabAlign": "",
+        "tabShow": true,
+        "canAlign": true,
+        "separator": ">",
+        "sepColor":"",
+        "fontSize":16,
+        "fontWeight":""
+      }, 
+      "editableTabsValue": "tab1",
+      "editableTabs": [
+        {
+          "name": "一级目录",
+          "title": "一级目录",
+          "titleColor": "",
+          "pageId": "",
+          "comptList": []
+        },
+        {
+          "name": "二级目录",
+          "title": "二级目录",
+          "titleColor": "",
+          "titleUrl": "",
+          "comptList": []
+        }
+      ]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

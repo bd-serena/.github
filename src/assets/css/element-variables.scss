@@ -1,0 +1,67 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary: #409eff;
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+$border-clr01:#dcdfe6; // 边框色1
+$table-head-bg:#f5f7fa; // 表头背景色
+$bold-clr:#303133; // 加粗字体颜色
+
+/* 重置elementui样式 */
+//弹窗头部
+.el-dialog__header {
+    border-bottom: 1px solid $border-clr01;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 20px;
+}
+
+// 弹窗内容
+.el-dialog__body {
+    padding: 20px;
+}
+
+.paddingt0 .el-dialog__body{
+    padding-top:0px;
+}
+
+// 弹窗底部
+.el-dialog__footer {
+    // border-top: 1px solid $border-clr01;
+    padding-bottom: 20px;
+}
+
+// 表格样式重置
+.el-table thead tr,
+.el-table thead th {
+    background-color: $table-head-bg;
+}
+
+.el-table thead th.is-leaf {
+    border-bottom: 2px solid $--color-primary;
+}
+
+.el-table--border td {
+    border-right: 0;
+}
+
+.el-table th>.cell {
+    color: $bold-clr;
+}
+
+.el-loading-mask{
+    background-color:transparent;
+}
+// 消息提示框层级设置最顶层
+.el-message {
+    z-index: 9999!important;
+}
+
+/* 重置elementui样式 */

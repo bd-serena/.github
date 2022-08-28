@@ -1,0 +1,113 @@
+[
+  {
+    "comptId": 9,
+    "type": "BdTextNote",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "isShowText",
+            "cnName": "是否展示名称",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "textLable",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "fontSize",
+            "cnName": "字体大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "fontColor",
+            "cnName": "字体颜色",
+            "value": "#000",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "fontWeight",
+            "cnName": "是否加粗",
+            "value": "normal",
+            "showType": "button",
+            "valueType": "String"
+          },
+          {
+            "enName": "isShowfontIcon",
+            "cnName": "是否展示图标",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "titleIconCls",
+            "cnName": "图标样式",
+            "value": "",
+            "showOtherAttrs": "HdIconKpiBlock",
+            "valueType": "String"
+          },
+          {
+            "enName": "iconSize",
+            "cnName": "图标大小",
+            "value": "16",
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "iconColor",
+            "cnName": "图标颜色",
+            "value": "#000",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "noteContent",
+            "cnName": "注释内容",
+            "value": "",
+            "showType": "textArea",
+            "valueType": "String",
+            "maxLength": "500"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "文字注释",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": ""
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "isShowText": true,
+        "isShowfontIcon": true,
+        "textLable": "文字注释",
+        "fontSize": 16,
+        "fontColor": "#000",
+        "fontWeight": "normal",
+        "titleIconCls": "icon-A10407_help",
+        "iconSize": 16,
+        "iconColor": "#000",
+        "noteContent": "自定义"
+      },
+      "isBindData": "0"
+    }
+  }
+]

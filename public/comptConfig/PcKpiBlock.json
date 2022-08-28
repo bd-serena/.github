@@ -1,0 +1,309 @@
+[
+  {
+    "comptId": 7,
+    "type": "PcKpiBlock",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "bgColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "width",
+            "cnName": "宽度",
+            "value": 150,
+            "min":100,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "spacing",
+            "cnName": "间距",
+            "value": 10,
+            "min":10,
+            "showType": "inputNumber",
+            "valueType": "int"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "priMetricFontSize",
+            "cnName": "字体大小",
+            "value": 24,
+            "min":12,
+            "showType": "inputNumber",
+            "valueType": "int"
+          },
+          {
+            "enName": "priMetricFontColor",
+            "cnName": "字体颜色",
+            "value": "#333",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "priMetricTextAlign",
+            "cnName": "对齐方式",
+            "value": "",
+            "showType": "icon",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "left",
+                "value": "0",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "1",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "right",
+                "value": "2",
+                "icon": "",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "latTitleHide",
+            "cnName": "隐藏纬度",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "metricTitleHide",
+            "cnName": "隐藏主度量名称",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "metricSplitLineStyle",
+            "cnName": "行分割线",
+            "value": "",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "无",
+                "value": ""
+              },
+              {
+                "label": "实线",
+                "value": "solid"
+              },
+              {
+                "label": "虚线",
+                "value": "dashed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "rename",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "小数点",
+            "value": 3,
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": 0
+              },
+              {
+                "label": "1",
+                "value": 1
+              },
+              {
+                "label": "2",
+                "value": 2
+              },
+              {
+                "label": "3",
+                "value": 3
+              },
+              {
+                "label": "4",
+                "value": 4
+              },
+              {
+                "label": "5",
+                "value": 5
+              }
+            ]
+          },
+          {
+            "enName": "setCondi",
+            "cnName": "启用条件格式",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "riseNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled":true,
+            "options": [
+              {
+                "label": ">=",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "enName": "riseIconColor",
+            "cnName": "显示为",
+            "value": "",
+            "iconType":1,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled":true
+          },
+          {
+            "enName": "dropNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 4,
+            "iconType":2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled":true,
+            "options": [
+              {
+                "label": "<=",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "enName": "dropIconColor",
+            "cnName": "显示为",
+            "value": "",
+            "iconType":2,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled":true
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "指标看板",
+      "setting": {
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "latTitleHide": false,
+        "latTitleFontSize": 14,
+        "latTitleFontColor": "",
+        "metricRowBig": true,
+        "metricTitleHide": false,
+        "metricSplitLineStyle": "",
+        "priMetricFontSize": 24,
+        "priMetricFontColor": "",
+        "priMetricTextAlign": "center",
+        "bgColor": "",
+        "borderColor": "",
+        "hoverBgColor": "",
+        "hoverBorderColor": "",
+        "width":150,
+        "spacing":10,
+        "series": []
+      },
+      "loading": false,
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "selectIndex": 0,
+      "pageLinkageData": [],
+      "otherPageCondi":[]
+    },
+    "comptData":{
+      "rows":[],
+      "columns":[]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

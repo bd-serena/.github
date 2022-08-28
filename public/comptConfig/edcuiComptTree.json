@@ -1,0 +1,160 @@
+[
+  {
+    "comptId": 18,
+    "type": "VeTree",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "styleAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "series.0.orient",
+            "cnName": "图形方向",
+            "value": "horizontal",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "horizontal",
+                "value": "横向"
+              },
+              {
+                "label": "vertical",
+                "value": "纵向"
+              }
+            ]
+          },
+          {
+            "enName": "series.0.lineStyle.curveness",
+            "cnName": "线条样式",
+            "value": 0.5,
+            "showType": "radio",
+            "valueType": "Object",
+            "options": [
+              {
+                "label": 0,
+                "value": "直线"
+              },
+              {
+                "label": 0.5,
+                "value": "曲线"
+              }
+            ]
+          },
+          {
+            "enName": "series.0.itemStyle.borderColor",
+            "cnName": "节点颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "树图",
+      "setting": {
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量",
+        "links": []
+      },
+      "extendSetting": {
+        "visualMap": [],
+        "grid.bottom": 30,
+        "grid.left": 25,
+        "grid.right": 25,
+        "comptName.show": false,
+        "comptName.text": "",
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "legend.show":false,
+        "series": "",
+        "series.0.type": "tree",
+        "series.0.lineStyle.curveness": 0.5,
+        "series.0.itemStyle.borderColor":"source",
+        "series.0.expandAndCollapse":"true",
+        "series.0.initialTreeDepth":-1,
+        "series.0.orient":"horizontal"
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "labelFunc": "{formatter:function(data){return data.name;}}",
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "colSetting": {}
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "comptId": 10,
+        "type": "HdWater",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "seriesAttrs",
+                "vetype": "title",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "comptName.text",
+                        "cnName": "标题名称",
+                        "value": "默认标题",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "999999"
+                    },
+                    {
+                        "enName": "BgColor",
+                        "cnName": "图形颜色",
+                        "value": "#409EFF",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "comptData",
+                        "cnName": "系列",
+                        "value": "",
+                        "selectType": 0,
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [],
+                        "isinit": true,
+                        "disabled":true
+                    },
+                    {
+                        "enName": "rename",
+                        "cnName": "度量别名",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "fontSize",
+                        "cnName": "字体大小",
+                        "value": "12",
+                        "showType": "inputNumber",
+                        "valueType": "int"
+                    },
+                    {
+                        "enName": "fontColor",
+                        "cnName": "字体颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            },
+            {
+                "enName": "numberAttrs",
+                "vetype": "title",
+                "cnName": "数值设置",
+                "children": [
+                    {
+                        "enName": "numFontSize",
+                        "cnName": "字体大小",
+                        "value": "12",
+                        "showType": "inputNumber",
+                        "valueType": "int"
+                    },
+                    {
+                        "enName": "numFontColor",
+                        "cnName": "字体颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "水位图",
+            "setting": {
+                "legendLimit": 100,
+                "isDim": 0, 
+                "dimTitle": "维度",
+                "isDrill": 0, 
+                "isMeasure": 1, 
+                "measureTitle": "度量" 
+            },
+            "extendSetting": {
+                "comptName.text": "",
+                "comptName.show": false,
+                "BgColor": "#409EFF",
+                "comptData": "",
+                "rename": "",
+                "fontSize": 12,
+                "fontColor": "#fff",
+                "numFontSize": 12,
+                "numFontColor": "#fff",
+                "linkTabId": [],
+                "urlType": "1",
+                "pageId": "",
+                "comptUrl": ""
+            },
+            "isBindData": "1",
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": []
+        },
+        "comptData": {
+            "rows": [],
+            "columns": []
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

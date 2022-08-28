@@ -1,0 +1,89 @@
+[
+  {
+    "comptId": 9,
+    "type": "DvDecoration",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "displayId",
+            "cnName": "装饰类型",
+            "value": "dv-decoration-1",
+            "showType": "comptList",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "decoration-1",
+                "value": "dv-decoration-1"
+              },
+              {
+                "label": "decoration-2",
+                "value": "dv-decoration-2"
+              },
+              {
+                "label": "decoration-2旋转",
+                "value": "dv-decoration-2-reverse"
+              },
+              {
+                "label": "decoration-3",
+                "value": "dv-decoration-3"
+              },
+              {
+                "label": "decoration-4",
+                "value": "dv-decoration-4"
+              },
+              {
+                "label": "decoration-4旋转",
+                "value": "dv-decoration-4-reverse"
+              },
+              {
+                "label": "decoration-5",
+                "value": "dv-decoration-5"
+              },
+              {
+                "label": "decoration-6",
+                "value": "dv-decoration-6"
+              },
+              {
+                "label": "decoration-7",
+                "value": "dv-decoration-7"
+              },
+              {
+                "label": "decoration-8",
+                "value": "dv-decoration-8"
+              },
+              {
+                "label": "decoration-8旋转",
+                "value": "dv-decoration-8-reverse"
+              },
+              {
+                "label": "decoration-9",
+                "value": "dv-decoration-9"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "装饰",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": ""
+      },
+      "extendSetting": {
+        "displayId": "dv-decoration-1",
+        "comptName.text": "",
+        "comptName.show": false
+      },
+      "isBindData": "0"
+    }
+  }
+]

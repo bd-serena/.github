@@ -1,0 +1,109 @@
+[
+  {
+    "comptId": 9,
+    "type": "DvBorder",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "displayId",
+            "cnName": "边框类型",
+            "value": "dv-border-box-1",
+            "showType": "comptList",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "border-1",
+                "value": "dv-border-box-1"
+              },
+              {
+                "label": "border-2",
+                "value": "dv-border-box-2"
+              },
+              {
+                "label": "border-3",
+                "value": "dv-border-box-3"
+              },
+              {
+                "label": "border-4",
+                "value": "dv-border-box-4"
+              },
+              {
+                "label": "border-5",
+                "value": "dv-border-box-4-reverse"
+              },
+              {
+                "label": "border-6",
+                "value": "dv-border-box-5"
+              },
+              {
+                "label": "border-7",
+                "value": "dv-border-box-5-reverse"
+              },
+              {
+                "label": "border-8",
+                "value": "dv-border-box-6"
+              },
+              {
+                "label": "border-9",
+                "value": "dv-border-box-7"
+              },
+              {
+                "label": "border-10",
+                "value": "dv-border-box-8"
+              },
+              {
+                "label": "border-11",
+                "value": "dv-border-box-8-reverse"
+              },
+              {
+                "label": "border-12",
+                "value": "dv-border-box-9"
+              },
+              {
+                "label": "border-13",
+                "value": "dv-border-box-10"
+              },
+              {
+                "label": "border-14",
+                "value": "dv-border-box-11"
+              },
+              {
+                "label": "border-15",
+                "value": "dv-border-box-12"
+              },
+              {
+                "label": "border-16",
+                "value": "dv-border-box-13"
+              },
+              {
+                "label": "border-17",
+                "value": "bd-borderWrap-hd"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "Box边框",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": ""
+      },
+      "extendSetting": {
+        "displayId": "dv-border-box-1",
+        "comptName.text": "",
+        "comptName.show": false
+      },
+      "isBindData": "0"
+    }
+  }
+]

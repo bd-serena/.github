@@ -1,0 +1,270 @@
+[
+  {
+    "comptId": 10,
+    "type": "VeMap",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "legend",
+            "cnName": "图表布局",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "disabled": true,
+            "options": [
+              {
+                "label": "right",
+                "value": "右布局",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "left",
+                "value": "左布局",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "bottom",
+                "value": "下布局",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "top",
+                "value": "上布局",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "show",
+                "value": "隐藏",
+                "icon": "icon-A10706_center",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "series.index.name.normal.show",
+            "cnName": "显示地名",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "series.index.label.normal.map.show",
+            "cnName": "显示图标数据标签",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "series.index.number.format",
+            "cnName": "数据显示格式设置",
+            "value": "{'smooth':false}",
+            "showType": "radio",
+            "valueType": "Object",
+            "isShow": false,
+            "options": [
+              {
+                "label": "{'smooth':false}",
+                "value": "数值"
+              },
+              {
+                "label": "{'smooth':true}",
+                "value": "百分比"
+              }
+            ]
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "小数位",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "isShow": false,
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "色彩地图",
+      "setting": {
+        "position": "province/fujian",
+        "aspectScale": 1,
+        "isDim": 1,
+        "dimTitle": "维度",
+        "isDrill": 1,
+        "isMeasure": 1,
+        "measureTitle": "度量",
+        "labelMap": {}
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend.type": "",
+        "legend": {
+          "left": "center",
+          "top": 10,
+          "orient": "horizontal",
+          "show": false
+        },
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "series.0.label.normal.show": false,
+        "visualMap": {
+          "show": false,
+          "min": 0,
+          "max": 100000,
+          "realtime": false,
+          "calculable": true,
+          "type": "piecewise",
+          "itemWidth": 8,
+          "itemHeight": 8,
+          "inverse": true,
+          "inRange": {
+            "color": [
+              "#19D4AE",
+              "#5AB1EF",
+              "#fa6e86",
+              "#ffb980",
+              "#0067a6",
+              "#c4b4e4",
+              "#d87a80",
+              "#9cbbff",
+              "#d9d0c7",
+              "#87a997",
+              "#d49ea2",
+              "#5b4947",
+              "#7ba3a8"
+            ]
+          },
+          "left": "right",
+          "precision": 2
+        },
+        "series": {
+          "type": "map"
+        }
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "series.0.itemStyle.normal.color": "",
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "ratio": 0.8,
+      "decimalDigit": 0,
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +data.percent+'%';}}",
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "mapJs": [],
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

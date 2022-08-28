@@ -1,0 +1,546 @@
+[
+  {
+    "id": "101",
+    "content": "组合图",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10573_Chart",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10101",
+        "content": "组合图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptChart.json",
+        "imgSrc": "comptPic/VeCombineChart.png",
+        "orderNo": "1"
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "content": "线图",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10113_chart",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10201",
+        "content": "折线图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptLine.json",
+        "imgSrc": "comptPic/VeLine.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10202",
+        "content": "折线面积图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptLineArea.json",
+        "imgSrc": "comptPic/VeLineArea.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10203",
+        "content": "堆叠面积图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptStackLineArea.json",
+        "imgSrc": "comptPic/VeStackLineArea.png",
+        "orderNo": "3"
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "content": "柱图",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10470_Histogram",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10301",
+        "content": "柱状图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptHistogram.json",
+        "imgSrc": "comptPic/VeHistogram.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10302",
+        "content": "堆叠柱状图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptStackHistogram.json",
+        "imgSrc": "comptPic/VeStackHistogram.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10303",
+        "content": "条形图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptbar.json",
+        "imgSrc": "comptPic/VeBar.png",
+        "orderNo": "3"
+      },
+      {
+        "id": "10304",
+        "content": "堆积条形图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptStackbar.json",
+        "imgSrc": "comptPic/VeStackBar.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "10305",
+        "content": "列表柱状图",
+        "classTypeId": "1005",
+        "requiedJson": "HdTopFive.json",
+        "imgSrc": "comptPic/HdTopFive.png",
+        "orderNo": "5"
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "content": "饼图",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10473_PieChart",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10401",
+        "content": "饼图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptPie.json",
+        "imgSrc": "comptPic/VePie.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10402",
+        "content": "单值百分比",
+        "classTypeId": "1005",
+        "requiedJson": "edcuiComptRing.json",
+        "imgSrc": "comptPic/VeRing.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10403",
+        "content": "玫瑰图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptRosePie.json",
+        "imgSrc": "comptPic/VePie.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10404",
+        "content": "气泡图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptBubble.json",
+        "imgSrc": "comptPic/VePie.png",
+        "orderNo": "2"
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "content": "表格",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10465_Form",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10501",
+        "content": "表格",
+        "classTypeId": "",
+        "requiedJson": "edcuiCompts.json",
+        "imgSrc": "comptPic/ElDatagrid.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10502",
+        "content": "交叉表",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptsCrossTable.json",
+        "imgSrc": "comptPic/edcuiComptsCrossTable.png",
+        "orderNo": "2"
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "content": "排版",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10717_typesetting",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10601",
+        "content": "通用标题",
+        "classTypeId": "1001001",
+        "requiedJson": "edcuiComptTitle.json",
+        "imgSrc": "comptPic/VeTitle.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10602",
+        "content": "通用标题",
+        "classTypeId": "1005",
+        "requiedJson": "HdTitle.json",
+        "imgSrc": "comptPic/VeBsTitle.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10603",
+        "content": "通用标题",
+        "classTypeId": "1001002",
+        "requiedJson": "edcuiComptTitle.json",
+        "imgSrc": "comptPic/VeTitle.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10604",
+        "content": "大屏头部",
+        "classTypeId": "1005",
+        "requiedJson": "HdHeader.json",
+        "imgSrc": "comptPic/HdHeader.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10605",
+        "content": "椭圆标题",
+        "classTypeId": "1005",
+        "requiedJson": "HdVerTitle.json",
+        "imgSrc": "comptPic/VeEllipseTitle.png",
+        "orderNo": "3"
+      },
+
+      {
+        "id": "10606",
+        "content": "目录",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptBreadCrumb.json",
+        "imgSrc": "comptPic/VeTitle.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "10607",
+        "content": "文本域",
+        "classTypeId": "1005",
+        "requiedJson": "HdTextarea.json",
+        "imgSrc": "comptPic/HdTextarea.png",
+        "orderNo": "5"
+      },
+      {
+        "id": "10608",
+        "content": "文本域",
+        "classTypeId": "1001001",
+        "requiedJson": "PcTextarea.json",
+        "imgSrc": "comptPic/HdTextarea.png",
+        "orderNo": "5"
+      },
+      {
+        "id": "10609",
+        "content": "文本域",
+        "classTypeId": "1001002",
+        "requiedJson": "PcTextarea.json",
+        "imgSrc": "comptPic/HdTextarea.png",
+        "orderNo": "5"
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "content": "工具",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10577_too",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10701",
+        "content": "查询组件",
+        "classTypeId": "1001001",
+        "requiedJson": "edcuiComptQuery.json",
+        "imgSrc": "comptPic/Query.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10702",
+        "content": "查询组件",
+        "classTypeId": "1001002",
+        "requiedJson": "MobileQuery.json",
+        "imgSrc": "comptPic/Query.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10703",
+        "content": "查询组件",
+        "classTypeId": "1005",
+        "requiedJson": "MobileQuery.json",
+        "imgSrc": "comptPic/Query.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10704",
+        "content": "Tab列表",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptTabs.json",
+        "imgSrc": "comptPic/ElTabs.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10705",
+        "content": "指标组",
+        "classTypeId": "1001001",
+        "requiedJson": "PcKpiBlock.json",
+        "imgSrc": "comptPic/KpiBlockPc.png",
+        "orderNo": "3"
+      },
+      {
+        "id": "10706",
+        "content": "指标组",
+        "classTypeId": "1001002",
+        "requiedJson": "PcKpiBlock.json",
+        "imgSrc": "comptPic/KpiBlockPc.png",
+        "orderNo": "3"
+      },
+      {
+        "id": "10707",
+        "content": "折叠面板",
+        "classTypeId": "1001002",
+        "requiedJson": "VanCollapse.json",
+        "imgSrc": "comptPic/VanCollapse.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "10708",
+        "content": "指标1",
+        "classTypeId": "1005",
+        "requiedJson": "HdKpiBlock.json",
+        "imgSrc": "comptPic/HdKpiBlock.png",
+        "orderNo": "5"
+      },
+      {
+        "id": "10709",
+        "content": "指标2",
+        "classTypeId": "1005",
+        "requiedJson": "HdKpiBlock2.json",
+        "imgSrc": "comptPic/HdKpiBlock2.png",
+        "orderNo": "6"
+      },
+      {
+        "id": "10710",
+        "content": "指标3",
+        "classTypeId": "1005",
+        "requiedJson": "HdKpiBlock3.json",
+        "imgSrc": "comptPic/HdKpiBlock3.png",
+        "orderNo": "7"
+      },
+      {
+        "id": "10711",
+        "content": "图标指标块",
+        "classTypeId": "1005",
+        "requiedJson": "HdIconKpiBlock.json",
+        "imgSrc": "comptPic/KpiBlockPc.png",
+        "orderNo": "8"
+      },
+      {
+        "id": "10712",
+        "content": "轮播",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptCarousel.json",
+        "imgSrc": "comptPic/ElCarousel.png",
+        "orderNo": "9"
+      },
+      {
+        "id": "10713",
+        "content": "翻牌器",
+        "classTypeId": "1005",
+        "requiedJson": "HdFlopDevice.json",
+        "imgSrc": "comptPic/HdFlopDevice.png",
+        "orderNo": "10"
+      },
+      {
+        "id": "10714",
+        "content": "时间",
+        "classTypeId": "1005",
+        "requiedJson": "HdTime.json",
+        "imgSrc": "comptPic/HdTime.png",
+        "orderNo": "11"
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "content": "地图",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10310_location",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10801",
+        "content": "地图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptMap.json",
+        "imgSrc": "comptPic/edcuiComptMap.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10802",
+        "content": "区域地图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptAreaMap.json",
+        "imgSrc": "comptPic/edcuiComptAreaMap.png",
+        "orderNo": "2"
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "content": "其他",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10193_addTag",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "10901",
+        "content": "雷达图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptRadar.json",
+        "imgSrc": "comptPic/VeRadar.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "10902",
+        "content": "仪表图",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptGauge.json",
+        "imgSrc": "comptPic/VeGauge.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "10903",
+        "content": "按钮",
+        "classTypeId": "1005",
+        "requiedJson": "HdButton.json",
+        "imgSrc": "comptPic/HdButton.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "10904",
+        "content": "清单轮播",
+        "classTypeId": "1005",
+        "requiedJson": "edcuiComptSwipe.json",
+        "imgSrc": "comptPic/ElSwiper.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "10905",
+        "content": "水位图",
+        "classTypeId": "1005",
+        "requiedJson": "HdWater.json",
+        "imgSrc": "comptPic/HdWater.png",
+        "orderNo": "5"
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "content": "形状",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10719_shape",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "11001",
+        "content": "横线",
+        "classTypeId": "1005",
+        "requiedJson": "HdHorizontalLine.json",
+        "imgSrc": "comptPic/HdHorizontalLine.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "11002",
+        "content": "竖线",
+        "classTypeId": "1005",
+        "requiedJson": "HdVerticalLine.json",
+        "imgSrc": "comptPic/HdVerticalLine.png",
+        "orderNo": "2"
+      },
+      {
+        "id": "11003",
+        "content": "角分割线",
+        "classTypeId": "1005",
+        "requiedJson": "HdCorner.json",
+        "imgSrc": "comptPic/HdCorner.png",
+        "orderNo": "3"
+      },
+      {
+        "id": "11004",
+        "content": "边框",
+        "classTypeId": "1005",
+        "requiedJson": "HdBorderWrap.json",
+        "imgSrc": "comptPic/HdBorderWrap.png",
+        "orderNo": "4"
+      },
+      {
+        "id": "11005",
+        "content": "线条",
+        "classTypeId": "1005",
+        "requiedJson": "VeDragLine.json",
+        "imgSrc": "comptPic/HdCorner.png",
+        "orderNo": "5"
+      },
+      {
+        "id": "11006",
+        "content": "标题形状",
+        "classTypeId": "1005",
+        "requiedJson": "HdTitleShape.json",
+        "imgSrc": "comptPic/HdTitleShape.png",
+        "orderNo": "6"
+      }
+    ]
+  },
+  {
+    "id": "111",
+    "content": "图标",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10720_icon",
+    "orderNo": "1",
+    "children": [
+      {
+        "id": "11101",
+        "content": "图标",
+        "classTypeId": "",
+        "requiedJson": "HdIconBlock.json",
+        "imgSrc": "comptPic/HdIconBlock.png",
+        "orderNo": "1"
+      },
+      {
+        "id": "11102",
+        "content": "图片",
+        "classTypeId": "",
+        "requiedJson": "edcuiComptImage.json",
+        "imgSrc": "comptPic/HdImage.png",
+        "orderNo": "2"
+      }
+    ]
+  },
+  {
+    "id": "112",
+    "content": "外部组件",
+    "classTypeId": "",
+    "requiedJson": "",
+    "iconClass": "icon-A10718_component",
+    "orderNo": "1",
+    "children": []
+  }
+]

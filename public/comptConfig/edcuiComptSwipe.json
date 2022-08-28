@@ -1,0 +1,215 @@
+[
+  {
+    "comptId": 9,
+    "type": "ElSwiper",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "pageSize",
+            "cnName": "记录条数",
+            "value": 10,
+            "min": 10,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "terminalShow": [
+              1005
+            ]
+          },
+          {
+            "enName": "duration",
+            "cnName": "播放间隔",
+            "value": 3,
+            "min": 1,
+            "max": 100,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "terminalShow": [
+              1005
+            ],
+            "showUnit": true,
+            "unitValue": "s",
+            "unitOptions": [
+              {
+                "label": "秒",
+                "value": "s"
+              }
+            ],
+            "notAddUnit": true
+          },
+          {
+            "enName": "itemBgColor1",
+            "cnName": "渐变颜色1",
+            "value": "rgba(28, 102, 165, 0.2)",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "itemBgColor2",
+            "cnName": "渐变颜色2",
+            "value": "rgba(28, 102, 165, 0.7)",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "列设置",
+        "tabType": "table",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "选择列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "nickName",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "disabled": false
+          },
+          {
+            "enName": "fontSize",
+            "cnName": "字体大小",
+            "value": "",
+            "showType": "inputNumber",
+            "valueType": "int",
+            "min": 12,
+            "max": 100
+          },
+          {
+            "enName": "color",
+            "cnName": "字体颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "numType",
+            "cnName": "数据格式",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "value": "0",
+                "label": "默认"
+              },
+              {
+                "value": "1",
+                "label": "小数"
+              },
+              {
+                "value": "2",
+                "label": "百分比"
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "dot",
+            "cnName": "小数位",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ],
+            "disabled": false
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "清单轮播",
+      "draggable": true,
+      "isBindData": "1",
+      "setting":{
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "pageShow": true,
+        "autoplay": false,
+        "duration": 3,
+        "pageSize": 10,
+        "itemBgColor1": "rgba(28, 102, 165, 0.2)",
+        "itemBgColor2": "rgba(28, 102, 165, 0.7)"
+      },
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isLinkage": false,
+      "linkageCondi": [],
+      "otherPageCondi": [],
+      "colSetting": {},
+      "loading": false
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

@@ -1,0 +1,76 @@
+[{
+  "comptId": 3,
+  "type": "Query",
+  "afId": "",
+  "styleAttrs": [{
+      "enName": "commonAttrs",
+      "cnName": "通用设置",
+      "children": [{
+          "enName": "comptName.show",
+          "cnName": "是否展示标题",
+          "value": false,
+          "showType": "boolean",
+          "valueType": "boolean"
+        },
+        {
+          "enName": "comptName.text",
+          "cnName": "图形名称",
+          "value": "",
+          "showType": "text",
+          "valueType": "String",
+          "maxLength": "15"
+        }
+      ]
+    },
+    {
+      "enName": "styleAttrs",
+      "cnName": "样式设置",
+      "children": [{
+          "enName": "isNeedBtn",
+          "cnName": "展示按钮",
+          "value": "false",
+          "showType": "radio",
+          "valueType": "Boolean",
+          "options": [{
+              "label": "false",
+              "value": "否"
+            },
+            {
+              "label": "true",
+              "value": "是"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "comptAttrs": {
+    "name": "查询组件",
+    "isBindData": "1",
+    "setting": {
+      "isDim": 0,
+      "dimTitle": "",
+      "isDrill": 0,
+      "isMeasure": 0,
+      "measureTitle": ""
+    },
+    "extendSetting": {
+      "isNeedBtn": false,
+      "comptName.show": false,
+      "comptName.text": "",
+      "urlType": "1"
+    },
+    "isLinkage": false,
+    "fieldList": [],
+    "selectedQueryData": [],
+    "isNeedResetLink": 0,
+    "pageLinkageData": []
+  },
+  "blockInfo": {
+    "h": 3,
+    "i": 0,
+    "w": 12,
+    "x": 0,
+    "y": 0
+  }
+}]

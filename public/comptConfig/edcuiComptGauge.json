@@ -1,0 +1,353 @@
+[
+  {
+    "comptId": 20,
+    "type": "VeGauge",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "series.0.axisTick.show,series.0.splitLine.show",
+            "cnName": "显示刻度线",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "series.0.axisLabel.show",
+            "cnName": "显示刻度值",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "series.0.title.show",
+            "cnName": "显示图例",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "series.0.pointer.show",
+            "cnName": "显示指针",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "isLinearGradient",
+            "cnName": "渐变色显示",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2,
+            "terminalShow": [
+              1005
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "intervalAttrs",
+        "cnName": "区间设置",
+        "children": [
+          {
+            "enName": "legend",
+            "cnName": "图表布局",
+            "value": "",
+            "showType": "inputColorPic",
+            "valueType": "Object",
+            "options": [
+              {
+                "id": 0,
+                "min": 0,
+                "max": 20,
+                "color": "#91c7ae",
+                "isDisabled": false,
+                "isShowDel": false,
+                "intervalDesc": "",
+                "maxLength": "10"
+              },
+              {
+                "id": 0,
+                "min": 20,
+                "max": 80,
+                "color": "#63869e",
+                "isDisabled": true,
+                "isShowDel": true,
+                "intervalDesc": "",
+                "maxLength": "10"
+              },
+              {
+                "id": 0,
+                "min": 80,
+                "max": 100,
+                "color": "#c23531",
+                "isDisabled": true,
+                "isShowDel": true,
+                "intervalDesc": "",
+                "maxLength": "10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false,
+            "disabled":true
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "度量别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "小数点",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              }
+            ]
+          },
+          {
+            "enName": "unit",
+            "cnName": "单位",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "仪表图",
+      "setting": {
+        "labelMap": {},
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "legend.type": "",
+        "legend.show": false,
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "grid.top": "30%",
+        "grid.bottom": "30%",
+        "series.0.type": "gauge",
+        "series.0.detail": {},
+        "tooltip": {
+          "formatter": "{a}: {c}"
+        },
+        "series.0.axisTick.show": true,
+        "series.0.splitLine.show": true,
+        "series.0.title.show": true,
+        "series.0.data.0.name": "",
+        "series.0.axisLine.lineStyle.color": [
+          [
+            0.2,
+            "#91c7ae"
+          ],
+          [
+            0.8,
+            "#63869e"
+          ],
+          [
+            1,
+            "#c23531"
+          ]
+        ],
+        "series.0.radius": "80%",
+        "series.0.axisLabel.show": true,
+        "series.0.startAngle": 225,
+        "series.0.endAngle": -45,
+        "series.0.title.color": "#333",
+        "series.0.title.offsetCenter": [
+          0,
+          "-40%"
+        ],
+        "series.0.detail.color": "auto",
+        "series.0.detail.offsetCenter": [
+          0,
+          "40%"
+        ],
+        "series.0.center": [
+          "50%",
+          "50%"
+        ],
+        "series.1.type": "gauge",
+        "series.1.radius": "80%",
+        "series.1.startAngle": 180,
+        "series.1.endAngle": 0,
+        "series.1.center": [
+          "50%",
+          "75%"
+        ],
+        "series.1.axisLine.lineStyle.width": 0,
+        "series.1.axisLine.lineStyle.opacity": 0,
+        "series.1.axisLine.show": false,
+        "series.1.splitLine.show": false,
+        "series.1.axisTick.show": false,
+        "series.1.axisLabel.show": false,
+        "series.1.pointer.show": false,
+        "series.1.detail.color": "#ccc",
+        "series.1.detail.offsetCenter": [
+          0,
+          "-60%"
+        ],
+        "series.1.detail.formatter": ""
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "decimalDigit": 0,
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +data.percent+'%';}}",
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "curDrillIdx": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "drillWBeanList": [],
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "unit": "",
+      "colSetting": {},
+      "isLinearGradient": false,
+      "colorArr": [
+        [
+          0.2,
+          "#91c7ae"
+        ],
+        [
+          0.8,
+          "#63869e"
+        ],
+        [
+          1,
+          "#c23531"
+        ]
+      ],
+      "linearcolorArr": [
+        {
+          "offset": 0,
+          "color": "#91c7ae"
+        },
+        {
+          "offset": 0.2,
+          "color": "#63869e"
+        },
+        {
+          "offset": 0.8,
+          "color": "#c23531"
+        }
+      ],
+      "intervalDescFunc": "function(value){return '';}",
+      "linearAxisLabelColor": "#ccc"
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

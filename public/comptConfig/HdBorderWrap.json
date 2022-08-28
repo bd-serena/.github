@@ -1,0 +1,239 @@
+[
+  {
+    "comptId": 16,
+    "type": "HdBorderWrap",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "vetype": "title",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "styleChange",
+            "cnName": "边框样式",
+            "value": "type1",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "边框样式1",
+                "value": "type1"
+              },
+              {
+                "label": "边框样式2",
+                "value": "type2"
+              },
+              {
+                "label": "边框样式3",
+                "value": "type3"
+              }
+            ]
+          },
+          {
+            "enName": "evertDirection",
+            "cnName": "翻转位置",
+            "value": "botleft",
+            "selectType": 1,
+            "disabled": false,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "左下",
+                "value": "botleft"
+              },
+              {
+                "label": "右上",
+                "value": "topRight"
+              },
+              {
+                "label": "右下",
+                "value": "botRight"
+              },
+              {
+                "label": "左上",
+                "value": "topLeft"
+              }
+            ]
+          },
+          {
+            "enName": "TEvertDirection",
+            "cnName": "边2翻转位置",
+            "value": "botleft",
+            "selectType": 1,
+            "disabled": true,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "左下",
+                "value": "botleft"
+              },
+              {
+                "label": "右上",
+                "value": "topRight"
+              },
+              {
+                "label": "右下",
+                "value": "botRight"
+              },
+              {
+                "label": "左上",
+                "value": "topLeft"
+              }
+            ]
+          },
+          {
+            "enName": "flashShow",
+            "cnName": "是否展示动效",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": false
+          },
+          {
+            "enName": "flashDirection",
+            "cnName": "动效位置",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "disabled": false,
+            "options": [
+              {
+                "label": "right",
+                "value": "右边",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "left",
+                "value": "左边",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "bottom",
+                "value": "下边",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "top",
+                "value": "上边",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "SFlashShow",
+            "cnName": "边2是否展示动效",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": true
+          },
+          {
+            "enName": "SFlashDirection",
+            "cnName": "边2动效位置",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "disabled": true,
+            "options": [
+              {
+                "label": "SRight",
+                "value": "右边",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "SLeft",
+                "value": "左边",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "SBottom",
+                "value": "下边",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "STop",
+                "value": "上边",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "opacityNum",
+            "cnName": "透明度",
+            "value": 90,
+            "min": 10,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "max": 100,
+            "disabled":true
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "边框",
+      "setting":{
+        "isDim": 0, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "flashShow": true,
+        "flashDirection": "right",
+        "SFlashShow": true,
+        "SFlashDirection": "right",
+        "styleChange": "type1",
+        "isRadius": true,
+        "borderColor": "",
+        "setBoderColor": false,
+        "setBaGColor": true,
+        "bdSize": "1",
+        "backgroundColor":"",
+        "evertDirection":"botleft",
+        "TEvertDirection":"botleft",
+        "opacityNum":90
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

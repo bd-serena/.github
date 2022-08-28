@@ -1,0 +1,341 @@
+[
+  {
+    "comptId": 6,
+    "type": "VeRadar",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "backgroundColor",
+            "cnName": "背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "布局设置",
+        "children": [
+          {
+            "enName": "legend",
+            "cnName": "图表布局",
+            "value": "",
+            "showType": "icon",
+            "valueType": "Object",
+            "options": [
+              {
+                "label": "right",
+                "value": "右布局",
+                "icon": "icon-A10708_rightAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "left",
+                "value": "左布局",
+                "icon": "icon-A10707_leftAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "bottom",
+                "value": "下布局",
+                "icon": "icon-A10710_lowerAlignment",
+                "isSelected": false
+              },
+              {
+                "label": "top",
+                "value": "上布局",
+                "icon": "icon-A10709_upAlignment",
+                "isSelected": true
+              },
+              {
+                "label": "show",
+                "value": "隐藏",
+                "icon": "icon-A10706_center",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "series.label.normal.show",
+            "cnName": "显示数据标签",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          },
+          {
+            "enName": "series.index.area.normal.show",
+            "cnName": "显示面积",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "datalength": 2
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "系列设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": false
+          },
+          {
+            "enName": "series.index.name,legend.data.index",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "小数点",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ]
+          },
+          {
+            "enName": "series.index.itemStyle.normal.color",
+            "cnName": "图形颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "雷达图",
+      "setting": {
+        "labelMap": {},
+        "label": {
+          "show": false
+        },
+        "itemStyle": {
+          "normal": {
+            "areaStyle": {
+              "type": "default"
+            }
+          }
+        },
+        "isDim": 1,
+        "dimTitle": "维度",
+        "isDrill": 1, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "radar.shape": "",
+        "visualMap": [],
+        "color": [
+          "#19d4ae",
+          "#5ab1ef",
+          "#fa6e86",
+          "#ffb980",
+          "#0067a6",
+          "#c4b4e4",
+          "#d87a80",
+          "#9cbbff",
+          "#d9d0c7",
+          "#87a997",
+          "#d49ea2",
+          "#5b4947",
+          "#7ba3a8"
+        ],
+        "comptName.show": false,
+        "comptName.text": "",
+        "title.textStyle.color": "#333",
+        "title.subtext": "",
+        "backgroundColor": "",
+        "series": "",
+        "series.type": "radar",
+        "series.0.itemStyle.normal.color": "",
+        "legend": {
+          "left": "center",
+          "top": 10,
+          "orient": "horizontal"
+        },
+        "triggerEvent": true,
+        "series.0.area.normal.show": true,
+        "series.10": {
+          "tooltip": {
+            "show": true,
+            "trigger": "axis"
+          },
+          "type": "radar",
+          "lineStyle": {
+            "color": "rgba(1,1,1,0)"
+          },
+          "data": [],
+          "symbol": "circle",
+          "symbolSize": 7,
+          "itemStyle": {
+            "normal": {
+              "color": "red"
+            }
+          },
+          "areaStyle": {
+            "normal": {
+              "opacity": 0
+            }
+          }
+        },
+        "tooltip.confine":true
+      },
+      "isSetColor": {
+        "series.0.itemStyle.normal.color": false,
+        "series.1.itemStyle.normal.color": false,
+        "series.2.itemStyle.normal.color": false,
+        "series.3.itemStyle.normal.color": false,
+        "series.4.itemStyle.normal.color": false,
+        "series.5.itemStyle.normal.color": false,
+        "series.6.itemStyle.normal.color": false,
+        "series.7.itemStyle.normal.color": false,
+        "series.8.itemStyle.normal.color": false,
+        "series.9.itemStyle.normal.color": false,
+        "series.10.itemStyle.normal.color": false,
+        "series.11.itemStyle.normal.color": false,
+        "series.12.itemStyle.normal.color": false,
+        "series.13.itemStyle.normal.color": false,
+        "series.14.itemStyle.normal.color": false
+      },
+      "defaultColor": [
+        "#19d4ae",
+        "#5ab1ef",
+        "#fa6e86",
+        "#ffb980",
+        "#0067a6",
+        "#c4b4e4",
+        "#d87a80",
+        "#9cbbff",
+        "#d9d0c7",
+        "#87a997",
+        "#d49ea2",
+        "#5b4947",
+        "#7ba3a8"
+      ],
+      "chartEvents": {},
+      "filterData": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "decimalDigit": 0,
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "colSetting": {
+        "seriesColor": {
+          "color": [
+            "#19d4ae",
+            "#5ab1ef",
+            "#fa6e86",
+            "#ffb980",
+            "#0067a6",
+            "#c4b4e4",
+            "#d87a80",
+            "#9cbbff",
+            "#d9d0c7",
+            "#87a997",
+            "#d49ea2",
+            "#5b4947",
+            "#7ba3a8"
+          ]
+        },
+        "legendData": {}
+      },
+      "dillExpand":true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]

@@ -1,0 +1,386 @@
+[
+  {
+    "comptId": 0,
+    "type": "PivotTable",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示组件名称",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "组件名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "thHeader",
+            "cnName": "表头高度",
+            "value": "35",
+            "showType": "inputNumber",
+            "valueType": "int"
+          }
+        ]
+      },
+      {
+        "enName": "showAttrs",
+        "cnName": "展示设置",
+        "children": [
+          {
+            "enName": "tableTheme",
+            "cnName": "表格主题",
+            "value": "default",
+            "showType": "radio",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "default",
+                "value": "默认"
+              },
+              {
+                "label": "noborder",
+                "value": "无边框"
+              },
+              {
+                "label": "innerborder",
+                "value": "内边框"
+              }
+            ]
+          },
+          {
+            "enName": "thTextColor",
+            "cnName": "表头字体颜色",
+            "value": "#303133",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "thBgColor",
+            "cnName": "表头背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "tbTextColor",
+            "cnName": "内容字体颜色",
+            "value": "#606266",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "tbBgColor",
+            "cnName": "内容背景颜色",
+            "value": "",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "tbBdColor",
+            "cnName": "表格边框颜色",
+            "value": "#afc0d0",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "frozen",
+            "cnName": "冻结",
+            "value": true,
+            "showType": "boolean",
+            "valueType": "boolean"
+          }
+        ]
+      },
+      {
+        "enName": "seriesAttrs",
+        "cnName": "列设置",
+        "tabType": "table",
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "选择列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "nick_name",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "align",
+            "cnName": "对齐方式",
+            "value": "",
+            "showType": "icon",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "left",
+                "value": "0",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "center",
+                "value": "1",
+                "icon": "",
+                "isSelected": false
+              },
+              {
+                "label": "right",
+                "value": "2",
+                "icon": "",
+                "isSelected": false
+              }
+            ]
+          },
+          {
+            "enName": "numType",
+            "cnName": "数据格式",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "value": "0",
+                "label": "默认"
+              },
+              {
+                "value": "1",
+                "label": "小数"
+              },
+              {
+                "value": "2",
+                "label": "百分比"
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "dot",
+            "cnName": "小数位",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ],
+            "disabled": false
+          },
+          {
+            "enName": "setCondi",
+            "cnName": "条件格式",
+            "value": "default",
+            "showType": "radio",
+            "valueType": "String",
+            "isShow": true,
+            "options": [
+              {
+                "label": "default",
+                "value": "无"
+              },
+              {
+                "label": "showIcon",
+                "value": "图标展示"
+              },
+              {
+                "label": "showNum",
+                "value": "数值展示"
+              }
+            ]
+          },
+          {
+            "enName": "num1",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "options": [
+              {
+                "label": ">=",
+                "value": 2
+              }
+            ],
+            "disabled": true
+          },
+          {
+            "enName": "iconColor1",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 1,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": true
+          },
+          {
+            "enName": "num2",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 4,
+            "iconType": 2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "<",
+                "value": 4
+              }
+            ],
+            "disabled": true
+          },
+          {
+            "enName": "iconColor2",
+            "cnName": "显示为",
+            "value": "",
+            "iconType": 2,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled": true
+          }
+        ]
+      },
+      {
+        "enName": "otherAttrs",
+        "cnName": "其他设置",
+        "tabType": "table",
+        "children": [
+          {
+            "enName": "subTotal",
+            "cnName": "显示小计",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": true
+          },
+          {
+            "enName": "subTotalCol",
+            "cnName": "小计维度",
+            "value": "",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "disabled": true
+          },
+          {
+            "enName": "totalRow",
+            "cnName": "显示总计",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean",
+            "disabled": false
+          },
+          {
+            "enName": "batchSetting",
+            "cnName": "批量设置",
+            "value": false,
+            "showType": "batchSetting",
+            "valueType": "String",
+            "isinit": true
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "透视表",
+      "setting":{
+        "isDim": 1, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "tableTheme": "default",
+        "export": true,
+        "frozen": true,
+        "totalRow": false,
+        "batchSetting": 0,
+        "headerHeight": 35,
+        "urlType": "1",
+        "pageId": "",
+        "comptUrl": ""
+      },
+      "style": "width:100%",
+      "stripe": true,
+      "border": true,
+      "highlight-current-row": true,
+      "show-header": true,
+      "is_import": false,
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "curDrillIdx": 0,
+      "drillWBeanList": [],
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "loading": false,
+      "polymerizeType": 1,
+      "colSetting": {},
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "dillExpand":true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

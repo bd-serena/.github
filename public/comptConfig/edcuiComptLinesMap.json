@@ -1,0 +1,437 @@
+[
+    {
+        "comptId": 11,
+        "type": "VeLines",
+        "afId": "",
+        "styleAttrs": [
+            {
+                "enName": "commonAttrs",
+                "cnName": "通用设置",
+                "children": [
+                    {
+                        "enName": "comptName.show",
+                        "cnName": "是否展示标题",
+                        "value": "",
+                        "showType": "boolean",
+                        "valueType": "boolean"
+                    },
+                    {
+                        "enName": "comptName.text",
+                        "cnName": "图形名称",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "title.subtext",
+                        "cnName": "备注",
+                        "value": "",
+                        "showType": "text",
+                        "valueType": "String",
+                        "maxLength": "15"
+                    },
+                    {
+                        "enName": "backgroundColor",
+                        "cnName": "背景颜色",
+                        "value": "",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            },
+            {
+                "enName": "layoutAttrs",
+                "cnName": "布局设置",
+                "children": [
+                    {
+                        "enName": "legend",
+                        "cnName": "图表布局",
+                        "value": "",
+                        "showType": "icon",
+                        "valueType": "Object",
+                        "options": [
+                            {
+                                "label": "show",
+                                "value": "隐藏",
+                                "icon": "icon-A10706_center",
+                                "isSelected": true
+                            },
+                            {
+                                "label": "bottom",
+                                "value": "显示",
+                                "icon": "icon-A10709_upAlignment",
+                                "isSelected": false
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "series.index.name.normal.show",
+                        "cnName": "显示地名",
+                        "value": true,
+                        "showType": "boolean",
+                        "valueType": "boolean",
+                        "datalength": 2
+                    },
+                    {
+                        "enName": "show.top",
+                        "cnName": "显示TOP",
+                        "value": "50",
+                        "showType": "inputNumber",
+                        "valueType": "int",
+                        "max": 100,
+                        "min": 1
+                    }
+                ]
+            },
+            {
+                "enName": "styleAttrs",
+                "cnName": "样式设置",
+                "children": [
+                    {
+                        "enName": "effect.symbol",
+                        "cnName": "标记类型",
+                        "value": "path://M1705.06,1318.313v-89.254l-319.9-221.799l0.073-208.063c0.521-84.662-26.629-121.796-63.961-121.491c-37.332-0.305-64.482,36.829-63.961,121.491l0.073,208.063l-319.9,221.799v89.254l330.343-157.288l12.238,241.308l-134.449,92.931l0.531,42.034l175.125-42.917l175.125,42.917l0.531-42.034l-134.449-92.931l12.238-241.308L1705.06,1318.313z",
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [
+                            {
+                                "label": "飞机",
+                                "value": "path://M1705.06,1318.313v-89.254l-319.9-221.799l0.073-208.063c0.521-84.662-26.629-121.796-63.961-121.491c-37.332-0.305-64.482,36.829-63.961,121.491l0.073,208.063l-319.9,221.799v89.254l330.343-157.288l12.238,241.308l-134.449,92.931l0.531,42.034l175.125-42.917l175.125,42.917l0.531-42.034l-134.449-92.931l12.238-241.308L1705.06,1318.313z"
+                            },
+                            {
+                                "label": "箭头",
+                                "value": "arrow"
+                            },
+                            {
+                                "label": "圆形",
+                                "value": "circle"
+                            },
+                            {
+                                "label": "矩形",
+                                "value": "rect"
+                            },
+                            {
+                                "label": "圆矩形",
+                                "value": "roundRect"
+                            },
+                            {
+                                "label": "三角形",
+                                "value": "triangle"
+                            },
+                            {
+                                "label": "菱形",
+                                "value": "diamond"
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "effect.symbolSize",
+                        "cnName": "标记大小",
+                        "value": 15,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "5",
+                                "value": 5
+                            },
+                            {
+                                "label": "6",
+                                "value": 6
+                            },
+                            {
+                                "label": "7",
+                                "value": 7
+                            },
+                            {
+                                "label": "8",
+                                "value": 8
+                            },
+                            {
+                                "label": "9",
+                                "value": 9
+                            },
+                            {
+                                "label": "10",
+                                "value": 10
+                            },
+                            {
+                                "label": "11",
+                                "value": 11
+                            },
+                            {
+                                "label": "12",
+                                "value": 12
+                            },
+                            {
+                                "label": "13",
+                                "value": 13
+                            },
+                            {
+                                "label": "14",
+                                "value": 14
+                            },
+                            {
+                                "label": "15",
+                                "value": 15
+                            },
+                            {
+                                "label": "16",
+                                "value": 16
+                            },
+                            {
+                                "label": "17",
+                                "value": 17
+                            },
+                            {
+                                "label": "18",
+                                "value": 18
+                            },
+                            {
+                                "label": "19",
+                                "value": 19
+                            },
+                            {
+                                "label": "20",
+                                "value": 20
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "effect.period",
+                        "cnName": "特效时间",
+                        "value": 5,
+                        "showType": "select",
+                        "valueType": "int",
+                        "options": [
+                            {
+                                "label": "5",
+                                "value": 5
+                            },
+                            {
+                                "label": "6",
+                                "value": 6
+                            },
+                            {
+                                "label": "7",
+                                "value": 7
+                            },
+                            {
+                                "label": "8",
+                                "value": 8
+                            },
+                            {
+                                "label": "9",
+                                "value": 9
+                            },
+                            {
+                                "label": "10",
+                                "value": 10
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "lineStyle.normal.type",
+                        "cnName": "线条类型",
+                        "value": "solid",
+                        "showType": "select",
+                        "valueType": "String",
+                        "options": [
+                            {
+                                "label": "实线",
+                                "value": "solid"
+                            },
+                            {
+                                "label": "虚线",
+                                "value": "dashed"
+                            },
+                            {
+                                "label": "点",
+                                "value": "dotted"
+                            }
+                        ]
+                    },
+                    {
+                        "enName": "label.normal.color",
+                        "cnName": "字体颜色",
+                        "value": "#fff",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "borderColor",
+                        "cnName": "边框颜色",
+                        "value": "rgba(255,255,255,0.6)",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    },
+                    {
+                        "enName": "areaColor",
+                        "cnName": "区域颜色",
+                        "value": "#00366f",
+                        "showType": "colorPic",
+                        "valueType": "String"
+                    }
+                ]
+            }
+        ],
+        "comptAttrs": {
+            "name": "迁徙图",
+            "setting": {
+                "position": "province/fujian",
+                "isDim": 1,
+                "dimTitle": "维度(迁出)",
+                "isDrill": 0,
+                "isMeasure": 0,
+                "measureTitle": "度量",
+                "xMeasureColTitle": {
+                    "name": "维度(迁入)",
+                    "count": 1,
+                    "index": 1,
+                    "elementType": 1,
+                    "icon": {
+                        "drill": 0,
+                        "order": 0
+                    }
+                },
+                "yMeasureColTitle": {
+                    "name": "度量",
+                    "count": 1,
+                    "index": 2,
+                    "elementType": 2,
+                    "icon": {
+                        "drill": 0,
+                        "order": 0
+                    }
+                }
+            },
+            "extendSetting": {
+                "comptName.show": false,
+                "comptName.text": "",
+                "show.top": 10,
+                "legend": {
+                    "orient": "vertical",
+                    "left": "right",
+                    "top": "bottom",
+                    "data": [],
+                    "inactiveColor": "#cccccc",
+                    "show": false,
+                    "textStyle": {
+                        "color": "#000"
+                    }
+                },
+                "title.textStyle.color": "#333",
+                "title": {
+                    "subtext": ""
+                },
+                "backgroundColor": "",
+                "series.0.label.normal.show": false,
+                "geo": {
+                    "show": true,
+                    "map": "",
+                    "label": {
+                        "normal": {
+                            "show": false
+                        },
+                        "emphasis": {
+                            "show": false
+                        }
+                    },
+                    "roam": false,
+                    "itemStyle": {
+                        "normal": {
+                            "areaColor": "#00366f",
+                            "borderColor": "rgba(255,255,255,0.6)"
+                        },
+                        "emphasis": {
+                            "areaColor": "#4499d0"
+                        }
+                    },
+                    "aspectScale": 1
+                },
+                "series": [
+                    {
+                        "name": "散点",
+                        "type": "scatter",
+                        "coordinateSystem": "geo",
+                        "data": [],
+                        "symbolSize": 5,
+                        "label": {
+                            "normal": {
+                                "formatter": "{b}",
+                                "position": "right",
+                                "show": true,
+                                "color": "#fff"
+                            },
+                            "emphasis": {
+                                "show": true
+                            }
+                        },
+                        "itemStyle": {
+                            "color": "#fff"
+                        }
+                    },
+                    {
+                        "name": "最大值",
+                        "type": "effectScatter",
+                        "coordinateSystem": "geo",
+                        "data": [],
+                        "symbolSize": 15,
+                        "showEffectOn": "render",
+                        "rippleEffect": {
+                            "brushType": "stroke"
+                        },
+                        "hoverAnimation": true,
+                        "label": {
+                            "normal": {
+                                "formatter": "{b}",
+                                "position": "right",
+                                "show": false
+                            }
+                        },
+                        "itemStyle": {
+                            "normal": {
+                                "color": "yellow",
+                                "shadowBlur": 10,
+                                "shadowColor": "yellow"
+                            }
+                        },
+                        "zlevel": 1
+                    },
+                    {
+                        "type": "map",
+                        "geoIndex": 0
+                    }
+                ]
+            },
+            "chartEvents": {},
+            "filterData": [],
+            "series.0.itemStyle.normal.color": "",
+            "xAxisData": [],
+            "yAxis1Data": [],
+            "yAxis2Data": [],
+            "drillData": [],
+            "isBindData": "1",
+            "loading": false,
+            "isLinkage": false,
+            "linkageCondi": [],
+            "mainLinkageData": [],
+            "ratio": 0.8,
+            "decimalDigit": 0,
+            "labelFunc": "{formatter:function(data){return data.name+ ' , ' +data.percent+'%';}}",
+            "pageLinkageData": [],
+            "otherPageCondi": [],
+            "isResetSeriesData": 0,
+            "dillExpand": true,
+            "linesStyle": 0
+        },
+        "blockInfo": {
+            "h": 3,
+            "i": 0,
+            "w": 12,
+            "x": 0,
+            "y": 0
+        }
+    }
+]

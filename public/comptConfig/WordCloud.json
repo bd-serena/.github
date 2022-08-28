@@ -1,0 +1,148 @@
+[
+  {
+    "comptId": 10,
+    "type": "VeWordCloud",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "comptName.show",
+            "cnName": "是否展示标题",
+            "value": "",
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "comptName.text",
+            "cnName": "图形名称",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          },
+          {
+            "enName": "title.subtext",
+            "cnName": "备注",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "layoutAttrs",
+        "cnName": "样式设置",
+        "children": [
+          {
+            "enName": "series.0.shape",
+            "cnName": "形状",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "String",
+            "value": "",
+            "options": [
+              {
+                "label": "矩形",
+                "value": "square"
+              },
+              {
+                "label": "椭圆形",
+                "value": ""
+              },
+              {
+                "label": "圆形",
+                "value": "circle"
+              },
+              {
+                "label": "五角形",
+                "value": "star"
+              },
+              {
+                "label": "三角形",
+                "value": "triangle"
+              }
+            ]
+          },
+          {
+            "enName": "series.0.gridSize",
+            "cnName": "网格大小",
+            "value": 2,
+            "min": 1,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "max": 10
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "词云图",
+      "setting": {
+        "legendLimit": 100,
+        "isDim": 1,
+        "dimTitle": "维度",
+        "isDrill": 1,
+        "isMeasure": 1,
+        "measureTitle": "度量"
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "series.0.shape": "",
+        "series.0.maskImage": null,
+        "series.0.gridSize": 2,
+        "series.0.sizeRange": [
+          12,
+          60
+        ],
+        "series.0.width": "100%",
+        "series.0.height": "100%"
+      },
+      "chartEvents": {},
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "isBindData": "1",
+      "loading": false,
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "ratio": 0.6,
+      "decimalDigit": 0,
+      "isWarn": false,
+      "warnData": [
+        {
+          "name": "",
+          "rule": [],
+          "type": []
+        }
+      ],
+      "warnCol": [],
+      "labelFunc": "{formatter:function(data){return data.name+ ' , ' +parseFloat(data.percent).toFixed(decimal)+'%';}}",
+      "isNeedRestDrill": 0,
+      "isNeedResetLink": 0,
+      "curDrillIdx": 0,
+      "whereBean": {
+        "exp": "",
+        "rule_list": []
+      },
+      "drillWBeanList": [],
+      "pageLinkageData": [],
+      "otherPageCondi": [],
+      "dillExpand": true
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    }
+  }
+]

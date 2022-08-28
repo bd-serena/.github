@@ -1,0 +1,252 @@
+[
+  {
+    "comptId": 25,
+    "type": "HdKpiBlock3",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "seriesAttrs",
+        "cnName": "通用设置", 
+        "children": [
+          {
+            "enName": "comptData",
+            "cnName": "系列",
+            "value": "",
+            "selectType": 0,
+            "showType": "select",
+            "valueType": "String",
+            "options": [],
+            "isinit": true
+          },
+          {
+            "enName": "rename",
+            "cnName": "别名",
+            "value": "",
+            "showType": "text",
+            "valueType": "String"
+          },
+          {
+            "enName": "targetPriMetricFontSize",
+            "cnName": "字体大小",
+            "value": 16,
+            "min":10,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "max":40
+          },
+          {
+            "enName": "targetPriMetricFontColor",
+            "cnName": "字体颜色",
+            "value": "#00f6ff",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "textname",
+            "cnName": "单位",
+            "value": "",
+            "showType": "text",
+            "valueType": "String",
+            "maxLength": "15"
+          }
+        ]
+      },
+      {
+        "enName": "commonAttrs",
+        "cnName": "数值设置",
+        "tabType": "verticalTab",
+        "children": [
+          {
+            "enName": "numberType",
+            "cnName": "数值",
+            "value": "0",
+            "selectType": 1,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "无",
+                "value": "0"
+              },
+              {
+                "label": "小数点",
+                "value": "1"
+              },
+              {
+                "label": "百分比",
+                "value": "2"
+              }
+            ]
+          },
+          {
+            "enName": "decimalDigit",
+            "cnName": "精度",
+            "value": "",
+            "selectType": 1,
+            "isShow": false,
+            "showType": "select",
+            "valueType": "int",
+            "options": [
+              {
+                "label": "",
+                "value": "0"
+              },
+              {
+                "label": "1",
+                "value": "1"
+              },
+              {
+                "label": "2",
+                "value": "2"
+              },
+              {
+                "label": "3",
+                "value": "3"
+              },
+              {
+                "label": "4",
+                "value": "4"
+              },
+              {
+                "label": "5",
+                "value": "5"
+              }
+            ]
+          },
+          {
+            "enName": "priMetricFontSize",
+            "cnName": "字体大小",
+            "value": 16,
+            "min":10,
+            "showType": "inputNumber",
+            "valueType": "int",
+            "max":40
+          },
+          {
+            "enName": "priMetricFontColor",
+            "cnName": "字体颜色",
+            "value": "#fff",
+            "showType": "colorPic",
+            "valueType": "String"
+          },
+          {
+            "enName": "setCondi",
+            "cnName": "启用条件格式",
+            "value": false,
+            "showType": "boolean",
+            "valueType": "boolean"
+          },
+          {
+            "enName": "riseNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 2,       
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled":true,
+            "options": [
+              {
+                "label": ">=",
+                "value": 2
+              }
+            ]
+          },
+          {
+            "enName": "riseIconColor",
+            "cnName": "显示为",
+            "value": "#ff6000",
+            "iconType":1,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled":true
+          },
+          {
+            "enName": "dropNum",
+            "cnName": "当值",
+            "inputValue": "",
+            "selectValue": 4,
+            "iconType":2,
+            "showType": "compdInput",
+            "valueType": "int",
+            "disabled":true,
+            "options": [
+              {
+                "label": "<",
+                "value": 4
+              }
+            ]
+          },
+          {
+            "enName": "dropIconColor",
+            "cnName": "显示为",
+            "value": "#67C23A",
+            "iconType":2,
+            "showType": "colorPic",
+            "valueType": "String",
+            "disabled":true
+          }
+         
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "指标3",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "维度",
+        "isDrill": 0, 
+        "isMeasure": 1, 
+        "measureTitle": "度量" 
+      },
+      "extendSetting": {
+        "comptName.show": false,
+        "comptName.text": "",
+        "latTitleHide": false,
+        "latTitleFontSize": 0,
+        "latTitleFontColor": "",
+        "metricRowBig": true,
+        "metricTitleHide": false,
+        "metricSplitLineStyle": "",
+        "priMetricFontSize": 16,
+        "targetPriMetricFontSize": 16,
+        "priMetricFontColor": "",
+        "targetPriMetricFontColor": "",
+        "priMetricTextAlign": "left",
+        "bgColor": "",
+        "borderColor": "",
+        "hoverBgColor": "",
+        "hoverBorderColor": "",
+        "width":500,
+        "spacing":10,
+        "series": [],
+        "unitData":[]
+      },
+      "loading": false,
+      "isBindData": "1",
+      "isLinkage": false,
+      "linkageCondi": [],
+      "mainLinkageData": [],
+      "filterData": [],
+      "xAxisData": [],
+      "yAxis1Data": [],
+      "yAxis2Data": [],
+      "drillData": [],
+      "selectIndex": 0,
+      "pageLinkageData": [],
+      "otherPageCondi":[]
+    },
+    "comptData":{
+      "rows":[],
+      "columns":[]
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []   
+  }
+]

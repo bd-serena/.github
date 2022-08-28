@@ -1,0 +1,290 @@
+
+
+
+[
+    {
+      "comptId": 100,
+      "type": "Scatter",
+      "afId": "",
+      "styleAttrs": [
+        {
+          "enName": "commonAttrs",
+          "cnName": "通用设置",
+          "children": [
+            {
+              "enName": "comptName.show",
+              "cnName": "是否展示标题",
+              "value": "",
+              "showType": "boolean",
+              "valueType": "boolean"
+            },
+            {
+              "enName": "comptName.text",
+              "cnName": "图形名称",
+              "value": "",
+              "showType": "text",
+              "valueType": "String",
+              "maxLength": "15"
+            },
+            {
+              "enName": "title.subtext",
+              "cnName": "备注",
+              "value": "",
+              "showType": "text",
+              "valueType": "String",
+              "maxLength": "15"
+            },
+            {
+              "enName": "backgroundColor",
+              "cnName": "背景颜色",
+              "value": "",
+              "showType": "colorPic",
+              "valueType": "String"
+            },
+            {
+              "enName": "",
+              "cnName": "链接设置",
+              "showOtherAttrs": "UrlAttrs",
+              "children": [
+                {}
+              ]
+            }
+          ]
+        },
+        {
+          "enName": "layoutAttrs",
+          "cnName": "布局设置",
+          "children": [
+            {
+              "enName": "legend",
+              "cnName": "气泡图表布局",
+              "value": "",
+              "showType": "icon",
+              "valueType": "Object",
+              "options": [
+                {
+                  "label": "right",
+                  "value": "右布局",
+                  "icon": "icon-A10708_rightAlignment",
+                  "isSelected": false
+                },
+                {
+                  "label": "left",
+                  "value": "左布局",
+                  "icon": "icon-A10707_leftAlignment",
+                  "isSelected": false
+                },
+                {
+                  "label": "bottom",
+                  "value": "下布局",
+                  "icon": "icon-A10710_lowerAlignment",
+                  "isSelected": false
+                },
+                {
+                  "label": "top",
+                  "value": "上布局",
+                  "icon": "icon-A10709_upAlignment",
+                  "isSelected": true
+                },
+                {
+                  "label": "show",
+                  "value": "隐藏",
+                  "icon": "icon-A10706_center",
+                  "isSelected": false
+                }
+              ]
+            },
+            {
+              "enName": "legend.type",
+              "cnName": "图例是否分行",
+              "value": true,
+              "showType": "boolean",
+              "valueType": "boolean",
+              "datalength": 2
+            },
+            {
+              "enName": "series.0.radius",
+              "cnName": "图形类型",
+              "value": "['0%', '60%']",
+              "showType": "radio",
+              "valueType": "Object",
+              "options": [
+                {
+                  "label": "['0%', '60%']",
+                  "value": "默认"
+                },
+                {
+                  "label": "['30%', '60%']",
+                  "value": "环形图"
+                }
+              ]
+            },
+            {
+              "enName": "series.0.label",
+              "cnName": "标签样式",
+              "value": "{formatter:function(data){return data.name+ ' , ' +parseFloat(data.percent).toFixed(decimal)+'%';}}",
+              "selectType": 1,
+              "showType": "select",
+              "valueType": "String",
+              "options": [
+                {
+                  "label": "关闭",
+                  "value": "{formatter:''}"
+                },
+                {
+                  "label": "标题,百分比",
+                  "value": "{formatter:function(data){return data.name+ ' , ' +parseFloat(data.percent).toFixed(decimal)+'%';}}"
+                },
+                {
+                  "label": "标题,值(百分比)",
+                  "value": "{formatter:function(data){return data.name+ ' , ' + parseFloat(data.value).toFixed(decimal) + ' ('+ parseFloat(data.percent).toFixed(decimal) +'%)';}}"
+                },
+                {
+                  "label": "标题",
+                  "value": "{formatter:function(data){return data.name;}}"
+                },
+                {
+                  "label": "标题,值",
+                  "value": "{formatter:function(data){return data.name+ ' , ' + parseFloat(data.value).toFixed(decimal);}}"
+                }
+              ]
+            },
+            {
+              "enName": "series.0.labelLine.show",
+              "cnName": "标签引线",
+              "value": true,
+              "showType": "boolean",
+              "valueType": "boolean",
+              "datalength": 2
+            },
+            {
+              "enName": "ratio",
+              "cnName": "图形大小",
+              "value": "0.6",
+              "selectType": 1,
+              "showType": "select",
+              "valueType": "String",
+              "options": [
+                {
+                  "label": "100%",
+                  "value": "1"
+                },
+                {
+                  "label": "90%",
+                  "value": "0.9"
+                },
+                {
+                  "label": "80%",
+                  "value": "0.8"
+                },
+                {
+                  "label": "70%",
+                  "value": "0.7"
+                },
+                {
+                  "label": "60%",
+                  "value": "0.6"
+                },
+                {
+                  "label": "50%",
+                  "value": "0.5"
+                },
+                {
+                  "label": "40%",
+                  "value": "0.4"
+                }
+              ]
+            },
+            {
+              "enName": "decimalDigit",
+              "cnName": "小数点",
+              "value": "0",
+              "selectType": 1,
+              "showType": "select",
+              "valueType": "int",
+              "options": [
+                {
+                  "label": "无",
+                  "value": "0"
+                },
+                {
+                  "label": "1",
+                  "value": "1"
+                },
+                {
+                  "label": "2",
+                  "value": "2"
+                },
+                {
+                  "label": "3",
+                  "value": "3"
+                },
+                {
+                  "label": "4",
+                  "value": "4"
+                },
+                {
+                  "label": "5",
+                  "value": "5"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "comptAttrs": {
+        "name": "气泡图名字",
+        "setting": {
+
+        },
+        "extendSetting": {
+          "symbol":"rect",
+          "symbolSizeMax":"100",
+          "symbolRotate":15,
+         "symbolOffset":10,
+         "tooltipTrigger": "axis"
+        },
+        "chartEvents": {},
+        "filterData": [],
+        "xAxisData": [],
+        "yAxis1Data": [],
+        "yAxis2Data": [],
+        "drillData": [],
+        "isBindData": "0",
+        "loading": false,
+        "isLinkage": false,
+        "linkageCondi": [],
+        "mainLinkageData": [],
+        "ratio": 0.6,
+        "decimalDigit": 0,
+        "isWarn": false,
+        "warnData": [
+          {
+            "name": "",
+            "rule": [],
+            "type": []
+          }
+        ],
+        "warnCol": [],
+        "labelFunc": "{formatter:function(data){return data.name+ ' , ' +parseFloat(data.percent).toFixed(decimal)+'%';}}",
+        "isNeedRestDrill": 0,
+        "isNeedResetLink": 0,
+        "curDrillIdx": 0,
+        "whereBean": {
+          "exp": "",
+          "rule_list": []
+        },
+        "drillWBeanList": [],
+        "pageLinkageData": [],
+        "otherPageCondi": [],
+        "dillExpand":true
+      },
+      "blockInfo": {
+        "h": 3,
+        "i": 0,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      }
+    }
+  ]

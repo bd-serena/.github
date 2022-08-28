@@ -1,0 +1,69 @@
+[
+  {
+    "comptId": 26,
+    "type": "HdIconBlock",
+    "afId": "",
+    "styleAttrs": [
+      {
+        "enName": "commonAttrs",
+        "cnName": "通用设置",
+        "children": [
+          {
+            "enName": "metricIcon",
+            "cnName": "图标样式",
+            "value": "icon-A10122_goal",
+            "showOtherAttrs": "HdIconKpiBlock",
+            "valueType": "String"
+          },
+          {
+            "enName": "metricIconColor",
+            "cnName": "图标颜色",
+            "value": "rgb(180, 242, 43)",
+            "showType": "colorPic",
+            "valueType": "String"
+          }
+        ]
+      }
+    ],
+    "comptAttrs": {
+      "name": "图标",
+      "setting": {
+        "isDim": 0, 
+        "dimTitle": "",
+        "isDrill": 0, 
+        "isMeasure": 0, 
+        "measureTitle": "" 
+      },
+      "extendSetting": {
+        "comptName.text": "",
+        "width": 100,
+        "height": 100,
+        "bgColor": "transparent",
+        "metricIconColor": "#b4f22b",
+        "metricIcon": "icon-A10122_goal",
+        "numFixed": 0,
+        "hoverBgColor": "transparent",
+        "urlType":"1",
+        "pageId":"",
+        "comptUrl":""
+      },
+      "isBindData": "0",
+      "isLinkage": false,
+      "maxWidth":0,
+      "maxHeight":0
+    },
+    "comptData": {
+      "rows": [],
+      "columns": []
+    },
+    "blockInfo": {
+      "h": 3,
+      "i": 0,
+      "w": 12,
+      "x": 0,
+      "y": 0
+    },
+    "warnData": [],
+    "warnCol": []
+  }
+]
